@@ -23,6 +23,8 @@ The neural network used to distinguish wolves and huskies seen below got 8/10 of
 <img src="../fig/wolf_husky.png" alt="drawing" width="600"/>
 </p>
 
+> *Besse, Philippe & Castets-Renard, Céline & Garivier, Aurélien & Loubes, Jean-Michel. (2018). Can Everyday AI be Ethical? Machine Learning Algorithm Fairness (english version). 10.13140/RG.2.2.22973.31207. *
+
 We can't easily see the neural network layers that explain how the model is distinguishing between wolves and huskies. However, for image data we can use a pixel attribution method to highlight the pixels that were relevant for a certain image classification by a neural network. Here is another example of a husky falsely classified as a wolf by the neural network. 
 
 <p align="center">
@@ -50,7 +52,7 @@ To give a specific example, the famous ImageNet dataset, central component for t
 <img src="../fig/wimp.jpg" alt="drawing" width="500"/>
 </p>
 
-
+> *https://excavating.ai/*
 
 
 As researchers collecting data that can go onto train machine learning models, there can be similar pitfalls. Labelling data sets can be open to human bias, where two people may differ on how to label a set of examples. In addition, even without human bias there can be artifacts form how data was collected. In training a machine learning model to differentiate cancer tissue from normal tissue, if the cancer samples were all photographed from a lab in Germany and the controls were taken from a lab in Birmingham, the model may simply pick up differences in lighting and microscopes between the different data sets. It is therefore critical to consider the data that AI is using to train and where it came from. 
