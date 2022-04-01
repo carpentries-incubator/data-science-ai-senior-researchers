@@ -27,8 +27,9 @@ Not being at the cutting edge of AI development doesn't mean we can't also benef
 
 ## Case Study: Molecular Biology Databases
 
-
-![](https://i.ytimg.com/vi/BQ0i2MiAB30/maxresdefault.jpg)
+<p align="center">
+<img src="https://i.ytimg.com/vi/BQ0i2MiAB30/maxresdefault.jpg" alt="drawing" width="500"/>
+</p>
 The ability to search and look up molecular biology databases is an example of automation.
 
 
