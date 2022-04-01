@@ -48,6 +48,8 @@ In principal component analysis, you could take some measurements of fish such a
 <img src="https://www.researchgate.net/profile/Luis-Favela-2/publication/344210426/figure/fig2/AS:934693855830017@1599859789782/Principal-component-analysis-PCA-example-A-Fish-body-measurements-provide-the-input.png" alt="drawing" width="600"/>
 </p>
 
+> Favela, Luis. (2021). The Dynamical Renaissance in Neuroscience. Synthese. 10.1007/s11229-020-02874-y. 
+
 
 Which is far more meaningful for understanding the morphology than separating out fish into bins of height and length values.
 
