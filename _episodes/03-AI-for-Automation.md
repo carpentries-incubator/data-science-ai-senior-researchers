@@ -9,9 +9,6 @@ objectives:
 keypoints:
 - "First key point. Brief Answer to questions. (FIXME)"
 ---
-FIXME
-
-{% include links.md %}
 
 # Using AI in Research: Automation
 
@@ -88,3 +85,5 @@ Qupath is a tool using machine learning to work with image analysis in the growi
 ## Conclusions
 
 While not every researcher works with generating AI algorithms and models, there are plenty of tools with numerous applications in research that use machine learning. Automating tasks result in larger data sets and less manual work, and it is worth joining the online communities that work on the tools showcased here. 
+
+{% include links.md %}
