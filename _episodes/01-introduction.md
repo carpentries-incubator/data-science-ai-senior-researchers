@@ -12,6 +12,14 @@ keypoints:
 
 ## Introduction to Data Science
 
+### Jargon Busting
+
+#### Machine Learning
+
+#### Deep Learning
+
+#### Artificial Intelligence
+
 ## Application of Data Science Skills and Practices in Biosciences
 
 ### Some examples from Biomedical and Related Fields
