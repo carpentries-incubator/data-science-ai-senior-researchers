@@ -9,9 +9,6 @@ objectives:
 keypoints:
 - "First key point. Brief Answer to questions. (FIXME)"
 ---
-FIXME
-
-{% include links.md %}
 
 # Problems with AI
 
@@ -85,3 +82,4 @@ A good machine learning model generalises well to data beyond its training data.
 <img src="../fig/overfitting.jpg" alt="drawing" width="600"/>
 </p>
 
+{% include links.md %}
