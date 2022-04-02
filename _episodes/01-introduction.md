@@ -9,7 +9,14 @@ objectives:
 keypoints:
 - "First key point. Brief Answer to questions. (FIXME)"
 ---
-FIXME
+
+## Introduction to Data Science
+
+## Application of Data Science Skills and Practices in Biosciences
+
+### Some examples from Biomedical and Related Fields
+
+## Data Science for Computational Reproducibility
 
 {% include links.md %}
 
