@@ -9,9 +9,6 @@ objectives:
 keypoints:
 - "First key point. Brief Answer to questions. (FIXME)"
 ---
-FIXME
-
-{% include links.md %}
 
 # Using AI in Research: Insight
 
@@ -144,3 +141,4 @@ It's not usually this simple to "take a look" at the inner workings of a neural 
 
 Very large, multiconnected data sets can be too complex for humans to manually find insight, and so AI can step in and assist in more and more ways. Some methods are easier to understand and query than others, but using AI to assist human analysis is becoming a helpful tool in research.  
 
+{% include links.md %}
