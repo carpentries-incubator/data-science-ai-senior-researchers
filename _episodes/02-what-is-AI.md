@@ -68,3 +68,5 @@ Machine learning is already changing the way the world works. We can design nove
 ## Conclusions
 
 This overview of the main types of what we can consider AI follows the history of computer science. In the next episodes we will consider what tasks AI can do and its role in scientific research. 
+
+{% include links.md %}
