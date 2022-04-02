@@ -40,9 +40,9 @@ The goal is to maintain the highest standards of research practice and integrity
 In this training material for **Introduction to Data Science and AI for senior researchers**, we discuss [ADD CONTEXT]
 
 > Targeted measures and opportunities can help build a better understanding of best practices from data science and AI that can be effectively applied in research and supported by senior leaders.
-> Senior leaders can be academics or non-academics working in advisors, experts or supervisors roles in research projects who want to lead rigorous and impactful research through computational reproducibility, reusability and collaborative practices.
+> Senior leaders, in this context, can be academics or non-academics working in advisors, experts or supervisors roles in research projects who want to lead rigorous and impactful research through computational reproducibility, reusability and collaborative practices.
 >
-{: .callout}
+{: .objectives}
 
 ## Target audience
 
@@ -55,9 +55,7 @@ Experimental biologists and biomedical research communities, with a focus on two
 
 At the end of this lesson (training material), attendees will gain a better understanding of:
 
-> [ADD CONTEXT]
->
-{: .callout}
+* [ADD CONTEXT LIST]
 
 ## Modular and Flexible Learning
 
@@ -78,7 +76,7 @@ Each masterclass is supplemented with technical resources and learning opportuni
 > Although the training materials are tailored to the biomedical sciences community, materials will be generally transferable and directly relevant for data science projects across different domains.
 > You are not expected to have already learned about AI/ML to understand what we will discuss in this training material.
 >
-{: .callout}
+{: .testimonial}
 
 In this training material, we will introduce data science, AI and related concepts in detail.
 The training material "Managing and supervising computational Projects" is developed in parallel under the same project that discusses best practices for managing reproducible computational projects.
@@ -87,17 +85,16 @@ Although those are helpful concepts, it is not required to go through that train
 Both the materials discuss problems, solutions and examples from biomedical research and related fields to make our content relatable to our primary audience.
 However, the best practices are recommended and transferable across different disciplines.
 
-## Pre-requisites and Assumptions
-
-In defining the scope of this project, we make the following assumptions about the learner groups, which can be considered pre-requisites for this training:
-
+> ## Pre-requisites and Assumptions
+>
+> In defining the scope of this project, we make the following assumptions about the learner groups, which can be considered pre-requisites for this training:
 > - Our learners have a good understanding of designing or contributing to a scientific project throughout its lifecycle
 > - They have identified a computational project with specific questions that will help them reflect on the skills, practices and technical concepts discussed in this training
 > - This training doesn't cover the processes of designing a research proposal, managing grant/funding or evaluating ethical considerations for research. 
 However, we assume that learners have a computational project in mind for which funding and research ethics have been approved and comprehensive documentation capturing this information is available to share with the research team.
 > - We also assume that the research team of any size is (either partially or fully) established.
 >
-{: .callout}
+{: .checklist}
 
 ## Mode of delivery
 
@@ -107,10 +104,9 @@ In the future, these masterclasses could be coupled with pre-recorded introducti
 
 They can also be delivered by trainers and domain experts, who can mix and match lessons/episodes from across the two masterclasses and present them in an interactive workshop format.
 
-## Next Steps after this Training
-
-After this masterclass we recommend our learners take these next steps:
-
+> ## Next Steps after this Training
+>
+> After this masterclass we recommend our learners take these next steps:
 > - Go through the "Managing and supervising computational Projects" masterclass (if not already completed)
 > - Explore the set of resources provided at the end of each lesson for deeper dive into various technical topics required to learn or guide the application of Data and computational research best practices in real-world projects
 > - Establish connections with other training and training materials offered by The Alan Turing Institute, The Crick Institute, The Carpentries, The Turing Way and other projects/organisations involved in the maintenance and development of this training material
