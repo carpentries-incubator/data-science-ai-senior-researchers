@@ -15,7 +15,10 @@ keypoints:
 
 # Data Science for Biomedical Scientists
 
-Recent ground-breaking examples from data science, Artificial Intelligence (AI) and Machine Learning (ML) enabled research projects in biomedical research and related fields have increased the desire among researchers to understand and make informed decisions around these practices in their work.
+Biosciences and biomedical research regularly combine mathematics and computational methods to help interpret experimental data.
+More recently, the successful application of data science, Machine Learning (ML) and Artificial Intelligence (AI) in biomedicine and related fields has shown huge potential to transform the way we conduct research, address biological questions and share useful insights from large-scale data.
+Groundbreaking research utilising AI technologies in biomedicine has led to an enormous interest among researchers in the topic of data science.
+Therefore, it is crucial for researchers to understand best practices in data science and make informed decisions around their applications in biomedicine and related fields.
 
 > ## Jargon Busting
 >
@@ -30,12 +33,22 @@ Recent ground-breaking examples from data science, Artificial Intelligence (AI) 
 >
 {: .callout}
 
-Over the last decade, several tools, methods and training resources have been developed for early career researchers to learn about and apply data science skills in their work.
+Over the last decade, several tools, methods and training resources have been developed for early career researchers to learn about and apply data science skills in biomedicine, often referred to as biomedical data science.
 However, to ensure that data science approaches are appropriately applied in domain research, such as in biosciences, there is a need to also engage and educate scientific group leaders and researchers in project leadership roles on best practices.
 
 The [**Data Science for Biomedical Scientists**](https://github.com/alan-turing-institute/data-training-for-bioscience) project helps address this need in training by equipping experimental biomedical scientists with computational skills.
 In all the resources developed within this project, we consistently emphasise how computational and data science approaches can be applied while ensuring reproducibility, collaboration and transparent reporting.
-The goal is to maintain the highest standards of research practice and integrity. 
+The goal is to maintain the highest standards of research practice and integrity.
+
+> ## What is biomedical data science?
+>
+> The term “data science” describes expertise associated with taking (usually large) data sets and annotating, cleaning, organizing, storing, and analyzing them for the purposes of extracting knowledge. [...]
+> The terms “biomedical data science” and “biomedical data scientist” [...] connote activities associated with the creation and application of methods to new and large sources of biological and medical data aimed at converting them into useful information and knowledge. 
+> They also connote technical activities that are data-intensive and require special skills in managing the large, noisy, and complex data typical of biology and medicine. 
+> They may also imply the application of these technologies in domains where their collaborators previously have not needed data-intensive computational approaches. 
+> **Russ B. Altman and Michael Levitt** (2018). [Annual Review of Biomedical Data Science](https://www.annualreviews.org/doi/full/10.1146/annurev-bd-01-041718-100001)
+> 
+(: .testimonial)
 
 In this training material for **Introduction to Data Science and AI for senior researchers**, we discuss [ADD CONTEXT]
 
