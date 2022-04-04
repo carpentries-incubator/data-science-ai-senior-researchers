@@ -3,11 +3,11 @@ title: "AI for Automation"
 teaching: 0
 exercises: 0
 questions:
-- "Key question (FIXME)"
+- "How is AI used for automating tasks?"
 objectives:
-- "First learning objective. (FIXME)"
+- "learn about examples of AI automation within biomedical research"
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "Many tools exist that use AI to assist biomedical research data tasks"
 ---
 
 # Using AI in Research: Automation
