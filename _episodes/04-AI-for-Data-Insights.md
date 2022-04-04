@@ -3,11 +3,11 @@ title: "AI for Data Insights"
 teaching: 0
 exercises: 0
 questions:
-- "Key question (FIXME)"
+- "How is AI used with scientific research to gain insight into data?"
 objectives:
-- "First learning objective. (FIXME)"
+- "Learn about examples of unsupervised and supervised machine learning used on data"
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "Different AI methods can classify, cluster, and find connections in big data sets"
 ---
 
 # Using AI in Research: Insight
