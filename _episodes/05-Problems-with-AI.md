@@ -3,11 +3,11 @@ title: "Problems with AI"
 teaching: 0
 exercises: 0
 questions:
-- "Key question (FIXME)"
+- "What are the common pitfalls with using machine learning?"
 objectives:
-- "First learning objective. (FIXME)"
+- "Recognise the shortcomings and common problems with machine learning"
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "Machine learning should be used with scepticism to prevent biased results"
 ---
 
 # Problems with AI
