@@ -3,11 +3,11 @@ title: "What is AI?"
 teaching: 0
 exercises: 0
 questions:
-- "Key question (FIXME)"
+- "What is AI and what subcategories exist?"
 objectives:
-- "First learning objective. (FIXME)"
+- "Gain broad picture overview of AI and its history"
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "Brief overview of the history of AI and subcategories"
 ---
 
 
