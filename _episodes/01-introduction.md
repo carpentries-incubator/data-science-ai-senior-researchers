@@ -47,7 +47,7 @@ The goal is to maintain the highest standards of research practice and integrity
 > 
 {: .testimonial}
 
-In this training material for **Introduction to Data Science and AI for senior researchers**, we discuss [ADD CONTEXT]
+In this training material for **Introduction to Data Science and AI for senior researchers**, we introduce data science and Artificial Intelligence (AI). Providing contexts and examples from biomedical research, this material will discuss AI for automation, the process of unsupervised and supervised machine learning, their practical applications and common pitfalls that researchers should be aware of in order to maintain scientific rigour and research ethics. 
 
 > Targeted measures and opportunities can help build a better understanding of best practices from data science and AI that can be effectively applied in research and supported by senior leaders.
 > Senior leaders, in this context, can be academics or non-academics working in advisors, experts or supervisors roles in research projects who want to lead rigorous and impactful research through computational reproducibility, reusability and collaborative practices.
@@ -65,7 +65,11 @@ Experimental biologists and biomedical research communities, with a focus on two
 
 At the end of this lesson (training material), attendees will gain a better understanding of:
 
-* [ADD CONTEXT LIST]
+* data science and AI practices
+* using AI for automation
+* the process of unsupervised and supervised machine learning
+* successful examples and applications of AI in biomedical research
+* common pitfalls and ethical concerns to consider to maintain scientific rigour and integrit. 
 
 ## Modular and Flexible Learning
 
@@ -129,7 +133,7 @@ They can also be delivered by trainers and domain experts, who can mix and match
 
 Data Science for Biomedical Scientists is funded by [The Alan Turing Institute](https://www.turing.ac.uk)'s [AI for Science and Government](https://www.turing.ac.uk/research/asg) (ASG) Research Programme. It is an extension of [The Crick-Turing Biomedical Data Science Awards](https://www.turing.ac.uk/research/research-projects/crick-turing-biomedical-data-science-awards) that strongly indicated an urgent need to provide introductory resources for data science in bioscience researchers. This project extension will leverage strategic engagement between Turing's data science community and Crick's biosciences communities.
 
-Pulling together existing training materials, infrastructure support and domain expertise from [The Turing Way](https://the-turing-way.netlify.app/), [The Carpentries](https://carpentries.org/), [Open Life Science](https://openlifesci.org/) and the [Turing ‘omics interest group](https://www.turing.ac.uk/research/interest-groups/omics-data-generation-and-analysis-group), we will design and deliver a resource that is accessible and comprehensible for the biomedical and wet-lab biology researchers.
+Pulling together existing training materials, infrastructure support and domain expertise from [The Alan Turing Institute](https://www.turing.ac.uk), [The Turing Way](https://the-turing-way.netlify.app/), [The Carpentries](https://carpentries.org/), [Open Life Science](https://openlifesci.org/) and the [Turing ‘omics interest group](https://www.turing.ac.uk/research/interest-groups/omics-data-generation-and-analysis-group), we will design and deliver a resource that is accessible and comprehensible for the biomedical and wet-lab biology researchers.
 
 This project will build on two main focus areas of the Turing Institute's [AI for Science and Government](https://www.turing.ac.uk/research/asg) research programmes: good data science practice; and effective communication to stakeholders. In building this project, we will integrate the [Tools, practices and systems](https://www.turing.ac.uk/work-turing/tools-practices-and-systems-open-leadership-team-call-volunteering) (TPS) Research Programme’s core values: build trustworthy systems; embed transparent reporting practices; promote inclusive interoperable design; maintain ethical integrity and encourage respectful co-creation.
 
