@@ -3,21 +3,31 @@ title: "What is AI?"
 teaching: 0
 exercises: 0
 questions:
-- "What is AI and what subcategories exist?"
+- "What is AI and how can we define it?"
+- "What types of AI exist and what doesn't exist?"
 objectives:
 - "Gain broad picture overview of AI and its history"
 keypoints:
-- "Brief overview of the history of AI and subcategories"
+- "Three types of AI: Simulations, Symbolic, Machine Learning"
 ---
+
+# Introduction
+
+Machine learning is increasingly used in biomedical research, with more papers making big claims about AI. The growing role of AI in healthcare, policy, and fundamental biomedical/life sciences has great public interest. However, for scientists without specialist training the complexity and opaque use of buzzwords makes it difficult to know what to trust and where to begin. Researchers and funding bodies may want to explore new computational options for biomedical/life sciences, and this guide should provide a roadmap for the big picture view of what AI is, how it can be used in research, and how to critically assess the common problems that can arise. 
+
+On the one hand, AI and machine learning can greatly improve the workflows in data processing and analysis, and can provide insight no human has time to achieve themselves. On the other hand, there are many limitations to what AI can do and is not magic. 
+
 
 
 # What is AI?
+
+ 
 
 Describing Artificial Intelligence is often more about what we *wish* existed rather than describing what actually exists. It can instead be more informative to describe the problems we can solve with Artificial Intelligence and how it is achieved. This is not a deeply technical introduction, instead it is written to describe case studies and overview. 
 
 ## What does not exist?
 
-Siri and Alexa can answer simple instructions but use scripted interactions, there is not an understanding of the world like fictional intelligent robots. There is currently nothing close to Artificial General Intelligence, and we wouldn't know where to start in building it. The idea that a computer "understands" a problem is ina  narrow, technical sense, not the way a human understands. 
+Siri and Alexa can answer simple instructions but use scripted interactions, there is not an understanding of the world like fictional intelligent robots. There is currently nothing close to Artificial General Intelligence, and we wouldn't know where to start in building it. The idea that a computer "understands" a problem is in a  narrow, technical sense, not the way a human understands. 
 
 Chatbots can fool us into thinking there is understanding. 
 
@@ -65,8 +75,14 @@ The machine does not "understand" the task, or know what handwriting is, the cri
 
 Machine learning is already changing the way the world works. We can design novel architecture and quickly and cheaply ensure it will be structurally sound; your iPhone will find all photos of your kids with only a few examples; we can optimal driving directions within seconds, taking into account the current and predicted road conditions. It really is amazing, and only possible through breakthrough and year-on-year advances in principles, algorithms, and computer hardware.
 
-## Conclusions
+# Summary
 
-This overview of the main types of what we can consider AI follows the history of computer science. In the next episodes we will consider what tasks AI can do and its role in scientific research. 
+- AI can be defined as anything a computer can do would require intelligence if a human performed it. 
+- Regardless of the type of AI, we are far from computers *understanding* the world or problems. 
+- The first kinds of AI were simulations, which use equations to run a model forwards from a given state. 
+- The next kind is Symbolic AI, which was used to beat the grand chess master in the 90s and works by calculating many eventualities in order to find the best solution. 
+- The most recent type and one that has made huge leaps in recent years is Machine Learning.  
+
+In the next episodes we will consider what tasks AI can do and its role in scientific research.
 
 {% include links.md %}
