@@ -27,6 +27,9 @@ Providing contexts and examples from biomedical research, this material will dis
 > * Our learners have a good understanding of designing or contributing to a scientific project throughout its lifecycle.
 > * They have a computational project in mind for which funding and research ethics approval have been received.
 > * We also assume that the research team of any size is (either partially or fully) established.
+>
+> This lesson is developed alongside the [Managing Open and Reproducible Computational Projects](https://carpentries-incubator.github.io/managing-computational-projects/) lesson.
+> Our learners are encouraged to go through the [Managing Open and Reproducible Computational Projects](https://carpentries-incubator.github.io/managing-computational-projects/) lesson to learn about practices and tools that should be adopted by senior researchers to manage and supervise data science and AI/ML projects life science domains.
 {: .prereq}
 
 {% include links.md %}
