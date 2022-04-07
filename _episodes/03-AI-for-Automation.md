@@ -10,15 +10,21 @@ keypoints:
 - "Many tools exist that use AI to assist biomedical research data tasks"
 ---
 
+# Introduction
+
+In the previous episode we discussed the history of AI and the three broad categories -- simulation, symbolic AI, and machine learning. When thinking about how machine learning and AI can be used in biomedical/life sciences, we can also divide by application: automation and insight. 
+
 # Using AI in Research: Automation
 
-We can broadly split the application of AI in research into two categories: automation and insights. For automation, AI is used to replicate what would take a human being a long time to do manually, in order to speed up workflow outputs and possibly remove human error.
+We can broadly split the application of AI in research into two categories: automation and insights. For automation, AI is used to replicate what would take a human being a long time to do manually, in order to speed up workflow outputs and possibly remove human error. This can be invaluable in research and data processing, freeing up researchers time for more valuable purposes. 
 
 ## Automating Tasks
 
-Automation is ubiquitous to our every day experiences of computers. Everything from simply typing words to creating figures, or autocorrect. Using AI we can expand tasks to cover precisely the kinds of tasks that are useful for research or experimentation. 
+Automation is ubiquitous to our every day experiences of computers. Everything from simply typing words to creating figures, or spellcheck and autocorrect while messaging. Using AI we can expand the kinds of tasks that are useful for research or experimentation. 
 
-For example, the field of computer vision is about automating the task of counting and/or distinguishing visual elements in images or photographs. Computer vision methods can therefore be invaluable when dealing with image data, for example counting cells on a slide or tracking a mouse in a video. 
+For example, the field of computer vision is about automating the task of counting and/or distinguishing visual elements in images or photographs. Computer vision methods can therefore be invaluable when dealing with biomedical image data, for example counting cells on a slide or tracking a mouse in a video. 
+
+Using AI in research can sound daunting, but open tools communities and groups have produced are already in use across the life/biomedical sciences. This episode will introduce a range of open tools that anyone can contribute to and be part of the discussion about its development. Rather than proprietary software, which is rigid and opaque, open tools are in active development with users contributing.
 
 Not being at the cutting edge of AI development doesn't mean we can't also benefit from the AI tools that can assist with research tasks. 
 
@@ -71,6 +77,8 @@ Qupath is a tool using machine learning to work with image analysis in the growi
 ![](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41592-020-01018-x/MediaObjects/41592_2020_1018_Fig6_HTML.png)
 
 > A generalist, deep learning-based segmentation method called Cellpose, which can precisely segment cells from a wide range of image types and does not require model retraining or parameter adjustments. Cellpose was trained on a new dataset of highly varied images of cells, containing over 70,000 segmented objects. We also demonstrate a three-dimensional (3D) extension of Cellpose that reuses the two-dimensional (2D) model and does not require 3D-labeled data. To support community contributions to the training data, we developed software for manual labeling and for curation of the automated results. Periodically retraining the model on the community-contributed data will ensure that Cellpose improves constantly. 
+>
+> Stringer, C., Wang, T., Michaelos, M. et al. Cellpose: a generalist algorithm for cellular segmentation. Nat Methods 18, 100–106 (2021). https://doi.org/10.1038/s41592-020-01018-x
 
 ## Case Study: DeepLabCut
 
