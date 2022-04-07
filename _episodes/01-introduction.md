@@ -27,9 +27,10 @@ It is more important than ever to engage researchers in understanding best pract
 > - **Data Science**: An interdisciplinary scientific study to extract insights from structured or unstructured data.
 > - **Computational Project**: Applying computer programming and data science skills to scientific research.
 > - **Reproducibility**: When the same analysis approach is applied to the same data, it should give the same answer - this answer should be reproduced by others using the same analysis and data originally used.
-> - **Computational Reproducilibity**: Reproducing the same result by analysing data using the same source code (in a computer programming language) for statistical analyses.
+> - **Computational Reproducibility**: Reproducing the same result by analysing data using the same source code (in a computer programming language) for statistical analyses.
 > - **Artificial Intelligence (AI)**: *A branch of computer science concerned with building smart machines capable of performing tasks that typically require human intelligence.* [Definition by Builtin](https://builtin.com/artificial-intelligence)
 > - **Machine Learning (ML)**: *A subset of artificial intelligence that gives systems the ability to learn and optimize processes without having to be consistently programmed. Simply put, machine learning uses data, statistics and trial and error to “learn” a specific task without ever having to be specifically coded for the task.* [Definition by Builtin](https://builtin.com/machine-learning)
+ 
 >
 {: .callout}
 
@@ -78,7 +79,7 @@ Therefore, the goal of this project is to provide an overview (without diving in
 We have designed multiple modular episodes covering topics across two overarching themes, that we refer to as "masterclasses" in this project:
 
 1. Introduction to Data Science and AI for senior researchers (**THIS** training material)
-2. [Managing and supervising computational Projects](https://github.com/carpentries-incubator/managing-computational-projects)
+2. [Managing and Supervising Computational Projects](https://github.com/carpentries-incubator/managing-computational-projects)
 
 Each masterclass is supplemented with technical resources and learning opportunities that can be used by project supervisors or senior researchers in guiding the learning and application of skills by other researchers in their teams.
 
@@ -92,7 +93,7 @@ Each masterclass is supplemented with technical resources and learning opportuni
 {: .testimonial}
 
 In this training material, we will introduce data science, AI and related concepts in detail.
-The training material "Managing and supervising computational Projects" is developed in parallel under the same project that discusses best practices for managing reproducible computational projects.
+The training material "Managing and Supervising Computational Projects" is developed in parallel under the same project that discusses best practices for managing reproducible computational projects.
 Although those are helpful concepts, it is not required to go through that training material to understand the practices we discuss in this training material.
 
 Both the materials discuss problems, solutions and examples from biomedical research and related fields to make our content relatable to our primary audience.
