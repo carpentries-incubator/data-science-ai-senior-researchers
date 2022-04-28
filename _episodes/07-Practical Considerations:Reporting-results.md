@@ -46,16 +46,16 @@ For N number of classes (e.g., N=2 for predicting cancer vs no cancer), a confus
 
 However many classes there are, a confusion matrix reports 4 types of outcome:
 
-**True Positives** - The classifier predicts a positive case i.e. cancer, and that person does actually have cancer
-**True Negative** - The classifier predicts a negative case i.e. *no* cancer, and that person doesn't actually have cancer
-**False Positives** - The classifier predicts a positive case i.e. cancer, but that person doesn't actually have cancer
-**True Positives** - The classifier predicts a negative case i.e. *no* cancer, but that person does actually have cancer
+- **True Positives** - The classifier predicts a positive case i.e. cancer, and that person does actually have cancer.
+- **True Negative** - The classifier predicts a negative case i.e. *no* cancer, and that person doesn't actually have cancer.
+- **False Positives** - The classifier predicts a positive case i.e. cancer, but that person doesn't actually have cancer.
+- **True Positives** - The classifier predicts a negative case i.e. *no* cancer, but that person does actually have cancer.
 
-These 4 components can be used to calculate what are the most common metrics in supervised classification - accuracy, sensitivity and specificity. 
+These 4 components can be used to calculate the most common metrics in supervised classification: accuracy, sensitivity and specificity. 
 
-**Accuracy** - The percentage of correct classifications in the dataset
-**Sensitivity** - The percentage of positive cases correctly identified. Sometimes called the *True Positive Rate (TPR)*
-**Specificity** - The percentage of negative cases correctly identified. Sometimes called the *False Positive Rate (FPR)*
+- **Accuracy** - The percentage of correct classifications in the dataset.
+- **Sensitivity** - The percentage of positive cases correctly identified. Sometimes called the *True Positive Rate (TPR)*.
+- **Specificity** - The percentage of negative cases correctly identified. Sometimes called the *True Negative Rate (TNR)*
 
 In some use-cases, such as *information retrieval tasks*, the **precision** of a model can be important where you aren't expecting to evaluate any negative cases. For example if we wrote an ML algorithm to scan clinic letters for people with epilepsy, we know that most of the population do not have epilepsy and so "no epilepsy" won't be explicitly recorded. Only *if* someone has epilepsy would it be recorded. So we are interested in assessing out of all the cases the algorithm predicts as having epilepsy, how many actually had epilepsy? but we are also interested in assessing out of all the *possible* epilepsies in the population, what percentage does the algorithm pick up? The latter is measured by precision. Precision is used for *information retrieval* tasks, and sensitivity is used for *classification* tasks. 
 
