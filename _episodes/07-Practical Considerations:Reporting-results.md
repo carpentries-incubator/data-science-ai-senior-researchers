@@ -14,7 +14,7 @@ keypoints:
 
 ### Reporting results from machine learning pipelines
 
-As with any other statistical analysis you can expect to report various metrics that communicate your results obtained from a machine learning pipeline. You may have heard of p-values, adjusted R-squared and the t-statistic used in methods such as a t-test or chi-squared-test. Supervised and Unsupervised machine learning algorithms have their own metrics that you will be reporting:
+As with any other statistical analysis you can expect to report various metrics that communicate your results obtained from a machine learning (ML) pipeline. You may have heard of p-values, adjusted R-squared and the t-statistic used in methods such as a t-test or chi-squared-test. Supervised and Unsupervised ML algorithms have their own metrics that you will be reporting:
 
 * Supervised algorithms:
     - Accuracy
@@ -52,9 +52,9 @@ These 4 components can be used to calculate what are the most common metrics in 
 **Sensitivity** - The percentage of positive cases correctly identified. Sometimes called the *True Positive Rate (TPR)*
 **Specificity** - The percentage of negative cases correctly identified. Sometimes called the *False Positive Rate (FPR)*
 
-In some use-cases, such as *information retrieval tasks*, the **precision** of a model can be important where you aren't expecting to evaluate any negative cases. For example if we wrote a machine learning algorithm to scan clinic letters for people with epilepsy, we know that most of the population do not have epilepsy and so "no epilepsy" won't be explicitly recorded. Only *if* someone has epilepsy would it be recorded. So we are interested in assessing out of all the cases the algorithm predicts as having epilepsy, how many actually had epilepsy? but we are also interested in assessing out of all the *possible* epilepsies in the population, what percentage does the algorithm pick up? The latter is measured by precision. Precision is used for *information retrieval* tasks, and sensitivity is used for *classification* tasks. 
+In some use-cases, such as *information retrieval tasks*, the **precision** of a model can be important where you aren't expecting to evaluate any negative cases. For example if we wrote an ML algorithm to scan clinic letters for people with epilepsy, we know that most of the population do not have epilepsy and so "no epilepsy" won't be explicitly recorded. Only *if* someone has epilepsy would it be recorded. So we are interested in assessing out of all the cases the algorithm predicts as having epilepsy, how many actually had epilepsy? but we are also interested in assessing out of all the *possible* epilepsies in the population, what percentage does the algorithm pick up? The latter is measured by precision. Precision is used for *information retrieval* tasks, and sensitivity is used for *classification* tasks. 
 
-While it might seem like accuracy, a combination of sensitivity and specificity, is the most important metric, it actually is the least useful. If your primary aim is to pick up as many COVID-19 cases as possible to reduce spread, *sensitivity* will tell you how well your algorithm does, not accuracy. If it is important to be as sure as possible that someone will likely develop disease because it will likely cause harm in other ways i.e. developing mental health issues due a diagnosis of dementia, *specificity* can help you prioritize when to label someone with the disease. Hence the main task in supervised machine learning is knowing how to trade sensitivity with specificity. This is where the **Receiver Operator Characteristic (ROC) Curve** can help.
+While it might seem like accuracy, a combination of sensitivity and specificity, is the most important metric, it actually is the least useful. If your primary aim is to pick up as many COVID-19 cases as possible to reduce spread, *sensitivity* will tell you how well your algorithm does, not accuracy. If it is important to be as sure as possible that someone will likely develop disease because it will likely cause harm in other ways i.e. developing mental health issues due a diagnosis of dementia, *specificity* can help you prioritize when to label someone with the disease. Hence the main task in supervised ML is knowing how to trade sensitivity with specificity. This is where the **Receiver Operator Characteristic (ROC) Curve** can help.
 
 ##### ROC Curves
 
@@ -137,6 +137,6 @@ It's at this point that the results of unsupervised analysis can be carried out 
 
 ### Conclusions
 
-Just like any other statistical analysis, machine learning results comprise of presenting certain metrics to assess the utility of a model. Supervised learning optimizes against a ground truth and so we can use metrics such as accuracy and sensitivity where the goal is to achieve 100% in such metric. Unsupervised learning is more nuanced because we don't have aground truth - while we optimize against the total sum of squared error (and the many other variations on this theme), we often have to rely on exploratory analyses in conjunction with our use case to decide what an optimum number of clusters are.
+Just like any other statistical analysis, ML results comprise of presenting certain metrics to assess the utility of a model. Supervised learning optimizes against a ground truth and so we can use metrics such as accuracy and sensitivity where the goal is to achieve 100% in such metric. Unsupervised learning is more nuanced because we don't have aground truth - while we optimize against the total sum of squared error (and the many other variations on this theme), we often have to rely on exploratory analyses in conjunction with our use case to decide what an optimum number of clusters are.
 
 
