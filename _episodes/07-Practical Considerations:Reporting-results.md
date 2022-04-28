@@ -40,7 +40,7 @@ When training a supervised algorithm we can compare its predictions to the *grou
 
 ##### The Confusion matrix
 
-For N number of classes (i.e. N=2 for predicting cancer vs no cancer), a confusion matrix is an NxN matrix that records how many the algorithm classified correctly and incorrectly by visualizing the actual classes against the predicted classes.
+For N number of classes (e.g., N=2 for predicting cancer vs no cancer), a confusion matrix is an NxN matrix that records how many the algorithm classified correctly and incorrectly by visualizing the actual classes against the predicted classes.
 
 ![](https://i.pinimg.com/736x/7d/49/d5/7d49d532ebbdd5247f121adfbe77b688.jpg)
 
