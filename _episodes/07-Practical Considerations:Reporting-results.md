@@ -34,7 +34,9 @@ As with any other statistical analysis you can expect to report various metrics 
 
 #### Reporting results in supervised analysis
 
-Supervised analysis aims to classify something into specific categories, and often into just two categories (binary). When training a supervised algorithm we can compare it's predictions to the *ground truth* and therefore say if it is correct or incorrect. These leads to the first staple of reporting in supervised learning: **the confusion matrix** 
+Supervised learning can be divided into two types of problems: regression and classification. Regression is used for the prediction of continuous variables, and classification aims to classify something into specific categories, and often into just two categories (binary). Here, we mainly focus on the classification task. 
+
+When training a supervised algorithm we can compare its predictions to the *ground truth* and therefore say if it is correct or incorrect. These leads to the first staple of reporting in supervised learning: **the confusion matrix**.
 
 ##### The Confusion matrix
 
