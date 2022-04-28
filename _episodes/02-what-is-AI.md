@@ -49,11 +49,13 @@ Similarly, in cell automata we can set the rules of infection and susceptibility
 
 To create a simulation, you need to know exactly how the "world" works, also known as a model or a theory. Whether its Newtonian physics or the rules of infection or exactly the properties of stresses and strains on a steel bridge. You then need to know how the world is in a specific instance, so the model can be run forwards and learn what happens later. This knowledge is then captured by the computer.  
 
-> **Case Study**
->
->At the Turing Institute, there are many projects which involve simulations and go under the term Digital Twin. These projects look at the major challenge of coping with uncertainty in our knowledge of the world. 
+## Case Study : Digital twins
 
+https://www.turing.ac.uk/sites/default/files/inline-images/3D%20printed%20bridhe%20digital%20twin%20FE%20model.png
 
+At the Turing Institute, many researchers work on advanced simulations known as "digital twins." A digital twin is a virtual replica of a complex system that incorporates real-time data, increasing the accuracy of the simulation and allowing researchers to better predict changes in the physical system based on real-world inputs.
+
+In 2021, the city of Amsterdam installed a 3D-printed steel bridge that has a digital twin, allowing researchers to monitor the physical properties of the bridge during real-world use by pedestrians and cyclists. The cutting-edge 3D printing process used to create the bridge is a promising technology that designers hope to apply to larger and more complex projects, and the digital twin will allow them to better understand the properties of this unique material and how it can be optimized for future projects. 
 
 ### Symbolic (Good Old Fashioned) AI
 
@@ -67,13 +69,13 @@ trying to use this kind of AI to recognise handwriting doesn't work. Imagine try
 
 ### Machine Learning
 
-Instead, with machine learning the humans do not bother to try and find and apply rules. Instead, the computer finds its own rules. You start with a large dataset of known examples of the task we are trying to do. So in this case, 60,000 examples of handwritten digits, each one the same size. With this data set, it is labelled by a human and so every digit is "known". This becomes the training data set for the machine. When given a new, unknown example, the machine can look through the known examples to find the groups that the new digit most likely fits within. 
+Unlike symbolic AI, for machine learning the humans do not bother to try to find and apply rules. Instead, the computer finds its own rules, starting with a large dataset of known examples of the task we are trying to do. In one example, the computer is given 60,000 samples of handwritten digits, each one the same size. The data set is labelled by a human so that every digit is "known", and this becomes the training data set for the machine. When given a new, unknown handwritten digit, the machine can look through the known examples to find the groups that the new digit most likely fits within. The machine does not "understand" the task, or know what handwriting is, so the solution is to match the classification that the machine has learned from the labelled dataset.
 
 There are more complexities than this brief description, but machine learning fundamentally works this way. For all sorts of tasks, "big data" is becoming critical for machine learning. 
 
-The machine does not "understand" the task, or know what handwriting is, the criteria for the solution is to match what the human labeller would classify the handwritten digit. 
+Machine learning is already changing the way the world works. We can design novel architecture and quickly and cheaply ensure it will be structurally sound; your iPhone will find all photos of your kids with only a few examples; we can optimise driving directions within seconds, taking into account the current and predicted road conditions. It really is amazing, and only possible through breakthrough and year-on-year advances in principles, algorithms, and computer hardware.
 
-Machine learning is already changing the way the world works. We can design novel architecture and quickly and cheaply ensure it will be structurally sound; your iPhone will find all photos of your kids with only a few examples; we can optimal driving directions within seconds, taking into account the current and predicted road conditions. It really is amazing, and only possible through breakthrough and year-on-year advances in principles, algorithms, and computer hardware.
+## Case Study : Machines reading maps
 
 # Summary
 
