@@ -76,7 +76,11 @@ Read more: https://www.cs.princeton.edu/~arvindn/talks/MIT-STS-AI-snakeoil.pdf
 
 ## Overfitting: Too Good to be Useful
 
-A good machine learning model generalises well to data beyond its training data. When given data it has never encountered before, it creates sensible outputs. It is tempting to train a model so the error margins on the training data are minimal, but this leads to overfitting issues that we see in other statistical models. One way to avoid overfitting is to never validate a model using data from the training data set, and to allow for some error in the model. 
+A good machine learning model generalises well to data beyond its training data. When given data it has never encountered before, it creates sensible outputs. It is tempting to train a model so the error margins on the training data are minimal, but this leads to overfitting issues that we see in other statistical models. 
+
+There are several techniques that can help prevent overfitting. One way to avoid overfitting is to never validate a model using data from the training data set, and to allow for some error in the model. Another way is to regularise the model, by encouraging simpler models that can capture most of the patterns within the training data, rather than complex models that can almost "memorise" the training data, which often provides poor predictions on unseen data. Other approaches look at selecting only a subset of important features contributing to the model performance. 
+
+Segmenting the data and repeating the training-validation process, for instance via K-fold cross-validation, is a way to detect overfitting and optimise the parameters of an AI model. It is likely that a combination of these techniques will be needed to effectively minimise overfitting and ensure generalisation power of an AI model.
 
 <p align="center">
 <img src="../fig/overfitting.jpg" alt="drawing" width="600"/>
