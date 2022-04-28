@@ -75,7 +75,7 @@ Random errors are those that occur due to chance and usually cannot be accounted
 Between dealing with complex data and the errors that they might contain you will need to ensure that as much error has been removed as possible and you harmonize your data into a "final" dataset that can be passed to an ML algorithm. The saying "garbage in, garbage out" is exactly the situation we are trying to avoid when we send data into an ML algorithm. Exploratory Data Analysis (EDA) largely accounts for a type of (usually automated) analysis to pick up errors in your data. For example, a quick visualization of data, using one line of code from a cardiology clinic shows that some people have cholesterol values of zero:
 
 ```r
-featurePlot(x = data[1:7,], y = disease_status,plot = "density")
+featurePlot(x=data[1:7,], y=disease_status, plot="density")
 ```
 ![](../fig/EDAplot.png) |
 |:--:| 
