@@ -14,7 +14,7 @@ keypoints:
 
 ### Reporting results from machine learning pipelines
 
-As with any other statistical analysis you can expect to report various metrics that communicate your results obtained from a machine learning (ML) pipeline. You may have heard of p-values, adjusted R-squared and the t-statistic used in methods such as a t-test or chi-squared-test. Supervised and Unsupervised ML algorithms have their own metrics that you will be reporting:
+As with any other statistical analysis you can expect to report various metrics that communicate your results obtained from a machine learning (ML) pipeline. You may have heard of p-values, adjusted R-squared and the t-statistic used in methods such as a t-test or chi-squared-test. Supervised and unsupervised ML algorithms have their own metrics that you will be reporting:
 
 * Supervised algorithms:
     - Accuracy
@@ -23,6 +23,9 @@ As with any other statistical analysis you can expect to report various metrics 
     - Precision
     - Recall
     - F1 score
+    - Mean Squared Error (MSE)
+    - Root Mean Squared Error (RMSE)
+    - Mean Absolute Error (MAE)
 * Unsupervised algorithms
     - Total within sum of squared error
     - Gap statistic
