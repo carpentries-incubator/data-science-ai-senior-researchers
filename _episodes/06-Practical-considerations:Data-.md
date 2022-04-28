@@ -46,13 +46,13 @@ It is probably not surprising that many of these file types are not directly usa
 
 ##### Data quality can be poor
 
-Biomedical data is almost never collected for AI purposes, and most of the time not even for research. Most primary and secondary care is collected at point of care and certain clinical codes (prescriptions) have monetary incentives for collection, but other (symptom tracking) do not. Lab tests are only reported to provide care to patients. Even if downstream research is kept in mind during data collection, are data standards in place such as data dictionaries that multiple sites can follow? 
+Biomedical data is almost never collected for AI/ML algorithms, and most of the time not even for research. Most primary and secondary care is collected at point of care, and certain clinical codes (prescriptions) have monetary incentives for collection, but other (symptom tracking) do not. Lab tests are only reported to provide care to patients. Even if downstream research is kept in mind during data collection, are data standards in place such as data dictionaries that multiple sites can follow? 
 
 The variable nature of data quality mainly falls into two categories: *systematic* and *random* error. 
 
-Systematic error are weakness of oversight in methodological design or execution. Examples might include 
+Systematic errors are the weakness of oversight in methodological design or execution. Examples might include: 
 
-- Research units submitting genetic data to a consortium might be using different sequencers or reference genomes. How we we harmonize the inherent differences in output data that will arise?
+- Research units submitting genetic data to a consortium might be using different sequencers or reference genomes. How do we harmonize the inherent differences in output data that will arise?
 
 - There are a disproportionate amount of a certain group of people in a cohort study. If we are predicting risk of an event in the population, how might this skew our results and how do we correct for this?
 
@@ -62,7 +62,7 @@ Systematic error are weakness of oversight in methodological design or execution
 
 ![](https://www.diabetes.co.uk/images/hba1c-chart.jpg)
 
-Random error are those that occur due to chance and usually cannot be accounted for at point of collection, but only through correction or "cleaning" after that data has been collected. Human error in data collection is the most easily understood source of random error, but also medical equipment, sequencers, image software all have some source of random error. Examples of random error might include:
+Random errors are those that occur due to chance and usually cannot be accounted for at the point of collection, but only through correction or "cleaning" after that data has been collected. Human error in data collection is the most easily understood source of random error, but also medical equipment, sequencers, image software all have some source of random error. Examples of random error might include:
 
 - Clinicians might enter an incorrect prescription date or blood pressure value. Could we using a limit of normality to detect infeasible blood pressure values in a patient record? The author writing this chapter has worked with primary care databases that accidentally replaced the BMI column with today's date i.e. a BMI of 20222104!
 
