@@ -40,8 +40,9 @@ If you are working with genetic data then you will have come across terms such a
 
 It is probably not surprising that many of these file types are not directly usable with an ML algorithm, and code must be written to *parse* them into a format that can. We haven't even touched on the fact that image and unstructured text (e.g., in natural language processing) are often sources of data for ML pipelines. How would you send the words you are reading right now into an ML algorithm to decide if the source is fact or fiction? How do you parse image data, a grid of pixels split into Red, Green and Blue channels into a .csv like structure?
 
-![](https://necromuralist.github.io/neural_networks/posts/image-to-vector/image2vector_kiank.png)
-|Image data can be represented in various forms. Here the image is represented by three matrices: Red, Green and Blue. Entries represent the intensities of pixel (middle); Those matrices can be flatten and reshaped into an image vector. |
+| ![](https://necromuralist.github.io/neural_networks/posts/image-to-vector/image2vector_kiank.png) |
+|:--:|
+|Image data can be represented in various forms. Here the image is represented by three matrices: Red, Green and Blue, shown in the middle. Entries represent the intensities of pixels; Those matrices can be flatten and reshaped into an image vector. |
 
 ##### Data quality can be poor
 
