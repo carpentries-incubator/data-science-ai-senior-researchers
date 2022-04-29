@@ -1,6 +1,6 @@
 # Data Science for Biomedical Scientists: Introduction to Data Science and AI for senior researchers 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 **Thanks for contributing to The Carpentries Incubator!**
@@ -104,6 +104,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="http://www.getmarkup.com"><img src="https://avatars.githubusercontent.com/u/4941299?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Arron Lacey</b></sub></a><br /><a href="#ideas-arronlacey" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-arronlacey" title="Content">🖋</a></td>
     <td align="center"><a href="https://sites.google.com/view/angionelab/"><img src="https://avatars.githubusercontent.com/u/4013246?v=4?s=100" width="100px;" alt=""/><br /><sub><b>claudioangione</b></sub></a><br /><a href="https://github.com/carpentries-incubator/data-science-ai-senior-researchers/pulls?q=is%3Apr+reviewed-by%3Aclaudioangione" title="Reviewed Pull Requests">👀</a> <a href="#content-claudioangione" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/kasra-hosseini"><img src="https://avatars.githubusercontent.com/u/1899856?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kasra Hosseini</b></sub></a><br /><a href="https://github.com/carpentries-incubator/data-science-ai-senior-researchers/pulls?q=is%3Apr+reviewed-by%3Akasra-hosseini" title="Reviewed Pull Requests">👀</a> <a href="#content-kasra-hosseini" title="Content">🖋</a></td>
   </tr>
 </table>
 
