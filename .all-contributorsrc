@@ -67,6 +67,16 @@
         "projectManagement",
         "eventOrganizing"
       ]
+    },
+    {
+      "login": "tobyhodges",
+      "name": "Toby Hodges",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9694524?v=4",
+      "profile": "https://tbyhdgs.info",
+      "contributions": [
+        "infra",
+        "question"
+      ]
     }
   ],
   "contributorsPerLine": 7,
