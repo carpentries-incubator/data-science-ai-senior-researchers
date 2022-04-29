@@ -63,11 +63,13 @@ Performance metrics are problem-dependent. For example, if your primary aim is t
 
 ##### ROC Curves
 
-As well as a decision "disease or not disease", ML algorithms provide a numerical prediction (in some cases a probability) of developing the disease. Whatever this numerical range is, we can choose a threshold of when to classify someone as having a disease. If we move the threshold one way we will increase sensitivity, and if we move it the other direction we will increase specificity. This means we could visualize all the resulting sensitivities and specificities for each threshold we choose. This powerful visualization is called a **ROC Curve** and we can use it to choose a threshold for a desired sensitivity, knowing how much specificity we would have to sacrifice.  
+In addition to predictions (e.g. "disease" or "not disease" labels), some ML algorithms provide a numerical score (in some cases a probability) that measures the quality of the prediction. Whatever this numerical range is, we can choose a threshold of when to classify someone as having a disease. If we move the threshold one way we will increase sensitivity, and if we move it the other direction we will increase specificity. This means we could visualize all the resulting sensitivities and specificities for each threshold we choose. This powerful visualization is called a **ROC Curve** and we can use it to choose a threshold for a desired sensitivity, knowing how much specificity we would have to sacrifice.  
 
-<p align="center">
+| <p align="center">
 <img src="../fig/ROC.png" alt="drawing" width="350"/>
-</p>
+</p> |
+| :--: | 
+| Receiver Operator Characteristic (ROC) Curve. The y-axis shows True Positive Rate (TPR), also called sensitivity or recall. The x-axis is False Positive Rate (FPR) or 1 - specificity. The ROC curve plots the FPR against TPR for various thresholds, that is, the points along the blue curve.|
 
 The orange line indicates randomly choosing what class a sample should belong to. At all points sensitivity = 1 - specificity (or TPR = FPR). The blue curve shows the TPR vs FPR at all threshold values, and a the further the curve is shifted toward the top left of the graph (TPR=1,FPR=0). We can also calculate the *Area Under the Curve (AUC)* that allows us to see the the total aggregated measure of TPR and FPR over all thresholds and is often reported along with accuracy.
 
