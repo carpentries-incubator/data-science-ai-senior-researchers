@@ -71,7 +71,7 @@ In addition to predictions (e.g. "disease" or "not disease" labels), some ML alg
 | :--: | 
 | Receiver Operator Characteristic (ROC) Curve. The y-axis shows True Positive Rate (TPR), also called sensitivity or recall. The x-axis is False Positive Rate (FPR) or 1 - specificity. The ROC curve plots the FPR against TPR for various thresholds, that is, the points along the blue curve.|
 
-The orange line indicates randomly choosing what class a sample should belong to. At all points sensitivity = 1 - specificity (or TPR = FPR). The blue curve shows the TPR vs FPR at all threshold values, and a the further the curve is shifted toward the top left of the graph (TPR=1,FPR=0). We can also calculate the *Area Under the Curve (AUC)* that allows us to see the the total aggregated measure of TPR and FPR over all thresholds and is often reported along with accuracy.
+The orange dashed line shows the ROC curve of a purely random classifier. For such classifiers, `sensitivity = 1 - specificity` (or TPR = FPR) at all points. The blue curve shows the TPR vs FPR at all threshold values, and a the further the curve is shifted toward the top left of the graph (TPR=1,FPR=0). We can also calculate the *Area Under the Curve (AUC)* that allows us to see the the total aggregated measure of TPR and FPR over all thresholds and is often reported along with accuracy.
 
 <p align="center">
 <img src="../fig/ROC2.png" alt="drawing" width="400"/>
