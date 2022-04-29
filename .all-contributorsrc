@@ -14,6 +14,16 @@
         "ideas",
         "content"
       ]
+    },
+    {
+      "login": "claudioangione",
+      "name": "claudioangione",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4013246?v=4",
+      "profile": "https://sites.google.com/view/angionelab/",
+      "contributions": [
+        "review",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
