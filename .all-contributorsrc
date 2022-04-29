@@ -34,6 +34,16 @@
         "review",
         "content"
       ]
+    },
+    {
+      "login": "LydiaFrance",
+      "name": "Lydia France",
+      "avatar_url": "https://avatars.githubusercontent.com/u/85945427?v=4",
+      "profile": "https://github.com/LydiaFrance",
+      "contributions": [
+        "ideas",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
