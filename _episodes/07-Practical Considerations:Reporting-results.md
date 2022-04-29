@@ -73,13 +73,11 @@ In addition to predictions (e.g. "disease" or "not disease" labels), some ML alg
 
 The orange dashed line shows the ROC curve of a purely random classifier. For such classifiers, `sensitivity = 1 - specificity` (or TPR = FPR) at all points. The blue curve shows the TPR vs FPR at all threshold values, and the closer a ROC curve is to the top-left of the graph (TPR=1, FPR=0) better. We can also calculate the *Area Under the Curve (AUC)* that allows us to see the total aggregated measure of TPR and FPR over all thresholds and is often reported along with accuracy.
 
-
-
 <p align="center">
 <img src="../fig/ROC2.png" alt="drawing" width="400"/>
 </p>
 
-With consideration to the orange "line of chance", we can draw the opposite (black line), where this line crosses the ROC curve and is the point that the default confusion matrix is calculated from. However, if we move the threshold, we can obtain a different confusion matrix. From the blue curve we have marked a further point on the graph - one that trades away some specificity for an increase in specificity. This point will provide us with different values in our confusion matrix in which we will see more True Positives, but also more False Positives.
+With consideration to the orange "line of chance", we can draw the opposite (black line), where this line crosses the ROC curve and is the point that the default confusion matrix is calculated from. However, if we move the threshold, we can obtain a different confusion matrix. From the blue curve we have marked a further point on the graph - one that trades away some specificity for an increase in sensitivity. This point will provide us with different values in our confusion matrix in which we will see more True Positives, but also more False Positives.
 
 
 #### Calibration of predictions from over or under sampled datasets
