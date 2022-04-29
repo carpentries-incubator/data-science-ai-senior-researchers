@@ -63,11 +63,11 @@ In machine learning the computer finds its own rules, starting with a large data
 
 Machine learning is already changing the way the world works. We can design novel architecture and quickly and cheaply ensure it will be structurally sound; your iPhone will find all photos of your kids with only a few examples; we can optimise driving directions within seconds, taking into account the current and predicted road conditions. It really is amazing, and only possible through continuous advances in principles, algorithms, and computer hardware.
 
-# Case Study: Map reader
+# Case Study: MapReader
 
 https://raw.githubusercontent.com/Living-with-machines/MapReader/main/figs/tutorial_classification_one_inch_maps_001.png
 
-In recent decades libraries have begun to digitize their map collections, which presents a huge opportunity as well as a unique challenge for librarians and historians who want to categorize and sort vast archives of visual material. "Map reader" is a project that relies on a type of machine learning known as computer vision, which is the process that computers use to recognize and classify information contained in visual mediums such as images or video. The user inputs a map that they are interested in and trains the program by adding annotations to label the map's features, then the algorithm learns how to identify those features and can be used to examine a much larger set of maps for the same types of information. In this example, the researcher is training the machine to perform visual analysis so that they can sort through entire visual archives in a fraction of the time it would take for a human to categorize each map individually. 
+In recent decades libraries have begun to digitize their map collections, which presents a huge opportunity as well as a unique challenge for librarians and historians who want to categorize and sort vast archives of visual material. [MapReader](https://github.com/Living-with-machines/MapReader) is a project that relies on a type of machine learning known as computer vision, which is the process that computers use to recognize and classify information contained in visual mediums such as images or video. The user inputs a map that they are interested in and trains the model by adding annotations to label the map's features, then the algorithm learns how to identify those features and can be used to examine a much larger set of maps for the same types of information. In this example, the researcher is training the machine to perform visual analysis so that they can sort through entire visual archives in a fraction of the time it would take for a human to categorize each map individually. 
 
 # Summary
 
