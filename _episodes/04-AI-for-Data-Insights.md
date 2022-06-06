@@ -22,7 +22,7 @@ We will discuss a range of examples.
 
 ![](https://www.ecloudvalley.com/wp-content/uploads/2019/09/Unsupervised-learning.png)
 
-Up until this point, we have looked at examples where humans have classified the data (handwritten digits, whether something counts as a cell, the difference between a duck and a goose) but a group of machine learning techniques called "unsupervised machine learning" does not use human labels but finds its own. 
+Up until this point, we have looked at examples where humans have classified the data (handwritten digits, whether something counts as a cell, the difference between a duck and a goose) but a group of machine learning techniques called "unsupervised machine learning" does not use human labels, but can still find patterns in the data. 
 
 For example, by providing huge data sets and the connections between them, for example the "multiomics" of millions of cells, the machine can determine clusters within the data and how groups may be similar and disparate to each other. For this reason, machine learning classifications can provide insight into a dataset that would not be possible through human manual effort. 
 
@@ -50,7 +50,7 @@ In principal component analysis, you could take some measurements of fish such a
 
 Which is far more meaningful for understanding the morphology than separating out fish into bins of height and length values.
 
-This example is simplistic because the data set only has two variables, but for data sets with hundreds of variables it can be very difficult to determine which variables are the most critical for understanding the diversity within your specimens. The combination of your variables into a principal component captures all the variation in your dataset.
+This example is simplistic because the data set only has two variables, but for data sets with hundreds of variables it can be very difficult to determine which variables are the most critical for understanding the diversity within your specimens. The combination of your variables into a principal component space can capture most of the variation in your dataset, and elucidate patterns that were not visible in the original data space.
 
 ## Neural Networks: the black box
 
@@ -135,7 +135,7 @@ Eventually the network learns the complex boundary definitions of the two data t
 
 ---
 
-It's not usually this simple to "take a look" at the inner workings of a neural network, which is why a lot of scepticism and caution is required for using them, as discussed in the next episode. 
+It's not usually this simple to "take a look" at the inner workings of a neural network, which is why a lot of scepticism and caution is required for using them, as discussed in the next episode. Interpretation and explainability of neural network predictions are very active areas of research.
 
 ## Conclusions
 
