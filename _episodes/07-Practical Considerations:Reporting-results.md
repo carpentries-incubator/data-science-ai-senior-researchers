@@ -14,7 +14,7 @@ keypoints:
 
 ### Reporting results from machine learning pipelines
 
-As with any other statistical analysis you can expect to report various metrics that communicate your results obtained from a machine learning (ML) pipeline. You may have heard of p-values, adjusted R-squared and the t-statistic used in methods such as a t-test or chi-squared-test. Supervised and unsupervised ML algorithms have their own metrics that you will be reporting:
+As with any other statistical analysis you can expect to report various metrics that communicate your results obtained from a machine learning (ML) pipeline. You may have heard of p-values, adjusted R-squared and the t-statistic used in methods such as a t-test or chi-squared-test. Supervised (regression and classification) and unsupervised ML algorithms have distinct metrics that you will be reporting:
 
 * Supervised algorithms:
     - Accuracy
@@ -32,15 +32,29 @@ As with any other statistical analysis you can expect to report various metrics 
     - Silhouette value
     - Akaike Information Criterion
 
-#### Reporting results in supervised analysis
+#### Reporting results in regression (supervised)
 
-Supervised learning can be divided into two types of problems: regression and classification. Regression is used for the prediction of continuous variables, and classification aims to classify something into specific categories, and often into just two categories (binary). Here, we mainly focus on the classification task. 
+While there are many techniques that fall under the term "regression" such as linear/multiple, logistic, poisson or Cox proportional-hazards, they all aim to fit a line of best fit to the data, and so here we describe metrics that relate to describing how "good" a line of best fit is. 
+
+Most regression metrics are derived from a "residual" - the distance of a line of fit to a data point. Some some data points fall below the line of fit and some fall above the line of fit, so to ensure the residuals don't cancel out, we take the square of the residual and arrived at the "sum of squared residuals".
+
+<p align="center">
+<img src="../fig/mse.png" alt="drawing" width="550"/>
+</p>
+
+In the image above we can see that for a line that has been fitted to the data with linear regression (blue) has quite small residuals (red) compared to the larger residuals of a line comprised simply of the mean height (green). The Mean Squared Error (MSE) is simply the sum of squared residuals divided by the number of data points. By taking the root of the MSE we get the Root Mean Squared Error (RMSE). If you were to take the absolute value of the residual instead of the squared residual then you will arrive at the Mean Absolute Error (MAE).
+
+You might point out that each of these three measures appear quite similar, however if you consider that case of having a higher number of outliers, the RMSE or MAE are better metrics to use over MSE because the MSE will be inflated due to squaring the large residuals of outliers.
+
+#### Reporting results in classification (supervised)
+
+Supervised learning can be divided into two types of problems: regression and classification. Regression is used for the prediction of continuous variables, and classification aims to classify something into specific categories, and often into just two categories (binary). Here, we mainly focus on classification tasks. 
 
 When training a supervised algorithm we can compare its predictions to the *ground truth* and therefore say if it is correct or incorrect. These leads to the first staple of reporting in supervised learning: **the confusion matrix**.
 
-##### The Confusion matrix
+##### Training, Testing and the Confusion matrix
 
-For N number of classes (e.g., N=2 for predicting cancer vs no cancer), a confusion matrix is an NxN matrix that records how many the algorithm classified correctly and incorrectly by visualizing the actual classes against the predicted classes.
+When we report results from supervised classification, we are only interested in calculating metrics from the test data - the training data is used only to train the model. From the test data, we can use our trained model to make predictions and compare to the actual classes of each item in the test set. For N number of classes (e.g. N=2 for predicting cancer vs no cancer), a confusion matrix is an NxN matrix that records how many the algorithm classified correctly and incorrectly by visualizing the actual classes against the predicted classes.
 
 ![](https://i.pinimg.com/736x/7d/49/d5/7d49d532ebbdd5247f121adfbe77b688.jpg)
 
@@ -57,9 +71,19 @@ These 4 components can be used to calculate the most common metrics in supervise
 - **Sensitivity** - The percentage of positive cases correctly identified. Sometimes called the *True Positive Rate (TPR)*.
 - **Specificity** - The percentage of negative cases correctly identified. Sometimes called the *True Negative Rate (TNR)*
 
-In some use-cases, such as *information retrieval tasks*, the **precision** of a model can be important where you aren't expecting to evaluate any negative cases. For example if we wrote an ML algorithm to scan clinic letters for people with epilepsy, we know that most of the population do not have epilepsy and so "no epilepsy" won't be explicitly recorded. Only *if* someone has epilepsy would it be recorded. So we are interested in assessing out of all the cases the algorithm predicts as having epilepsy, how many actually had epilepsy? but we are also interested in assessing out of all the *possible* epilepsies in the population, what percentage does the algorithm pick up? The latter is measured by precision. Precision is used for *information retrieval* tasks, and sensitivity is used for *classification* tasks. 
-
 Performance metrics are problem-dependent. For example, if your primary aim is to pick up as many COVID-19 cases as possible to reduce spread, *sensitivity* will tell you how well your algorithm does, not accuracy. If it is important to be as sure as possible that someone will likely develop disease because it will likely cause harm in other ways i.e. developing mental health issues due a diagnosis of dementia, *specificity* can help you prioritize when to label someone with the disease. Therefore, it is important to know how to trade sensitivity with specificity. This is where the **Receiver Operator Characteristic (ROC) Curve** can help.
+
+In some use-cases, such as *information retrieval tasks*, a task where you want to retrieve relevant documents or records from the population, we often talk about the **precision** and **recall** of a model rather than specificity and sensitivity. For example, if we wrote an ML algorithm to scan clinic letters for people with epilepsy, we know that most of the population do not have epilepsy and so "no epilepsy" won't be explicitly recorded. The recall is described by out of all the *possible* epilepsies in the population, what percentage does the algorithm pick up? This is exactly the same as sensitivity! This tells us the model's ability to recall as many epilepsies as possible from the population. However, we can also ask how many of just the people in the population who have known epilepsy, how many are identified as such by the model? This is this *precision* of the model and unlike recall being the same as sensitivity, precision is not the same as specificity. 
+
+##### K Crossfold Validation
+
+Instead of using a simple train/test split to report our results, it is common to use a method called **crossfold validation**. Here we can split the data into X% training data and Y% for test data (an 80/20 split is quite common) **K** times (K=10 is also quite common). Note that when we talk about K crossfold validation the "test sets" in each fold are called *validation sets*. The reason for doing K crossfold validation is because if we only chose K=1 it might turn out that the test data by chance contains some unrepresentative data points compared to the data as a whole (or more importantly in a real world population scenario). So by repeating the sampling process we aim to use all data point in at least 1 test set. Another reason to do this is to help select the best hyperparameter values during training (again, we might get lucky or unlucky with just one training set). 
+
+But there are two extremely important things to remember when using K crossfold validation. The first is that we only ever split the training data up into subsequent K splits i.e. we should always hold out a completely separate test set that never gets used during crossfold validation and biases the training process. Therefore you should think of K crossfold validation as something that happens during training. This leads onto the second important thing to note: the validation sets from each fold are **not** your final results - they are merely there to show you how stable a model is and to find the best hyperparameter values. Once we know our values and stability we discard all of the individual folds and re-train our model with all of the training data, and then use the held out test data to report our results. 
+
+The following diagram should help you visualize an ML experiment that used K crossfold validation:
+
+![](https://scikit-learn.org/stable/_images/grid_search_cross_validation.png)
 
 ##### ROC Curves
 
