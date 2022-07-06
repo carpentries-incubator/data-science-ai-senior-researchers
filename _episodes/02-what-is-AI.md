@@ -22,8 +22,11 @@ On the one hand, AI and machine learning can greatly improve the workflows in da
 # What is AI?
 
  
+Artificial Intelligence can be described as a branch of computer programming that aims to builds machines (software or integrated with specific hardware) that demonstrate "intelligent behavior". However, describing Artificial Intelligence is often more about what we *wish* existed rather than describing what actually exists. It can instead be more informative to describe the problems we can solve with Artificial Intelligence and how it is achieved. This is not a deeply technical introduction, instead it is written to describe case studies and overview. 
 
-Describing Artificial Intelligence is often more about what we *wish* existed rather than describing what actually exists. It can instead be more informative to describe the problems we can solve with Artificial Intelligence and how it is achieved. This is not a deeply technical introduction, instead it is written to describe case studies and overview. 
+## I've also heard the term "Machine Learning"...
+
+The terms Artificial Intelligence and Machine Learning sometimes get used interchangeably, however that isn't quite the case. Where AI describes intelligent systems that we wish to design, machine learning refers to the mathematical concepts and algorithms that form the basic building blocks of AI. We might combine multiple ML methods that each have a specific task to learn into a larger system. It is the process of bringing together multiple, highly specified ML algorithms (maybe also rules that humans have written) that give us an image of how AI is achieved and why it makes it so challenging.   
 
 ## What does not exist?
 
@@ -63,7 +66,7 @@ In the game noughts and crosses (or tic-tac-toe), the objective is to alternate 
 
 Chess and noughts and crosses are micro-domain games, an extremely limited "world" that the computer works within. The position of the chess piece can be described precisely and completely. The rules of the movement and the final end goal is well defined and unambiguous. 
 
-trying to use this kind of AI to recognise handwriting doesn't work. Imagine trying to completely describe the way 7 is written, the rules are too rigid and brittle to distinguish 1s and 7s, and may miss all the 7s with a slash through them. It couldn't possibly hope to recognise a cat. 
+Trying to use this kind of AI to recognise handwriting doesn't work. Imagine trying to completely describe the way 7 is written, the rules are too rigid and brittle to distinguish 1s and 7s, and may miss all the 7s with a slash through them. It couldn't possibly hope to recognise a cat. 
 
 ### Machine Learning
 
