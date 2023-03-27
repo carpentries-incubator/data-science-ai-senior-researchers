@@ -6,28 +6,33 @@ questions:
 - "What is the purpose of this training?"
 - "Who are the target audience?"
 - "What will they learn at the end of this training?"
+
+
 objectives:
 - "Describe the motivation, purpose, target audience and expected outcome of this training"
 keypoints:
 - "This material is developed for mid-career and senior researchers in  biomedical and biosciences fields."
-- "This training aims to build a shared understanding of data science and AI in the context of biomedical and related fields."
+- "This training aims to build a shared understanding of data science and AI in the context of biomedicine and related fields."
 ---
 
-# Data Science for Biomedical Scientists
+# Data Science for Biomedical Researchers
 
-Biosciences and biomedical researchers regularly combine mathematics and computational methods to interpret experimental data. With new technologies supporting the generation of large-scale data as well as successful applications of data science, Machine Learning (ML) and Artificial Intelligence (AI) in biomedicine and related fields have recently shown huge potential to transform the way we conduct research. Recent groundbreaking research utilising AI technologies in biomedicine has led to an enormous interest among researchers in data science, ML and AI approach to extract useful insights from big data, make new discoveries and address biological questions. It is more important than ever to engage researchers in understanding best practices in data science, identifying how they apply to their work and making informed decisions around their use in biomedicine and related fields.
+Bioscientists and biomedical researchers often combine mathematics and computational methods to analyse and interpret experimental data. Machine Learning (ML) applied to data science and in combination with Artificial Intelligence (AI) has led to an increased interest among biomedical researchers and data scientists to extract information from big medical datasets to facilitate drug development and address longstanding biomedical questions. With this cource, we aim to inform researchers about best practices in data science, identifying how they apply to their work and making informed decisions around their use in biomedicine and related fields.
 
-> ## Jargon Busting
->
-> Below we provide a simple definition of some terms that we use in this project in the context of scientific research:
-> - **Best Practices**: *Set of procedures that have been shown by research and experience to produce optimal results and that are established or proposed as a standard suitable for widespread adoption.* [Definition by Merriam Webster](https://www.merriam-webster.com/dictionary/best%20practice)
-> - **Data Science**: An interdisciplinary scientific study to extract insights from structured or unstructured data.
-> - **Computational Project**: Applying computer programming and data science skills to scientific research.
-> - **Reproducibility**: When the same analysis approach is applied to the same data, it should give the same answer - this answer should be reproduced by others using the same analysis and data originally used.
-> - **Computational Reproducibility**: Reproducing the same result by analysing data using the same source code (in a computer programming language) for statistical analyses.
+// contextualize the use of AI and it's relation to ML. AI is a very high level term that gets used less as you read papers on methodologies etc where ML and sub-types of ML are more common. //
+
+> ## Glossary
+> Short definitions of selected terms that are used in the context of this course:
 > - **Artificial Intelligence (AI)**: *A branch of computer science concerned with building smart machines capable of performing tasks that typically require human intelligence.* [Definition by Builtin](https://builtin.com/artificial-intelligence)
-> - **Machine Learning (ML)**: *A subset of artificial intelligence that gives systems the ability to learn and optimize processes without having to be consistently programmed. Simply put, machine learning uses data, statistics and trial and error to “learn” a specific task without ever having to be specifically coded for the task.* [Definition by Builtin](https://builtin.com/machine-learning)
- 
+> - **Best Practices**: *Set of procedures that have been shown by research and experience to produce optimal results and that are established or proposed as a standard suitable for widespread adoption.* [Definition by Merriam Webster](https://www.merriam-webster.com/dictionary/best%20practice)
+> - **Computational Project**: Applying computer programming and data science skills to scientific research.
+> - **Computational Reproducibility**: Reproducing the same result by analysing data using the same source code (in a computer programming language) for statistical analyses.
+> - **Data Science**: An interdisciplinary scientific field to extract and extrapolate information from structured or unstructured data using statistics, scientific computing, scientific methods, processes, algorithms and systems, while integrating domain and discipline-specific knowledge. [Definition on Wikipedia](https://en.wikipedia.org/wiki/Data_science)
+> - **Machine Learning (ML)**: *A subset of artificial intelligence that gives systems the ability to learn and optimize processes without having to be consistently programmed. Simply put, machine learning uses data, statistics and trial and error to “learn” a specific task without having to be specifically coded for the task.* [Definition by Builtin](https://builtin.com/machine-learning)
+> - **Reproducibility**: The results obtained by an experiment, an observational study, or in a statistical analysis of a data set should be achieved again  when the study is replicated by different researchers using the same methodology. [Definition on Wikipedia](https://en.wikipedia.org/wiki/Reproducibility)
+
+
+
 >
 {: .callout}
 
