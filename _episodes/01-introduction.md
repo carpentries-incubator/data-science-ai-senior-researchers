@@ -17,65 +17,56 @@ keypoints:
 
 Biosciences and biomedical researchers regularly combine mathematics and computational methods to interpret experimental data. With new technologies supporting the generation of large-scale data as well as successful applications of data science, Machine Learning (ML) and Artificial Intelligence (AI) in biomedicine and related fields have recently shown huge potential to transform the way we conduct research. Recent groundbreaking research utilising AI technologies in biomedicine has led to an enormous interest among researchers in data science, ML and AI approach to extract useful insights from big data, make new discoveries and address biological questions. It is more important than ever to engage researchers in understanding best practices in data science, identifying how they apply to their work and making informed decisions around their use in biomedicine and related fields.
 
-> ## Jargon Busting
->
-> Below we provide a simple definition of some terms that we use in this project in the context of scientific research:
-> - **Best Practices**: *Set of procedures that have been shown by research and experience to produce optimal results and that are established or proposed as a standard suitable for widespread adoption.* [Definition by Merriam Webster](https://www.merriam-webster.com/dictionary/best%20practice)
-> - **Data Science**: An interdisciplinary scientific study to extract insights from structured or unstructured data.
-> - **Computational Project**: Applying computer programming and data science skills to scientific research.
-> - **Reproducibility**: When the same analysis approach is applied to the same data, it should give the same answer - this answer should be reproduced by others using the same analysis and data originally used.
-> - **Computational Reproducibility**: Reproducing the same result by analysing data using the same source code (in a computer programming language) for statistical analyses.
-> - **Artificial Intelligence (AI)**: *A branch of computer science concerned with building smart machines capable of performing tasks that typically require human intelligence.* [Definition by Builtin](https://builtin.com/artificial-intelligence)
-> - **Machine Learning (ML)**: *A subset of artificial intelligence that gives systems the ability to learn and optimize processes without having to be consistently programmed. Simply put, machine learning uses data, statistics and trial and error to “learn” a specific task without ever having to be specifically coded for the task.* [Definition by Builtin](https://builtin.com/machine-learning)
+## Jargon Busting
+Below we provide a simple definition of some terms that we use in this project in the context of scientific research:
+- **Best Practices**: *Set of procedures that have been shown by research and experience to produce optimal results and that are established or proposed as a standard suitable for widespread adoption.* [Definition by Merriam Webster](https://www.merriam-webster.com/dictionary/best%20practice)
+- **Data Science**: An interdisciplinary scientific study to extract insights from structured or unstructured data.
+- **Computational Project**: Applying computer programming and data science skills to scientific research.
+- **Reproducibility**: When the same analysis approach is applied to the same data, it should give the same answer - this answer should be reproduced by others using the same analysis and data originally used.
+- **Computational Reproducibility**: Reproducing the same result by analysing data using the same source code (in a computer programming language) for statistical analyses.
+- **Artificial Intelligence (AI)**: *A branch of computer science concerned with building smart machines capable of performing tasks that typically require human intelligence.* [Definition by Builtin](https://builtin.com/artificial-intelligence)
+- **Machine Learning (ML)**: *A subset of artificial intelligence that gives systems the ability to learn and optimize processes without having to be consistently programmed. Simply put, machine learning uses data, statistics and trial and error to “learn” a specific task without ever having to be specifically coded for the task.* [Definition by Builtin](https://builtin.com/machine-learning)
  
->
-{: .callout}
 
-Over the last decade, several tools, methods and training resources have been developed for early career researchers to learn about and apply data science skills in biomedicine, often referred to as biomedical data science.
-However, to ensure that data science approaches are appropriately applied in domain research, such as in biosciences, there is a need to also engage and educate scientific group leaders and researchers in project leadership roles on best practices.
+Over the last decade, several tools, methods and training resources have been developed for early career researchers to learn about and apply data science skills in biomedicine, often referred to as <i>biomedical data science</i>. Due to the recent developments in automated machine learning techniques it is now possible for biomedical researchers to build competitive machine-learning classifiers without the need for an in-depth understanding of the underlying algorithms. To ensure appropriate adoption of machine learning in biomedical research, this course aims to equip researchers in leadership roles with current best practices and state-of-the-art workflows.
 
-The [**Data Science for Biomedical Scientists**](https://github.com/alan-turing-institute/data-training-for-bioscience) project helps address this need in training by equipping experimental biomedical scientists with computational skills.
-In all the resources developed within this project, we consistently emphasise how computational and data science approaches can be applied while ensuring reproducibility, collaboration and transparent reporting.
-The goal is to maintain the highest standards of research practice and integrity.
+The [**Data science for Biomedical researchers**](https://github.com/alan-turing-institute/data-training-for-bioscience) project helps address this need in training by equipping experimental biomedical researchers with computational skills. In all the resources developed within this project, we consistently emphasise how computational and data science approaches can be applied while ensuring reproducibility, collaboration and transparent reporting in order to maintain the highest standards of research practice and integrity.
 
-> ## What is biomedical data science?
->
-> The term “data science” describes expertise associated with taking (usually large) data sets and annotating, cleaning, organizing, storing, and analyzing them for the purposes of extracting knowledge. [...]
-> The terms “biomedical data science” and “biomedical data scientist” [...] connote activities associated with the creation and application of methods to new and large sources of biological and medical data aimed at converting them into useful information and knowledge. 
-> They also connote technical activities that are data-intensive and require special skills in managing the large, noisy, and complex data typical of biology and medicine. 
-> They may also imply the application of these technologies in domains where their collaborators previously have not needed data-intensive computational approaches. 
-> **Russ B. Altman and Michael Levitt** (2018). [Annual Review of Biomedical Data Science](https://www.annualreviews.org/doi/full/10.1146/annurev-bd-01-041718-100001)
-> 
-{: .testimonial}
+## What is Biomedical data science?
+Combining several research fields such as Biostatistics, Biomedical informatics, iomedical data science is an interdisciplinary field within Biomedicine directed towards innovation and discovery by applying Machine learning. The goal is to analyse large sets of highly complex biomedical datasets with high numbers of samples, features, and charactersitics, while at the same time ensuring confidentiality with sensitive data and interpretability by all relevant stakeholders. Applications of Biomedical data science include Computational genomics, Computational medicalimaging, Health records data mining, Biomedical network science, Molecular intercations analyses, etc.
 
-In this training material for **Introduction to Data Science and AI for senior researchers**, we introduce data science and Artificial Intelligence (AI). Providing contexts and examples from biomedical research, this material will discuss AI for automation, the process of unsupervised and supervised machine learning, their practical applications and common pitfalls that researchers should be aware of in order to maintain scientific rigour and research ethics. 
+* Russ B. Altman and Michael Levitt** (2018). [Annual Review of Biomedical Data Science](https://www.annualreviews.org/doi/full/10.1146/annurev-bd-01-041718-100001) // NOT OPEN ACCESS
+* https://en.wikipedia.org/wiki/Biomedical_data_science
+* Luo W, Phung D, Tran T, Gupta S, Rana S, Karmakar C, Shilton A, Yearwood J, Dimitrova N, Ho T, Venkatesh S, Berk M. Guidelines for Developing and Reporting Machine Learning Predictive Models in Biomedical Research: A Multidisciplinary View. J Med Internet Res 2016;18(12):e323; URL: https://www.jmir.org/2016/12/e323; DOI: 10.2196/jmir.5870
 
-> Targeted measures and opportunities can help build a better understanding of best practices from data science and AI that can be effectively applied in research and supported by senior leaders.
-> Senior leaders, in this context, can be academics or non-academics working in advisors, experts or supervisors roles in research projects who want to lead rigorous and impactful research through computational reproducibility, reusability and collaborative practices.
->
-{: .objectives}
 
+In this course, we introduce Biomedical data science and Artificial Intelligence (AI) to senior Biomedical researchers in leadership roles. Providing discipline-specific context and examples from Biomedical research, this course will inform about AI for automation, the processes of unsupervised and supervised machine learning, their practical applications and common pitfalls that researchers should be aware of in order to uphold scientific rigour and research ethics. 
+
+ 
 ## Target audience
-
-Experimental biologists and biomedical research communities, with a focus on two key professional/career groups:
+Senior researchers who are academics or non-academics working in an advisory or supervisory role as experts in research projects and are planning to lead rigorous and impactful research through computational reproducibility, reusability and collaborative practices.
+In particular, this course is addressing experimental biologists and biomedical research communities, with a focus on two key professional/career groups:
 
 1. Group leaders without prior experience with Data Science and ML/AI - interested in understanding the potential additionality and application in their areas of expertise.
 2. Postdoc and lab scientists - next-generation senior leaders, who are interested in additionality, but also the group more likely to benefit from tools to equip them with the requirements to enable the integration of computational science into biosciences.
 
+// CLARIFICATION NEEDED
+
+
 ## Learning Outcomes
 
-At the end of this lesson (training material), attendees will gain a better understanding of:
-
+At the end of this course, attendees will gain a better understanding of:
 * data science and AI practices
-* using AI for automation
-* the process of unsupervised and supervised machine learning
+* using AI for automation of biomedical research analytics
+* the processes of supervised and unsupervised machine learning
 * successful examples and applications of AI in biomedical research
 * common pitfalls and ethical concerns to consider to maintain scientific rigour and integrit. 
 
+
 ## Modular and Flexible Learning
 
-We have adopted a modular format, covering a range of topics and integrating real-world examples that should engage mid-career and senior researchers. Most senior researchers can't attend long workshops due to lack of time or don't find technical training directly useful for managing their work. 
-Therefore, the goal of this project is to provide an overview (without diving into technical details) of data science and AI/ML practices that could be relevant to life science domains and good practices for handling open reproducible computational data science.
+This course follows a modular format, covering a range of topics and integrating real-world examples. The contents were selected to ensure highest possible relevance to the research questions of the attendants and allow for immediate applicabilion of the learning outcomes to their research.
+Therefore, the course curriculum provides an overview general concepts without diving into technical details, while ensuring direct relevance to life science domains and good practices for handling open reproducible computational data science.
 
 We have designed multiple modular episodes covering topics across two overarching themes, that we refer to as "masterclasses" in this project:
 
@@ -84,11 +75,11 @@ We have designed multiple modular episodes covering topics across two overarchin
 
 Each masterclass is supplemented with technical resources and learning opportunities that can be used by project supervisors or senior researchers in guiding the learning and application of skills by other researchers in their teams.
 
-### Do I need to know biology for this training material?
+### Do I need to be a Biomedical researcher to attend this course?
 
 > **The short answer is no!** 
 >
-> Although the training materials are tailored to the biomedical sciences community, materials will be generally transferable and directly relevant for data science projects across different domains.
+> Although the training materials are tailored to the biomedical sciences community, materials are generally transferable and directly relevant for data science projects across different life science disciplines.
 > You are not expected to have already learned about AI/ML to understand what we will discuss in this training material.
 >
 {: .testimonial}
