@@ -1,5 +1,5 @@
 ---
-title: "Introduction to this course"
+title: "Introduction to this workshop"
 teaching: 10
 exercises: 0
 questions:
