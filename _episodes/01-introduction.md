@@ -27,8 +27,9 @@ Below we provide a simple definition of some terms that we use in this project i
 - **Artificial Intelligence (AI)**: *A branch of computer science concerned with building smart machines capable of performing tasks that typically require human intelligence.* [Definition by Builtin](https://builtin.com/artificial-intelligence)
 - **Machine Learning (ML)**: *A subset of artificial intelligence that gives systems the ability to learn and optimize processes without having to be consistently programmed. Simply put, machine learning uses data, statistics and trial and error to “learn” a specific task without ever having to be specifically coded for the task.* [Definition by Builtin](https://builtin.com/machine-learning)
  
+ {: .callout}
 
-Over the last decade, several tools, methods and training resources have been developed for early career researchers to learn about and apply data science skills in biomedicine, often referred to as <i>biomedical data science</i>. Due to the recent developments in automated machine learning techniques it is now possible for biomedical researchers to build competitive machine-learning classifiers without the need for an in-depth understanding of the underlying algorithms. To ensure appropriate adoption of machine learning in biomedical research, this course aims to equip researchers in leadership roles with current best practices and state-of-the-art workflows.
+Over the last decade, several tools, methods and training resources have been developed for early career researchers to learn about and apply data science skills in biomedicine, often referred to as <i>biomedical data science</i>. Due to the recent developments in automated machine learning techniques it is now possible for biomedical researchers to build competitive machine-learning classifiers without the need for an in-depth understanding of the underlying algorithms. To ensure appropriate adoption of machine learning in biomedical research, this workshop aims to equip researchers in leadership roles with current best practices and state-of-the-art workflows.
 
 The [**Data science for Biomedical researchers**](https://github.com/alan-turing-institute/data-training-for-bioscience) project helps address this need in training by equipping experimental biomedical researchers with computational skills. In all the resources developed within this project, we consistently emphasise how computational and data science approaches can be applied while ensuring reproducibility, collaboration and transparent reporting in order to maintain the highest standards of research practice and integrity.
 
@@ -40,12 +41,12 @@ Combining several research fields such as Biostatistics, Biomedical informatics,
 * Luo W, Phung D, Tran T, Gupta S, Rana S, Karmakar C, Shilton A, Yearwood J, Dimitrova N, Ho T, Venkatesh S, Berk M. Guidelines for Developing and Reporting Machine Learning Predictive Models in Biomedical Research: A Multidisciplinary View. J Med Internet Res 2016;18(12):e323; URL: https://www.jmir.org/2016/12/e323; DOI: 10.2196/jmir.5870
 
 
-In this course, we introduce Biomedical data science and Artificial Intelligence (AI) to senior Biomedical researchers in leadership roles. Providing discipline-specific context and examples from Biomedical research, this course will inform about AI for automation, the processes of unsupervised and supervised machine learning, their practical applications and common pitfalls that researchers should be aware of in order to uphold scientific rigour and research ethics. 
+In this workshop, we introduce Biomedical data science and Artificial Intelligence (AI) to senior Biomedical researchers in leadership roles. Providing discipline-specific context and examples from Biomedical research, this workshop will inform about AI for automation, the processes of unsupervised and supervised machine learning, their practical applications and common pitfalls that researchers should be aware of in order to uphold scientific rigour and research ethics. 
 
  
 ## Target audience
 Senior researchers who are academics or non-academics working in an advisory or supervisory role as experts in research projects and are planning to lead rigorous and impactful research through computational reproducibility, reusability and collaborative practices.
-In particular, this course is addressing experimental biologists and biomedical research communities, with a focus on two key professional/career groups:
+In particular, this workshop is addressing experimental biologists and biomedical research communities, with a focus on two key professional/career groups:
 
 1. Group leaders without prior experience with Data Science and ML/AI - interested in understanding the potential additionality and application in their areas of expertise.
 2. Postdoc and lab scientists - next-generation senior leaders, who are interested in additionality, but also the group more likely to benefit from tools to equip them with the requirements to enable the integration of computational science into biosciences.
@@ -55,7 +56,7 @@ In particular, this course is addressing experimental biologists and biomedical 
 
 ## Learning Outcomes
 
-At the end of this course, attendees will gain a better understanding of:
+At the end of this workshop, attendees will gain a better understanding of:
 * data science and AI practices
 * using AI for automation of biomedical research analytics
 * the processes of supervised and unsupervised machine learning
@@ -65,8 +66,8 @@ At the end of this course, attendees will gain a better understanding of:
 
 ## Modular and Flexible Learning
 
-This course follows a modular format, covering a range of topics and integrating real-world examples. The contents were selected to ensure highest possible relevance to the research questions of the attendants and allow for immediate applicabilion of the learning outcomes to their research.
-Therefore, the course curriculum provides an overview general concepts without diving into technical details, while ensuring direct relevance to life science domains and good practices for handling open reproducible computational data science.
+This workshop follows a modular format, covering a range of topics and integrating real-world examples. The contents were selected to ensure highest possible relevance to the research questions of the attendants and allow for immediate applicabilion of the learning outcomes to their research.
+Therefore, the workshop curriculum provides an overview general concepts without diving into technical details, while ensuring direct relevance to life science domains and good practices for handling open reproducible computational data science.
 
 We have designed multiple modular episodes covering topics across two overarching themes, that we refer to as "masterclasses" in this project:
 
@@ -75,7 +76,7 @@ We have designed multiple modular episodes covering topics across two overarchin
 
 Each masterclass is supplemented with technical resources and learning opportunities that can be used by project supervisors or senior researchers in guiding the learning and application of skills by other researchers in their teams.
 
-### Do I need to be a Biomedical researcher to attend this course?
+### Do I need to be a Biomedical researcher to attend this workshop?
 
 > **The short answer is no!** 
 >
