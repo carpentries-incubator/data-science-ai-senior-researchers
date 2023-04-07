@@ -17,28 +17,30 @@ keypoints:
 
 Biosciences and biomedical researchers regularly combine mathematics and computational methods to interpret experimental data. With new technologies supporting the generation of large-scale data as well as successful applications of data science, Machine Learning (ML) and Artificial Intelligence (AI) in biomedicine and related fields have recently shown huge potential to transform the way we conduct research. Recent groundbreaking research utilising AI technologies in biomedicine has led to an enormous interest among researchers in data science, ML and AI approach to extract useful insights from big data, make new discoveries and address biological questions. It is more important than ever to engage researchers in understanding best practices in data science, identifying how they apply to their work and making informed decisions around their use in biomedicine and related fields.
 
-## Jargon Busting
-Below we provide a simple definition of some terms that we use in this project in the context of scientific research:
-- **Best Practices**: *Set of procedures that have been shown by research and experience to produce optimal results and that are established or proposed as a standard suitable for widespread adoption.* [Definition by Merriam Webster](https://www.merriam-webster.com/dictionary/best%20practice)
-- **Data Science**: An interdisciplinary scientific study to extract insights from structured or unstructured data.
-- **Computational Project**: Applying computer programming and data science skills to scientific research.
-- **Reproducibility**: When the same analysis approach is applied to the same data, it should give the same answer - this answer should be reproduced by others using the same analysis and data originally used.
-- **Computational Reproducibility**: Reproducing the same result by analysing data using the same source code (in a computer programming language) for statistical analyses.
-- **Artificial Intelligence (AI)**: *A branch of computer science concerned with building smart machines capable of performing tasks that typically require human intelligence.* [Definition by Builtin](https://builtin.com/artificial-intelligence)
-- **Machine Learning (ML)**: *A subset of artificial intelligence that gives systems the ability to learn and optimize processes without having to be consistently programmed. Simply put, machine learning uses data, statistics and trial and error to “learn” a specific task without ever having to be specifically coded for the task.* [Definition by Builtin](https://builtin.com/machine-learning)
- 
- {: .callout}
+> ## Jargon Busting
+> Below we provide a simple definition of some terms that we use in this project in the context of scientific research:
+> - **Best Practices**: *Set of procedures that have been shown by research and experience to produce optimal results and that are established or proposed as a standard suitable for widespread adoption.* [Definition by Merriam Webster](https://www.merriam-webster.com/dictionary/best%20practice)
+> - **Data Science**: An interdisciplinary scientific study to extract insights from structured or unstructured data.
+> - **Computational Project**: Applying computer programming and data science skills to scientific research.
+> - **Reproducibility**: When the same analysis approach is applied to the same data, it should give the same answer - this answer should be reproduced by others using the same analysis and data originally used.
+> - **Computational Reproducibility**: Reproducing the same result by analysing data using the same source code (in a computer programming language) for statistical analyses.
+> - **Artificial Intelligence (AI)**: *A branch of computer science concerned with building smart machines capable of performing tasks that typically require human intelligence.* [Definition by Builtin](https://builtin.com/artificial-intelligence)
+> - **Machine Learning (ML)**: *A subset of artificial intelligence that gives systems the ability to learn and optimize processes without having to be consistently programmed. Simply put, machine learning uses data, statistics and trial and error to “learn” a specific task without ever having to be specifically coded for the task.* [Definition by Builtin](https://builtin.com/machine-learning)
+> 
+> {: .callout}
 
 Over the last decade, several tools, methods and training resources have been developed for early career researchers to learn about and apply data science skills in biomedicine, often referred to as <i>biomedical data science</i>. Due to the recent developments in automated machine learning techniques it is now possible for biomedical researchers to build competitive machine-learning classifiers without the need for an in-depth understanding of the underlying algorithms. To ensure appropriate adoption of machine learning in biomedical research, this workshop aims to equip researchers in leadership roles with current best practices and state-of-the-art workflows.
 
 The [**Data science for Biomedical researchers**](https://github.com/alan-turing-institute/data-training-for-bioscience) project helps address this need in training by equipping experimental biomedical researchers with computational skills. In all the resources developed within this project, we consistently emphasise how computational and data science approaches can be applied while ensuring reproducibility, collaboration and transparent reporting in order to maintain the highest standards of research practice and integrity.
 
-## What is Biomedical data science?
-Combining several research fields such as Biostatistics, Biomedical informatics, iomedical data science is an interdisciplinary field within Biomedicine directed towards innovation and discovery by applying Machine learning. The goal is to analyse large sets of highly complex biomedical datasets with high numbers of samples, features, and charactersitics, while at the same time ensuring confidentiality with sensitive data and interpretability by all relevant stakeholders. Applications of Biomedical data science include Computational genomics, Computational medicalimaging, Health records data mining, Biomedical network science, Molecular intercations analyses, etc.
-
-* Russ B. Altman and Michael Levitt** (2018). [Annual Review of Biomedical Data Science](https://www.annualreviews.org/doi/full/10.1146/annurev-bd-01-041718-100001) // NOT OPEN ACCESS
-* https://en.wikipedia.org/wiki/Biomedical_data_science
-* Luo W, Phung D, Tran T, Gupta S, Rana S, Karmakar C, Shilton A, Yearwood J, Dimitrova N, Ho T, Venkatesh S, Berk M. Guidelines for Developing and Reporting Machine Learning Predictive Models in Biomedical Research: A Multidisciplinary View. J Med Internet Res 2016;18(12):e323; URL: https://www.jmir.org/2016/12/e323; DOI: 10.2196/jmir.5870
+> ## What is Biomedical data science?
+> Combining several research fields such as Biostatistics, Biomedical informatics, iomedical data science is an interdisciplinary field within Biomedicine directed towards innovation and discovery by applying Machine learning. The goal is to analyse large sets of highly complex biomedical datasets with high numbers of samples, features, and charactersitics, while at the same time ensuring confidentiality with sensitive data and interpretability by all relevant stakeholders. Applications of Biomedical data science include Computational genomics, Computational medicalimaging, Health records data mining, Biomedical network science, Molecular intercations analyses, etc.
+> 
+> * Russ B. Altman and Michael Levitt** (2018). [Annual Review of Biomedical Data Science](https://www.annualreviews.org/doi/full/10.1146/annurev-bd-01-041718-100001) // NOT OPEN ACCESS
+> * https://en.wikipedia.org/wiki/Biomedical_data_science
+> * Luo W, Phung D, Tran T, Gupta S, Rana S, Karmakar C, Shilton A, Yearwood J, Dimitrova N, Ho T, Venkatesh S, Berk M. Guidelines for Developing and Reporting Machine Learning Predictive Models in Biomedical Research: A Multidisciplinary View. J Med Internet Res 2016;18(12):e323; URL: https://www.jmir.org/2016/12/e323; DOI: 10.2196/jmir.5870
+> 
+> {: .testimonial}
 
 
 In this workshop, we introduce Biomedical data science and Artificial Intelligence (AI) to senior Biomedical researchers in leadership roles. Providing discipline-specific context and examples from Biomedical research, this workshop will inform about AI for automation, the processes of unsupervised and supervised machine learning, their practical applications and common pitfalls that researchers should be aware of in order to uphold scientific rigour and research ethics. 
@@ -76,14 +78,15 @@ We have designed multiple modular episodes covering topics across two overarchin
 
 Each masterclass is supplemented with technical resources and learning opportunities that can be used by project supervisors or senior researchers in guiding the learning and application of skills by other researchers in their teams.
 
-### Do I need to be a Biomedical researcher to attend this workshop?
 
+> ### Do I need to be a Biomedical researcher to attend this workshop?
+> 
 > **The short answer is no!** 
 >
 > Although the training materials are tailored to the biomedical sciences community, materials are generally transferable and directly relevant for data science projects across different life science disciplines.
 > You are not expected to have already learned about AI/ML to understand what we will discuss in this training material.
 >
-{: .testimonial}
+> {: .testimonial}
 
 In this training material, we will introduce data science, AI and related concepts in detail.
 The training material "Managing and Supervising Computational Projects" is developed in parallel under the same project that discusses best practices for managing reproducible computational projects.
@@ -120,7 +123,7 @@ They can also be delivered by trainers and domain experts, who can mix and match
 > - Connect with other research communities and projects in open research, data science and AI that offers opportunities to develop/enhance technical skills
 > - Collaborate with domain experts such as librarians, research software engineers, community managers, statisticians or people with specialised skills in your organisation who can provide specific support in your project.
 >
-{: .callout}
+> {: .callout}
 
 ## Funding and Collaboration
 
@@ -130,8 +133,8 @@ Pulling together existing training materials, infrastructure support and domain 
 
 This project will build on two main focus areas of the Turing Institute's [AI for Science and Government](https://www.turing.ac.uk/research/asg) research programmes: good data science practice; and effective communication to stakeholders. In building this project, we will integrate the [Tools, practices and systems](https://www.turing.ac.uk/work-turing/tools-practices-and-systems-open-leadership-team-call-volunteering) (TPS) Research Programme’s core values: build trustworthy systems; embed transparent reporting practices; promote inclusive interoperable design; maintain ethical integrity and encourage respectful co-creation.
 
-## License
-
-All materials are developed online openly under CC-BY 4.0 License using The Carpentries training format and The Carpentries Incubator lesson infrastructure.
-
-{% include links.md %}
+> ## License
+> 
+> All materials are developed online openly under CC-BY 4.0 License using The Carpentries training format and The Carpentries Incubator lesson infrastructure.
+> 
+> {% include links.md %}
