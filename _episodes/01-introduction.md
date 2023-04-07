@@ -1,5 +1,5 @@
 ---
-title: "Introduction to this course"
+title: "Introduction to this workshop"
 teaching: 10
 exercises: 0
 questions:
@@ -22,7 +22,7 @@ Bioscientists and biomedical researchers often combine mathematics and computati
 // contextualize the use of AI and it's relation to ML. AI is a very high level term that gets used less as you read papers on methodologies etc where ML and sub-types of ML are more common. //
 
 > ## Glossary
-> Short definitions of selected terms that are used in the context of this course:
+> Short definitions of selected terms that are used in the context of this workshop:
 > - **Artificial Intelligence (AI)**: *A branch of computer science concerned with building smart machines capable of performing tasks that typically require human intelligence.* [Definition by Builtin](https://builtin.com/artificial-intelligence)
 > - **Best Practices**: *Set of procedures that have been shown by research and experience to produce optimal results and that are established or proposed as a standard suitable for widespread adoption.* [Definition by Merriam Webster](https://www.merriam-webster.com/dictionary/best%20practice)
 > - **Computational Project**: Applying computer programming and data science skills to scientific research.
