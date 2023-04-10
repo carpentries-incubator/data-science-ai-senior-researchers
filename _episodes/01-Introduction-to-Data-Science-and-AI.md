@@ -1,15 +1,91 @@
 ---
-title: "What is AI?"
-teaching: 0
-exercises: 0
-questions:
-- "What is AI and how can we define it?"
-- "What types of AI exist and what doesn't exist?"
+title: "Introduction to Data Science, AI, and Machine Learning"
+teaching: 30
+exercises: 3
+lectures:
+- "Overview of Data Science (process & life cycle)"
+- "Introduction to AI and ML (types & techniques)"
+- "AI applications to automate analytical processes in biomedical research"
 objectives:
-- "Gain broad picture overview of AI and its history"
+- "Gain overview and general understanding of Data Science, AI, and ML in the biomedical context"
 keypoints:
 - "Three types of AI: Simulations, Symbolic, Machine Learning"
 ---
+
+
+# An overview of Data Science 
+
+**Data Science** is an interdisciplinary field that involves using statistical and computational techniques to extract knowledge and insights from large and complex data sets by applying advanced data analytics, AI and ML. Its process is a series of workflow steps that include data collection, mining, and cleaning, exploratory data analysis, modeling, and evaluation. Combining principles and practices from mathematics, statistics, computer engineering, and other fields, Data Science has a wide range of applications in healthcare, finance, marketing, and social sciences, and is becoming increasingly important in biomedical research. 
+Besides the benefits that Data Science applications and tools provide, we will address as well related ethical concerns such as privacy, data security, and bias as integral parts of the workflow and interpretation.
+
+_- Recommended Data Science related courses and workshops developed by The Carpentries_
+
+
+**Artificial Intelligence (AI)** comprises tasks performence by machines (digital computers or computer-controlled robots) that aims to mimic human intelligence for problem-solving, decision-making, as well as language understanding and translation. AI is often utilised for speech recognition, computer vision, image labeling, spam filtering, robotics, smart assistants, and natural language processing.
+
+The three types of AI are:
+1) rule-based systems (rely on pre-defined rules to make decisions),
+2) machine learning (algorithms learn from data to make predictions or decisions), and
+3) deep learning (a subset of machine learning that uses neural networks to learn from large amounts of data).
+
+Benefits: 
+- reduce statistical errors, 
+- reduce costs, and 
+- increase efficiency
+
+The ethical implications of AI are bias, privacy, and accountability and require continuous monitoring and correction addressed specifically to the applied context.
+
+Examples of AI in 
+
+1) biomedical research  
+- medical imaging analysis, 
+- drug discovery, 
+- predictive analytics, 
+
+2) general healthcare include 
+- personalized medicine, 
+- virtual nursing assistants,
+- disease diagnosis, 
+- treatment planning, 
+- clinical decision-making
+- patient monitoring, 
+- AI-powered chatbots and virtual assistants to provide patients with personalised care
+
+
+**Machine Learning** 
+
+Being a subset of Data Science, ML involves using algorithms and statistical models to extract patterns from data and make predictions based on those patterns without being explicitly programmed. In biomedical research, ML has been described to accelerate research in areas such as viral infection, cardiovascular disease, and breast cancer. Analysing large datasets and identify patterns that can help researchers better understand disease mechanisms and develop new treatments. Applications of ML algorithms include image and speech recognition, fraud detection, and natural language processing. 
+
+3 main types of ML
+1) Supervised Learning: training a model on labeled data, the correct output is known, to make predictions on new, unseen data. 
+Examples: classification and regression tasks.
+
+2) Unsupervised Learning: training a model on unlabeled data, the correct output is unknown, to find patterns or structure in the data. 
+3) Examples: clustering and dimensionality reduction.
+
+3) Reinforcement Learning: training a model to make decisions in an environment by rewarding or punishing the model based on its actions. 
+Used in robotics and game-playing applications.
+
+Be aware of the limitations and potential biases of their models, as well as the ethical implications.
+
+References
+- National Academy of Engineering. 2018. Frontiers of Engineering: Reports on Leading-Edge Engineering from the 2017 Symposium. Washington, DC: The
+National Academies Press. doi: https://doi.org/10.17226/24906.
+- https://medicine.yale.edu/news-article/david-van-dijk-the-role-of-machine-learning-in-biomedical-discovery/
+- …
+
+## Exercise:
+
+- Reflect on and discuss with your colleagues potential benefits, limitations and biases to your current research projects.
+- 
+
+
+---
+
+---
+previous version here below:
+---
+
 
 # Introduction
 
