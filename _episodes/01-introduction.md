@@ -3,14 +3,14 @@ title: "Introduction to this workshop"
 teaching: 10
 exercises: 0
 questions:
-- "What is the purpose of this training?"
-- "Who are the target audience?"
+- "What is the purpose of this workshop?"
+- "Who is the target audience?"
 - "What will they learn at the end of this training?"
 objectives:
-- "Describe the motivation, purpose, target audience and expected outcome of this training"
+- "Describe the motivation, purpose, target audience and expected outcome of this workshop"
 keypoints:
-- "This material is developed for mid-career and senior researchers in  biomedical and biosciences fields."
-- "This training aims to build a shared understanding of data science and AI in the context of biomedical and related fields."
+- "This workshop is developed for mid-career and senior researchers in  biomedical and biosciences fields."
+- "This workshop aims to build a shared understanding of data science and AI in the context of biomedical and related fields."
 ---
 
 # Data Science for Biomedical Scientists
