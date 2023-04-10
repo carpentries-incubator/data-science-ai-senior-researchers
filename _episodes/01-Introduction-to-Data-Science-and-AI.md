@@ -15,17 +15,29 @@ keypoints:
 
 # An overview of Data Science 
 
-**Data Science** is an interdisciplinary field that involves using statistical and computational techniques to extract knowledge and insights from large and complex data sets by applying advanced data analytics, AI and ML. Its process is a series of workflow steps that include data collection, mining, and cleaning, exploratory data analysis, modeling, and evaluation. Combining principles and practices from mathematics, statistics, computer engineering, and other fields, Data Science has a wide range of applications in healthcare, finance, marketing, and social sciences, and is becoming increasingly important in biomedical research. 
-Besides the benefits that Data Science applications and tools provide, we will address as well related ethical concerns such as privacy, data security, and bias as integral parts of the workflow and interpretation.
+**Data Science** is an interdisciplinary field that involves using statistical and computational techniques to extract knowledge and insights from large and complex data sets by applying advanced data analytics, Artificial Intelligence (AI) and Machine Learning (ML). Its process is a series of workflow steps that include data collection, mining, and cleaning, exploratory data analysis, modeling, and evaluation. Combining principles and practices from mathematics, statistics, computer engineering, and other fields, Data Science has a wide range of applications in healthcare, finance, marketing, and social sciences, and is becoming increasingly important in biomedical research. 
 
-_- Recommended Data Science related courses and workshops developed by The Carpentries_
+AI is increasingly used in biomedical research, with astonishing claims about the efficiency of AI and ML and has lately caught enxtensive interest and concern of policy makers and the general public. Where it is being applied in the Life Sciences and Healthcare, researchers are expected and requested ot have a thorough understanding of the potential positive and negative implications, also to explore possible use in underrepresented fields in the future. Therefore, this workshop provides an overview, guideline and a roadmap for the big picture view of what AI is, how it can be used in research, and how to critically assess the common challenges. 
+While AI and ML can significantly increase the speed and efficiency of biomedical research workflows in data processing and analysis beyond the capability of the human brain, there are several limitations to what AI can achieve. Any generated output should always be treated with care and tested for biases with cautios interpreteation and conclusion.
+
+Besides the benefits that Data Science applications and tools provide, we will address as well related ethical concerns such as privacy, data security, and bias and treat them as integral parts of the workflow and interpretation.
+
+In this workshop, we describe the problems we can solve with Artificial Intelligence and how that is achieved. Without going into underlying technical details, we focus on a general overview and present selected case studies of biomedical relevance.
+
+_Recommended Data Science related courses and workshops developed by The Carpentries_
+- …
+- …
+- …
 
 
-**Artificial Intelligence (AI)** comprises tasks performence by machines (digital computers or computer-controlled robots) that aims to mimic human intelligence for problem-solving, decision-making, as well as language understanding and translation. AI is often utilised for speech recognition, computer vision, image labeling, spam filtering, robotics, smart assistants, and natural language processing.
+## Artificial Intelligence
+
+
+**Artificial Intelligence (AI)** comprises task performences by machines (digital computers or computer-controlled robots) that aim to mimic human intelligence for problem-solving, decision-making, as well as language understanding and translation. AI is often utilised for speech recognition, computer vision, image labeling, spam filtering, robotics, smart assistants, and natural language processing.
 
 The three types of AI are:
 1) rule-based systems (rely on pre-defined rules to make decisions),
-2) machine learning (algorithms learn from data to make predictions or decisions), and
+2) **machine learning** (algorithms learn from data to make predictions or decisions), and
 3) deep learning (a subset of machine learning that uses neural networks to learn from large amounts of data).
 
 Benefits: 
@@ -50,72 +62,14 @@ Examples of AI in
 - clinical decision-making
 - patient monitoring, 
 - AI-powered chatbots and virtual assistants to provide patients with personalised care
-
-
-**Machine Learning** 
-
-Being a subset of Data Science, ML involves using algorithms and statistical models to extract patterns from data and make predictions based on those patterns without being explicitly programmed. In biomedical research, ML has been described to accelerate research in areas such as viral infection, cardiovascular disease, and breast cancer. Analysing large datasets and identify patterns that can help researchers better understand disease mechanisms and develop new treatments. Applications of ML algorithms include image and speech recognition, fraud detection, and natural language processing. 
-
-3 main types of ML
-1) Supervised Learning: training a model on labeled data, the correct output is known, to make predictions on new, unseen data. 
-Examples: classification and regression tasks.
-
-2) Unsupervised Learning: training a model on unlabeled data, the correct output is unknown, to find patterns or structure in the data. 
-3) Examples: clustering and dimensionality reduction.
-
-3) Reinforcement Learning: training a model to make decisions in an environment by rewarding or punishing the model based on its actions. 
-Used in robotics and game-playing applications.
-
-Be aware of the limitations and potential biases of their models, as well as the ethical implications.
-
-References
-- National Academy of Engineering. 2018. Frontiers of Engineering: Reports on Leading-Edge Engineering from the 2017 Symposium. Washington, DC: The
-National Academies Press. doi: https://doi.org/10.17226/24906.
-- https://medicine.yale.edu/news-article/david-van-dijk-the-role-of-machine-learning-in-biomedical-discovery/
-- …
-
-## Exercise:
-
-- Reflect on and discuss with your colleagues potential benefits, limitations and biases to your current research projects.
-- 
-
-
----
-
----
-previous version here below:
----
-
-
-# Introduction
-
-Machine learning is increasingly used in biomedical research, with more papers making big claims about AI. The growing role of AI in healthcare, policy, and fundamental biomedical/life sciences has great public interest. However, for scientists without specialist training the complexity and opaque use of buzzwords makes it difficult to know what to trust and where to begin. Researchers and funding bodies may want to explore new computational options for biomedical/life sciences, and this guide should provide a roadmap for the big picture view of what AI is, how it can be used in research, and how to critically assess the common problems that can arise. 
-
-On the one hand, AI and machine learning can greatly improve the workflows in data processing and analysis, and can provide insight no human has time to achieve themselves. On the other hand, there are many limitations to what AI can do and is not magic. 
-
-
-
-# What is AI?
-
  
 
-Describing Artificial Intelligence is often more about what we *wish* existed rather than describing what actually exists. It can instead be more informative to describe the problems we can solve with Artificial Intelligence and how it is achieved. This is not a deeply technical introduction, instead it is written to describe case studies and overview. 
 
-## What does not exist?
-
-Siri and Alexa can answer simple instructions but use scripted interactions, there is not an understanding of the world like fictional intelligent robots. There is currently nothing close to Artificial General Intelligence, and we wouldn't know where to start in building it. The idea that a computer "understands" a problem is in a  narrow, technical sense, not the way a human understands. 
-
-Chatbots can fool us into thinking there is understanding. 
-
-> “I had not realized ... that extremely short exposures to a relatively simple computer program could induce powerful delusional thinking in quite normal people.”
->
-> Author of Eliza, the first chatbot
-
-## Types of AI that DO Exist
+### Types of AI 
 
 AI could be defined as anything done by a computer that would require intelligence if performed by a person. This is a useful but limited definition as it is difficult to properly define intelligence objectively. 
 
-### Simulation
+#### Simulation
 
 Also known as "running the equations", this may not seem like *real* AI. Simulations allow you to make predictions, which requires some sort of intelligence!
 
@@ -125,21 +79,83 @@ Similarly, in cell automata we can set the rules of infection and susceptibility
 
 To create a simulation, you need to know exactly how the "world" works, also known as a model or a theory. Whether its Newtonian physics or the rules of infection or exactly the properties of stresses and strains on a steel bridge. You then need to know how the world is in a specific instance, so the model can be run forwards and learn what happens later. This knowledge is then captured by the computer.  
 
-> **Case Study**
+> **Research examples**
 >
->At the Turing Institute, there are many projects which involve simulations and go under the term Digital Twin. These projects look at the major challenge of coping with uncertainty in our knowledge of the world. 
+>At the Turing Institute, there are many research projects that involve simulations and are clustered under *DHarnessing the power of Digital Twins*. These projects look at the major challenge of coping with uncertainty in our knowledge of the world. 
+> 
+>- https://www.turing.ac.uk/research/harnessing-power-digital-twins
+>- https://www.turing.ac.uk/research/research-projects/ecosystems-digital-twins
+>- https://www.turing.ac.uk/research/research-projects/digital-twins-built-environment
+>- https://www.turing.ac.uk/research/research-projects/real-time-data-assimilation-digital-twins
 
 
 
-### Symbolic (Good Old Fashioned) AI
+
+#### Symbolic (Good Old Fashioned) AI
 
 When we think of well known AI cases, we might think of Deep Blue, a chess playing AI from the 1990s. The first time AI beat a reigning world champion was in 1997, where Kasparov was defeated. To understand how AI like Deep Blue works, we can use an easier game to demonstrate how it works. 
+- https://www.britannica.com/topic/Deep-Blue
+- https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)
 
 In the game noughts and crosses (or tic-tac-toe), the objective is to alternate between two players, each of whom wants to get three of their counters in straight line. Using computational power, the AI can calculate all the probabilities of each possible move, and use this to determine the best move to make. 
+- https://softwareengineering.stackexchange.com/questions/336015/building-a-simple-ai-for-noughts-crosses-game
+- https://codereview.stackexchange.com/questions/138943/naughts-and-crosses-human-vs-computer-in-python
+- https://www.101computing.net/a-python-game-of-noughts-and-crosses/
 
 Chess and noughts and crosses are micro-domain games, an extremely limited "world" that the computer works within. The position of the chess piece can be described precisely and completely. The rules of the movement and the final end goal is well defined and unambiguous. 
 
-trying to use this kind of AI to recognise handwriting doesn't work. Imagine trying to completely describe the way 7 is written, the rules are too rigid and brittle to distinguish 1s and 7s, and may miss all the 7s with a slash through them. It couldn't possibly hope to recognise a cat. 
+**[out of context?]** trying to use this kind of AI to recognise handwriting doesn't work. Imagine trying to completely describe the way 7 is written, the rules are too rigid and brittle to distinguish 1s and 7s, and may miss all the 7s with a slash through them. It couldn't possibly hope to recognise a cat. 
+
+
+## Machine Learning 
+
+As a subset of Data Science, Machine Learning (ML) involves using algorithms and statistical models to extract patterns from data and make predictions based on those patterns without being explicitly programmed. In biomedical research, ML has been described to accelerate research in areas such as viral infection, cardiovascular disease, and breast cancer. Analysing large datasets and identify patterns that can help researchers better understand disease mechanisms and develop new treatments. Applications of ML algorithms include image and speech recognition, fraud detection, and natural language processing. 
+
+3 main types of ML
+1) Supervised Learning: training a model on labeled data, the correct output is known, to make predictions on new, unseen data. 
+Examples: classification and regression tasks.
+
+2) Unsupervised Learning: training a model on unlabeled data, the correct output is unknown, to find patterns or structure in the data. 
+Examples: clustering and dimensionality reduction.
+
+3) Reinforcement Learning: training a model to make decisions in an environment by rewarding or punishing the model based on its actions. 
+Used in robotics and game-playing applications.
+
+Be aware of the limitations and potential biases of their models, as well as the ethical implications.
+
+
+### Chatbots do not *understand*
+
+Siri and Alexa can answer simple instructions but use scripted interactions, there is not an understanding of the world like fictional intelligent robots. There is currently nothing close to Artificial General Intelligence, and we wouldn't know where to start in building it. The idea that a computer "understands" a problem is in a narrow, technical sense, not the way a human understands. 
+
+Based on the the seemingly interactive tone of a conversation, chatbots can fool us into thinking there is understanding. 
+
+> “I had not realized ... that extremely short exposures to a relatively simple computer program could induce powerful delusional thinking in quite normal people.”
+>
+> Author of Eliza, the first chatbot
+
+
+**References**
+- National Academy of Engineering. 2018. Frontiers of Engineering: Reports on Leading-Edge Engineering from the 2017 Symposium. Washington, DC: The
+National Academies Press. doi: https://doi.org/10.17226/24906.
+- https://medicine.yale.edu/news-article/david-van-dijk-the-role-of-machine-learning-in-biomedical-discovery/
+- …
+
+
+
+# Exercises:
+
+- Reflect on (and discuss with your colleagues) the potential benefits, limitations and biases of AI and ML if applied to your current research projects.
+- What are examples of successful and promising AI applications in your research field?
+- What are the potential risks and negative outcomes if your team would overly rely on the results generated by AI and ML?
+
+
+---
+
+---
+previous version here below:
+---
+
 
 ### Machine Learning
 
