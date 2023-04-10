@@ -3,16 +3,16 @@ title: "Introduction to this workshop"
 teaching: 10
 exercises: 0
 questions:
-- "What is the purpose of this training?"
-- "Who are the target audience?"
-- "What will they learn at the end of this training?"
+- "What is the purpose of this workshop?"
+- "Who is the target audience?"
+- "What will they learn at the end of this workshop?"
 
 
 objectives:
-- "Describe the motivation, purpose, target audience and expected outcome of this training"
+- "This workshop provides a general overview of and introduction to Data Science wit a focus on Artificial Intelligence (AI) and Machine Elarning (ML) for biomedical researchers"
 keypoints:
-- "This material is developed for mid-career and senior researchers in  biomedical and biosciences fields."
-- "This training aims to build a shared understanding of data science and AI in the context of biomedicine and related fields."
+- "This workshop is developed for mid-career and senior researchers in  biomedical and biosciences fields."
+- "This workshop aims to build a shared understanding of data science and AI in the context of biomedicine and related fields."
 ---
 
 # Data Science for Biomedical Researchers
@@ -36,7 +36,7 @@ Bioscientists and biomedical researchers often combine mathematics and computati
 >
 {: .callout}
 
-Over the last decade, several tools, methods and training resources have been developed for early career researchers to learn about and apply data science skills in biomedicine, often referred to as biomedical data science.
+Over the last decade, several tools, methods and training resources have been developed for researchers to learn about and apply data science skills in biomedicine, often referred to as biomedical data science.
 However, to ensure that data science approaches are appropriately applied in domain research, such as in biosciences, there is a need to also engage and educate scientific group leaders and researchers in project leadership roles on best practices.
 
 The [**Data Science for Biomedical Scientists**](https://github.com/alan-turing-institute/data-training-for-bioscience) project helps address this need in training by equipping experimental biomedical scientists with computational skills.
