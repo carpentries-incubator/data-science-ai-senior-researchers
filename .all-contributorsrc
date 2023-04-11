@@ -1,0 +1,88 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "arronlacey",
+      "name": "Arron Lacey",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4941299?v=4",
+      "profile": "http://www.getmarkup.com",
+      "contributions": [
+        "ideas",
+        "content"
+      ]
+    },
+    {
+      "login": "claudioangione",
+      "name": "claudioangione",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4013246?v=4",
+      "profile": "https://sites.google.com/view/angionelab/",
+      "contributions": [
+        "review",
+        "content"
+      ]
+    },
+    {
+      "login": "kasra-hosseini",
+      "name": "Kasra Hosseini",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1899856?v=4",
+      "profile": "https://github.com/kasra-hosseini",
+      "contributions": [
+        "review",
+        "content"
+      ]
+    },
+    {
+      "login": "LydiaFrance",
+      "name": "Lydia France",
+      "avatar_url": "https://avatars.githubusercontent.com/u/85945427?v=4",
+      "profile": "https://github.com/LydiaFrance",
+      "contributions": [
+        "ideas",
+        "content"
+      ]
+    },
+    {
+      "login": "fedenanni",
+      "name": "Federico Nanni",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8415204?v=4",
+      "profile": "https://github.com/fedenanni",
+      "contributions": [
+        "ideas",
+        "content"
+      ]
+    },
+    {
+      "login": "malvikasharan",
+      "name": "Malvika Sharan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5370471?v=4",
+      "profile": "http://malvikasharan.github.io/",
+      "contributions": [
+        "fundingFinding",
+        "ideas",
+        "mentoring",
+        "projectManagement",
+        "eventOrganizing"
+      ]
+    },
+    {
+      "login": "tobyhodges",
+      "name": "Toby Hodges",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9694524?v=4",
+      "profile": "https://tbyhdgs.info",
+      "contributions": [
+        "infra",
+        "question"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "data-science-ai-senior-researchers",
+  "projectOwner": "carpentries-incubator",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
