@@ -15,7 +15,7 @@ keypoints:
 
 # Data Science for Biomedical Scientists
 
-Biosciences and biomedical researchers regularly combine mathematics and computational methods to interpret experimental data. With new technologies supporting the generation of large-scale data as well as successful applications of data science, Machine Learning (ML) and Artificial Intelligence (AI) in biomedicine and related fields have recently shown huge potential to transform the way we conduct research. Recent groundbreaking research utilising AI technologies in biomedicine has led to an enormous interest among researchers in data science, ML and AI approach to extract useful insights from big data, make new discoveries and address biological questions. It is more important than ever to engage researchers in understanding best practices in data science, identifying how they apply to their work and making informed decisions around their use in biomedicine and related fields.
+Biosciences and biomedical researchers regularly combine mathematics and computational methods to interpret experimental data. With new technologies supporting the generation of large-scale data as well as successful applications of data science, the use of Artificial Intelligence (AI) in biomedicine and related fields has recently shown huge potential to transform the way we conduct research. Recent groundbreaking research utilising AI technologies in biomedicine has led to an enormous interest among researchers in data science as well as AI approaches to extracting useful insights from big data, making new discoveries and addressing biological questions. It is more important than ever to engage researchers in understanding best practices in data science, identifying how they apply to their work and making informed decisions around their use in biomedicine and related fields.
 
 > ## Jargon Busting
 >
@@ -51,7 +51,7 @@ The goal is to maintain the highest standards of research practice and integrity
 In this training material for **Introduction to Data Science and AI for senior researchers**, we introduce data science and Artificial Intelligence (AI). Providing contexts and examples from biomedical research, this material will discuss AI for automation, the process of unsupervised and supervised machine learning, their practical applications and common pitfalls that researchers should be aware of in order to maintain scientific rigour and research ethics. 
 
 > Targeted measures and opportunities can help build a better understanding of best practices from data science and AI that can be effectively applied in research and supported by senior leaders.
-> Senior leaders, in this context, can be academics or non-academics working in advisors, experts or supervisors roles in research projects who want to lead rigorous and impactful research through computational reproducibility, reusability and collaborative practices.
+> Senior leaders, in this context, can be academics or non-academics working in advisory roles in research projects who want to lead rigorous and impactful research through computational reproducibility, reusability and collaborative practices.
 >
 {: .objectives}
 
@@ -59,7 +59,7 @@ In this training material for **Introduction to Data Science and AI for senior r
 
 Experimental biologists and biomedical research communities, with a focus on two key professional/career groups:
 
-1. Group leaders without prior experience with Data Science and ML/AI - interested in understanding the potential additionality and application in their areas of expertise.
+1. Group leaders without prior experience with Data Science and AI - interested in understanding the potential additionality and application in their areas of expertise.
 2. Postdoc and lab scientists - next-generation senior leaders, who are interested in additionality, but also the group more likely to benefit from tools to equip them with the requirements to enable the integration of computational science into biosciences.
 
 ## Learning Outcomes
@@ -69,13 +69,13 @@ At the end of this lesson (training material), attendees will gain a better unde
 * data science and AI practices
 * using AI for automation
 * the process of unsupervised and supervised machine learning
-* successful examples and applications of AI in biomedical research
-* common pitfalls and ethical concerns to consider to maintain scientific rigour and integrit. 
+* successful examples and applications of machine learning and other types of AI in biomedical research
+* common pitfalls and ethical concerns to consider to maintain scientific rigour and integrity 
 
 ## Modular and Flexible Learning
 
 We have adopted a modular format, covering a range of topics and integrating real-world examples that should engage mid-career and senior researchers. Most senior researchers can't attend long workshops due to lack of time or don't find technical training directly useful for managing their work. 
-Therefore, the goal of this project is to provide an overview (without diving into technical details) of data science and AI/ML practices that could be relevant to life science domains and good practices for handling open reproducible computational data science.
+Therefore, the goal of this project is to provide an overview (without diving into technical details) of data science and AI practices that could be relevant to life science domains and good practices for handling open reproducible computational data science.
 
 We have designed multiple modular episodes covering topics across two overarching themes, that we refer to as "masterclasses" in this project:
 
@@ -88,26 +88,26 @@ Each masterclass is supplemented with technical resources and learning opportuni
 
 > **The short answer is no!** 
 >
-> Although the training materials are tailored to the biomedical sciences community, materials will be generally transferable and directly relevant for data science projects across different domains.
-> You are not expected to have already learned about AI/ML to understand what we will discuss in this training material.
+> Although the training materials are tailored to the biomedical sciences community, materials will be generally transferable and directly relevant to data science projects across different domains.
+> You are not expected to have already learned about AI to understand what we will discuss in this training material.
 >
 {: .testimonial}
 
 In this training material, we will introduce data science, AI and related concepts in detail.
-The training material "Managing and Supervising Computational Projects" is developed in parallel under the same project that discusses best practices for managing reproducible computational projects.
-Although those are helpful concepts, it is not required to go through that training material to understand the practices we discuss in this training material.
+The training material "Managing and Supervising Computational Projects" is developed in parallel under the same project and discusses best practices for managing reproducible computational projects.
+Although those are helpful concepts, "Managing and Supervising Computational Projects" is not a prerequisite or requirement of this course and the two trainings can be used separately. 
 
 Both the materials discuss problems, solutions and examples from biomedical research and related fields to make our content relatable to our primary audience.
 However, the best practices are recommended and transferable across different disciplines.
 
-> ## Pre-requisites and Assumptions
+> ## Prerequisites and Assumptions
 >
-> In defining the scope of this project, we make the following assumptions about the learner groups, which can be considered pre-requisites for this training:
+> In defining the scope of this project, we make the following assumptions about the learner groups, which can be considered prerequisites for this training:
 > - Our learners have a good understanding of designing or contributing to a scientific project throughout its lifecycle
 > - They have identified a computational project with specific questions that will help them reflect on the skills, practices and technical concepts discussed in this training
 > - This training doesn't cover the processes of designing a research proposal, managing grant/funding or evaluating ethical considerations for research. 
 However, we assume that learners have a computational project in mind for which funding and research ethics have been approved and comprehensive documentation capturing this information is available to share with the research team.
-> - We also assume that the research team of any size is (either partially or fully) established.
+> - This training does not touch on recruitment or team make-up, so we also assume that the research team of any size is (either partially or fully) established.
 >
 {: .checklist}
 
@@ -122,21 +122,21 @@ They can also be delivered by trainers and domain experts, who can mix and match
 > ## Next Steps after this Training
 >
 > After this masterclass we recommend our learners take these next steps:
-> - Go through the "Managing and supervising computational Projects" masterclass (if not already completed)
-> - Explore the set of resources provided at the end of each lesson for deeper dive into various technical topics required to learn or guide the application of Data and computational research best practices in real-world projects
-> - Establish connections with other training and training materials offered by The Alan Turing Institute, The Crick Institute, The Carpentries, The Turing Way and other projects/organisations involved in the maintenance and development of this training material
-> - Connect with other research communities and projects in open research, data science and AI that offers opportunities to develop/enhance technical skills
-> - Collaborate with domain experts such as librarians, research software engineers, community managers, statisticians or people with specialised skills in your organisation who can provide specific support in your project.
+> - Go through the "Managing and supervising computational projects" masterclass (if not already completed)
+> - Explore the set of resources provided at the end of each lesson for deeper dive into various technical topics required to learn or guide the application of data and computational research best practices in real-world projects
+> - Establish connections with other training and training materials offered by The Alan Turing Institute, The Crick Institute, The Carpentries, The Turing Way and other projects or organisations involved in the maintenance and development of this training material
+> - Connect with other research communities and projects in open research, data science and AI that offer opportunities to develop and enhance technical skills
+> - Collaborate with domain experts such as librarians, research software engineers, community managers, statisticians or people with specialised skills in your organisation who can provide specific support for your project
 >
 {: .callout}
 
 ## Funding and Collaboration
 
-Data Science for Biomedical Scientists is funded by [The Alan Turing Institute](https://www.turing.ac.uk)'s [AI for Science and Government](https://www.turing.ac.uk/research/asg) (ASG) Research Programme. It is an extension of [The Crick-Turing Biomedical Data Science Awards](https://www.turing.ac.uk/research/research-projects/crick-turing-biomedical-data-science-awards) that strongly indicated an urgent need to provide introductory resources for data science in bioscience researchers. This project extension will leverage strategic engagement between Turing's data science community and Crick's biosciences communities.
+Data Science for Biomedical Scientists is funded by [The Alan Turing Institute](https://www.turing.ac.uk)'s [AI for Science and Government](https://www.turing.ac.uk/research/asg) (ASG) Research Programme. It is an extension of [The Crick-Turing Biomedical Data Science Awards](https://www.turing.ac.uk/research/research-projects/crick-turing-biomedical-data-science-awards) that revealed an urgent need for introductory resources to teach data science best practices to bioscience researchers. This project extension will leverage strategic engagement between Turing's data science community and Crick's biosciences communities.
 
-Pulling together existing training materials, infrastructure support and domain expertise from [The Alan Turing Institute](https://www.turing.ac.uk), [The Turing Way](https://the-turing-way.netlify.app/), [The Carpentries](https://carpentries.org/), [Open Life Science](https://openlifesci.org/) and the [Turing ‘omics interest group](https://www.turing.ac.uk/research/interest-groups/omics-data-generation-and-analysis-group), we will design and deliver a resource that is accessible and comprehensible for the biomedical and wet-lab biology researchers.
+Pulling together existing training materials, infrastructure support and domain expertise from [The Alan Turing Institute](https://www.turing.ac.uk), [The Turing Way](https://the-turing-way.netlify.app/), [The Carpentries](https://carpentries.org/), [Open Life Science](https://openlifesci.org/) and the [Turing ‘omics interest group](https://www.turing.ac.uk/research/interest-groups/omics-data-generation-and-analysis-group), we will design and deliver a resource that is accessible and comprehensible for biomedical and wet-lab biology researchers.
 
-This project will build on two main focus areas of the Turing Institute's [AI for Science and Government](https://www.turing.ac.uk/research/asg) research programmes: good data science practice; and effective communication to stakeholders. In building this project, we will integrate the [Tools, practices and systems](https://www.turing.ac.uk/work-turing/tools-practices-and-systems-open-leadership-team-call-volunteering) (TPS) Research Programme’s core values: build trustworthy systems; embed transparent reporting practices; promote inclusive interoperable design; maintain ethical integrity and encourage respectful co-creation.
+This project will build on two main focus areas of the Turing Institute's [AI for Science and Government](https://www.turing.ac.uk/research/asg) research programmes: good data science practice and effective communication to stakeholders. In building this project, we will integrate the [Tools, practices and systems](https://www.turing.ac.uk/work-turing/tools-practices-and-systems-open-leadership-team-call-volunteering) (TPS) Research Programme’s core values: build trustworthy systems; embed transparent reporting practices; promote inclusive interoperable design; maintain ethical integrity; and encourage respectful co-creation.
 
 ## License
 
