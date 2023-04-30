@@ -30,7 +30,7 @@ _Recommended Data Science related courses and workshops developed by The Carpent
 - …
 
 
-## Artificial Intelligence
+## Introduction to Artificial Intelligence
 
 
 **Artificial Intelligence (AI)** comprises task performences by machines (digital computers or computer-controlled robots) that aim to mimic human intelligence for problem-solving, decision-making, as well as language understanding and translation. AI is often utilised for speech recognition, computer vision, image labeling, spam filtering, robotics, smart assistants, and natural language processing.
@@ -54,7 +54,7 @@ Examples of AI in
 - drug discovery, 
 - predictive analytics, 
 
-2) general healthcare include 
+2) general healthcare  
 - personalized medicine, 
 - virtual nursing assistants,
 - disease diagnosis, 
@@ -107,7 +107,7 @@ Chess and noughts and crosses are micro-domain games, an extremely limited "worl
 **[out of context?]** trying to use this kind of AI to recognise handwriting doesn't work. Imagine trying to completely describe the way 7 is written, the rules are too rigid and brittle to distinguish 1s and 7s, and may miss all the 7s with a slash through them. It couldn't possibly hope to recognise a cat. 
 
 
-## Machine Learning 
+## Introduction to Machine Learning 
 
 As a subset of Data Science, Machine Learning (ML) involves using algorithms and statistical models to extract patterns from data and make predictions based on those patterns without being explicitly programmed. In biomedical research, ML has been described to accelerate research in areas such as viral infection, cardiovascular disease, and breast cancer. Analysing large datasets and identify patterns that can help researchers better understand disease mechanisms and develop new treatments. Applications of ML algorithms include image and speech recognition, fraud detection, and natural language processing. 
 
@@ -123,6 +123,11 @@ Used in robotics and game-playing applications.
 
 Be aware of the limitations and potential biases of their models, as well as the ethical implications.
 
+
+## AI Applications in Biomedicine
+- 
+- 
+- 
 
 ### Chatbots do not *understand*
 
