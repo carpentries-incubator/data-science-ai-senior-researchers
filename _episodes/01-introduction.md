@@ -23,7 +23,7 @@ Biosciences and biomedical researchers regularly combine mathematics and computa
 > - **Best Practices**: *Set of procedures that have been shown by research and experience to produce optimal results and that are established or proposed as a standard suitable for widespread adoption.* [Definition by Merriam Webster](https://www.merriam-webster.com/dictionary/best%20practice)
 > - **Data Science**: An interdisciplinary scientific study to extract insights from structured or unstructured data.
 > - **Computational Project**: Applying computer programming and data science skills to scientific research.
-> - **Reproducibility**: When the same analysis approach is applied to the same data, it should give the same answer - this answer should be reproduced by others using the same analysis and data originally used.
+> - **Reproducibility**: When the same analysis approach is applied to the same data, it should give the same answer - this answer should be able to be reproduced by others using the same analysis and data originally used.
 > - **Computational Reproducibility**: Reproducing the same result by analysing data using the same source code (in a computer programming language) for statistical analyses.
 > - **Artificial Intelligence (AI)**: *A branch of computer science concerned with building smart machines capable of performing tasks that typically require human intelligence.* [Definition by Builtin](https://builtin.com/artificial-intelligence)
 > - **Machine Learning (ML)**: *A subset of artificial intelligence that gives systems the ability to learn and optimize processes without having to be consistently programmed. Simply put, machine learning uses data, statistics and trial and error to “learn” a specific task without ever having to be specifically coded for the task.* [Definition by Builtin](https://builtin.com/machine-learning)
@@ -135,5 +135,4 @@ This course builds on two main focus areas of the Turing Institute's [AI for Sci
 ## License
 
 All materials are available openly under CC-BY 4.0 License using The Carpentries training format and The Carpentries Incubator lesson infrastructure.
-
 {% include links.md %}
