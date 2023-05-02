@@ -15,7 +15,7 @@ keypoints:
 
 # Data Science for Biomedical Scientists
 
-Biosciences and biomedical researchers regularly combine mathematics and computational methods to interpret experimental data. With new technologies supporting the generation of large-scale data as well as successful applications of data science, Machine Learning (ML) and Artificial Intelligence (AI) in biomedicine and related fields have recently shown huge potential to transform the way we conduct research. Recent groundbreaking research utilising AI technologies in biomedicine has led to an enormous interest among researchers in data science, ML and AI approach to extract useful insights from big data, make new discoveries and address biological questions. It is more important than ever to engage researchers in understanding best practices in data science, identifying how they apply to their work and making informed decisions around their use in biomedicine and related fields.
+Biosciences and biomedical researchers regularly combine mathematics and computational methods to interpret experimental data. With new technologies supporting the generation of large-scale data as well as successful applications of data science, the use of Artificial Intelligence (AI) in biomedicine and related fields has recently shown huge potential to transform the way we conduct research. Recent groundbreaking research utilising AI technologies in biomedicine has led to an enormous interest among researchers in data science as well as AI approaches to extracting useful insights from big data, making new discoveries and addressing biological questions. It is more important than ever to engage researchers in understanding best practices in data science, identifying how they apply to their work and making informed decisions around their use in biomedicine and related fields.
 
 > ## Jargon Busting
 >
@@ -51,7 +51,7 @@ The goal is to maintain the highest standards of research practice and integrity
 In this training material for **Introduction to Data Science and AI for senior researchers**, we introduce data science and Artificial Intelligence (AI). Providing contexts and examples from biomedical research, this material will discuss AI for automation, the process of unsupervised and supervised machine learning, their practical applications and common pitfalls that researchers should be aware of in order to maintain scientific rigour and research ethics. 
 
 > Targeted measures and opportunities can help build a better understanding of best practices from data science and AI that can be effectively applied in research and supported by senior leaders.
-> Senior leaders, in this context, can be academics or non-academics working in advisors, experts or supervisors roles in research projects who want to lead rigorous and impactful research through computational reproducibility, reusability and collaborative practices.
+> Senior leaders, in this context, can be academics or non-academics working in advisory roles in research projects who want to lead rigorous and impactful research through computational reproducibility, reusability and collaborative practices.
 >
 {: .objectives}
 
@@ -59,7 +59,7 @@ In this training material for **Introduction to Data Science and AI for senior r
 
 Experimental biologists and biomedical research communities, with a focus on two key professional/career groups:
 
-1. Group leaders without prior experience with Data Science and ML/AI - interested in understanding the potential additionality and application in their areas of expertise.
+1. Group leaders without prior experience with Data Science and AI - interested in understanding the potential additionality and application in their areas of expertise.
 2. Postdoc and lab scientists - next-generation senior leaders, who are interested in additionality, but also the group more likely to benefit from tools to equip them with the requirements to enable the integration of computational science into biosciences.
 
 ## Learning Outcomes
@@ -69,13 +69,13 @@ At the end of this lesson (training material), attendees will gain a better unde
 * data science and AI practices
 * using AI for automation
 * the process of unsupervised and supervised machine learning
-* successful examples and applications of AI in biomedical research
-* common pitfalls and ethical concerns to consider to maintain scientific rigour and integrit. 
+* successful examples and applications of machine learning and other types of AI in biomedical research
+* common pitfalls and ethical concerns to consider to maintain scientific rigour and integrity 
 
 ## Modular and Flexible Learning
 
 We have adopted a modular format, covering a range of topics and integrating real-world examples that should engage mid-career and senior researchers. Most senior researchers can't attend long workshops due to lack of time or don't find technical training directly useful for managing their work. 
-Therefore, the goal of this project is to provide an overview (without diving into technical details) of data science and AI/ML practices that could be relevant to life science domains and good practices for handling open reproducible computational data science.
+Therefore, the goal of this project is to provide an overview (without diving into technical details) of data science and AI practices that could be relevant to life science domains and good practices for handling open reproducible computational data science.
 
 We have designed multiple modular episodes covering topics across two overarching themes, that we refer to as "masterclasses" in this project:
 
@@ -88,13 +88,14 @@ Each masterclass is supplemented with technical resources and learning opportuni
 
 > **The short answer is no!** 
 >
-> Although the training materials are tailored to the biomedical sciences community, materials will be generally transferable and directly relevant for data science projects across different domains.
-> You are not expected to have already learned about AI/ML to understand what we will discuss in this training material.
+> Although the training materials are tailored to the biomedical sciences community, materials will be generally transferable and directly relevant to data science projects across different domains.
+> You are not expected to have already learned about AI to understand what we will discuss in this training material.
 >
+{: .testimonial}
 
 In this course, we are introducing data science, AI and related concepts. Another course developed under the [**Data Science for Biomedical Scientists**](https://github.com/alan-turing-institute/data-training-for-bioscience) project, [Managing and Supervising Computational Projects](https://github.com/carpentries-incubator/managing-computational-projects), discusses best practices, tools, and strategies of project management in reproducible computational projects. Although both courses were developed to complement each other they can also be booked separately. Both courses discuss challenges, solutions and examples of machine learning and AI applications within biomedical research and related fields. The recommendations are transferable across many other disciplines within Life Sciences.
 
-> ## Pre-requisites and Assumptions
+> ## Prerequisites and Assumptions
 >
 > In defining the scope of this course, we made the following assumptions about the target audiences:
 > - You have a good understanding of designing or contributing to a scientific project throughout its lifecycle
