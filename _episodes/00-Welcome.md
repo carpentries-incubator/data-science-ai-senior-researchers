@@ -9,7 +9,7 @@ questions:
 
 
 objectives:
-- "This workshop provides a general overview of and introduction to Data Science wit a focus on Artificial Intelligence (AI) and Machine Elarning (ML) for biomedical researchers"
+- "This workshop provides a general overview of and introduction to Data Science wit a focus on Artificial Intelligence (AI) and Machine Learning (ML) for biomedical researchers"
 keypoints:
 - "This workshop is developed for mid-career and senior researchers in  biomedical and biosciences fields."
 - "This workshop aims to build a shared understanding of data science and AI in the context of biomedicine and related fields."
@@ -17,7 +17,7 @@ keypoints:
 
 # Data Science for Biomedical Researchers
 
-Bioscientists and biomedical researchers often combine mathematics and computational methods to analyse and interpret experimental data. Machine Learning (ML) applied to data science and in combination with Artificial Intelligence (AI) has led to an increased interest among biomedical researchers and data scientists to extract information from big medical datasets to facilitate drug development and address longstanding biomedical questions. With this cource, we aim to inform researchers about best practices in data science, identifying how they apply to their work and making informed decisions around their use in biomedicine and related fields.
+Bioscientists and biomedical researchers often combine mathematics and computational methods to analyse and interpret experimental data. Machine Learning (ML) applied to data science and in combination with Artificial Intelligence (AI) has led to an increased interest among biomedical researchers and data scientists to extract information from big medical datasets to facilitate drug development and address longstanding biomedical questions. With this course, we aim to inform researchers about best practices in data science, identifying how they apply to their work and making informed decisions around their use in biomedicine and related fields.
 
 // contextualize the use of AI and it's relation to ML. AI is a very high level term that gets used less as you read papers on methodologies etc where ML and sub-types of ML are more common. //
 
@@ -75,7 +75,7 @@ At the end of this lesson (training material), attendees will gain a better unde
 * using AI for automation
 * the process of unsupervised and supervised machine learning
 * successful examples and applications of AI in biomedical research
-* common pitfalls and ethical concerns to consider to maintain scientific rigour and integrit. 
+* common pitfalls and ethical concerns to consider to maintain scientific rigour and integrity. 
 
 ## Modular and Flexible Learning
 
