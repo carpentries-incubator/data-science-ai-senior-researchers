@@ -150,16 +150,10 @@ A common visualization of error analysis in unsupervised learning is the Elbow P
 
 As you can see, because there isn't a nice upper bound to aim for such as 100% accuracy, choosing the optimum value of K is more open to interpretation. Sensible choices appear to be in the range of 2-4, in which it is up to you and your team of experts to discuss what the implications of splitting your cohort of patients, genes etc into 2-4 groups.
 
-We could plot the cluster memberships over the first two principal components of the data to visualize the separation of each cluster - which in the figure below we can see at K=3 there appears to be significant overlap and therefore uncertainty in the 3 clusters.
-
-![](../fig/fviz_cluster.png)
-
-> the above graph was created using the fviz_cluster() function in R https://www.rdocumentation.org/packages/factoextra/versions/1.0.7/topics/fviz_cluster
-
-We could also plot the cluster membership against various features in the data. In the figure below, with K=2 we can see that cluster 2 (blue) appears to contain people with higher cholesterol and max heart rate (thalach).
+We could also plot the cluster membership against various features in the data. In the figure below, with K=3 we can see that the 3 clusters separate well across the feature "Flavanoids", but not across the feature "Ash", indicating that Flavanoids is an important feature in the clustering process.
 
 <p align="center">
-<img src="../fig/clusthist.png" alt="drawing" width="550"/>
+<img src="../fig/clusthist.png" width="550"/>
 </p>
 
 It's at this point that the results of unsupervised analysis can be carried out with metrics just as in supervised analysis, but also should involve some form of Exploratory Data Analysis (EDA) to help you determine what are the optimum number of clusters for *your* purposes.
