@@ -1,4 +1,7 @@
 # Data Science for Biomedical Scientists: Introduction to Data Science and AI for senior researchers 
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 **Thanks for contributing to The Carpentries Incubator!**
 This repository is part of the **Data Science for Biomedical Scientists: The Turing/Crick partnership project**.
@@ -89,3 +92,29 @@ To cite this lesson, please consult with [CITATION](CITATION)
 [change-default-branch]: https://docs.github.com/en/github/administering-a-repository/changing-the-default-branch
 [community-lessons]: https://carpentries.org/community-lessons
 [lesson-example]: https://carpentries.github.io/lesson-example
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="http://www.getmarkup.com"><img src="https://avatars.githubusercontent.com/u/4941299?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Arron Lacey</b></sub></a><br /><a href="#ideas-arronlacey" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-arronlacey" title="Content">🖋</a></td>
+    <td align="center"><a href="https://sites.google.com/view/angionelab/"><img src="https://avatars.githubusercontent.com/u/4013246?v=4?s=100" width="100px;" alt=""/><br /><sub><b>claudioangione</b></sub></a><br /><a href="https://github.com/carpentries-incubator/data-science-ai-senior-researchers/pulls?q=is%3Apr+reviewed-by%3Aclaudioangione" title="Reviewed Pull Requests">👀</a> <a href="#content-claudioangione" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/kasra-hosseini"><img src="https://avatars.githubusercontent.com/u/1899856?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kasra Hosseini</b></sub></a><br /><a href="https://github.com/carpentries-incubator/data-science-ai-senior-researchers/pulls?q=is%3Apr+reviewed-by%3Akasra-hosseini" title="Reviewed Pull Requests">👀</a> <a href="#content-kasra-hosseini" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/LydiaFrance"><img src="https://avatars.githubusercontent.com/u/85945427?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lydia France</b></sub></a><br /><a href="#ideas-LydiaFrance" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-LydiaFrance" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/fedenanni"><img src="https://avatars.githubusercontent.com/u/8415204?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Federico Nanni</b></sub></a><br /><a href="#ideas-fedenanni" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-fedenanni" title="Content">🖋</a></td>
+    <td align="center"><a href="http://malvikasharan.github.io/"><img src="https://avatars.githubusercontent.com/u/5370471?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Malvika Sharan</b></sub></a><br /><a href="#fundingFinding-malvikasharan" title="Funding Finding">🔍</a> <a href="#ideas-malvikasharan" title="Ideas, Planning, & Feedback">🤔</a> <a href="#mentoring-malvikasharan" title="Mentoring">🧑‍🏫</a> <a href="#projectManagement-malvikasharan" title="Project Management">📆</a> <a href="#eventOrganizing-malvikasharan" title="Event Organizing">📋</a></td>
+    <td align="center"><a href="https://tbyhdgs.info"><img src="https://avatars.githubusercontent.com/u/9694524?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Toby Hodges</b></sub></a><br /><a href="#infra-tobyhodges" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#question-tobyhodges" title="Answering Questions">💬</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
