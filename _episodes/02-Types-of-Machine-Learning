@@ -1,18 +1,28 @@
-# supervised learning
+Machine Learning (ML) makes use of data to mprove computing performance on a given set of tasks, whereby ML algorithms are trained on sample data to make predictions or decisions.
+Common applications of ML algorithms include email filtering, speech recognition, and computer vision, while they are also increasingly used for task optimization and efficiency in agriculture and medicine.
+
+Subsets of ML can be grouped into 4 different types of machine learning: supervised, unsupervised, semi-super-vised and reinformcement learning. 
 
 
-# unsupervised learning
+## Supervised learning
 
 
-# semi-supervised learning
+## Unsupervised learning
+- Data mining: exploratiove data analysis
 
-## A new era for Large Language Models
+Applications in Biomedicine: 
+- https://www.nature.com/articles/s41598-020-75715-0 // Unsupervised and supervised learning with neural network for human transcriptome analysis and cancer diagnosis
+- Polanski, J. Unsupervised Learning in Drug Design from Self-Organization to Deep Chemistry. Int. J. Mol. Sci. 2022, 23, 2797. https://doi.org/10.3390/ijms23052797 
+
+## Semi-supervised learning
+
+### A new era for Large Language Models
 Ref: https://en.wikipedia.org/wiki/Large_language_model
 
 With the release of Chat GPT-3 in early 2023, Large Language Models gained the interest and engagement of the general public and mainstream userbase.
 
 
-# reinforcement learning
+## Reinforcement learning
 
 
 
