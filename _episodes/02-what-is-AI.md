@@ -18,8 +18,19 @@ Artificial intelligence is increasingly used in biomedical research, with publis
 On the one hand, AI and machine learning can greatly improve the workflows in data processing and analysis, and can provide insight no human has time to achieve themselves. On the other hand, there are many limitations to what AI can do and is not magic. This chapter outlines what today's AI is capable of and gives examples of how these programs are being used in the real world.
 
 # What is AI?
+ 
+Artificial Intelligence can be described as a branch of computer programming that aims to builds machines (software or integrated with specific hardware) that demonstrate "intelligent behavior". However, describing Artificial Intelligence is often more about what we *wish* existed rather than describing what actually exists. It can instead be more informative to describe the problems we can solve with Artificial Intelligence and how it is achieved. This is not a deeply technical introduction, instead it is written to describe case studies and overview. 
 
-Describing Artificial Intelligence is often more about what we *wish* existed rather than describing what actually exists. It can instead be more informative to describe the problems we can solve with AI and how AI provides an advantage over traditional methods. This introduction will focus on real-world examples in order to demonstrate how AI can contribute to research and engineering.
+## I've also heard the term "Machine Learning"...
+
+The terms Artificial Intelligence and Machine Learning sometimes get used interchangeably, however that isn't quite the case. 
+Where AI describes intelligent systems that we wish to design, machine learning refers to the mathematical concepts and algorithms that form the basic building blocks of AI. 
+We might combine multiple ML methods that each have a specific task to learn into a larger system. 
+It is the process of bringing together multiple, highly specified ML algorithms (maybe also rules that humans have written) that give us an image of how AI is achieved and why it makes it so challenging.   
+
+Artificial Intelligence is often described by what we *wish* existed rather than what actually exists. 
+It is however, more informative to describe the problems we face that can be solved with AI, and where AI provides an advantage over traditional methods. 
+This introduction will focus on real-world examples in order to demonstrate how AI can contribute to research and engineering.
 
 ## What does not exist?
 
@@ -55,7 +66,7 @@ In the game noughts and crosses (or tic-tac-toe), the objective is to alternate 
 
 Chess and noughts and crosses are micro-domain games, an extremely limited "world" that the computer works within. The position of the chess piece can be described precisely and completely. The rules of the movement and the final end goal is well defined and unambiguous. 
 
-Hwoever, trying to use this kind of AI to recognise handwriting doesn't work. Imagine trying to describe each and every possible way that the number 7 could be written, and how to distinguish between a 1 and a 7. For complex tasks without a finite set of rules, we need to train AI to distinguish features itself rather than giving it a precise definition. This process is known as machine learning, and it allows us to apply AI to a much broader array of tasks. 
+However, trying to use this kind of AI to recognise handwriting doesn't work. Imagine trying to describe each and every possible way that the number 7 could be written, and how to distinguish between a 1 and a 7. For complex tasks without a finite set of rules, we need to train AI to distinguish features itself rather than giving it a precise definition. This process is known as machine learning, and it allows us to apply AI to a much broader array of tasks. 
 
 ### Machine Learning
 

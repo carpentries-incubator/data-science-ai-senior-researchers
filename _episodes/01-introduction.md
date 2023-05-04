@@ -1,16 +1,16 @@
 ---
-title: "Introduction to this course"
+title: "Introduction to this workshop"
 teaching: 10
 exercises: 0
 questions:
-- "What is the purpose of this training?"
-- "Who are the target audience?"
+- "What is the purpose of this workshop?"
+- "Who is the target audience?"
 - "What will they learn at the end of this training?"
 objectives:
-- "Describe the motivation, purpose, target audience and expected outcome of this training"
+- "Describe the motivation, purpose, target audience and expected outcome of this workshop"
 keypoints:
-- "This material is developed for mid-career and senior researchers in  biomedical and biosciences fields."
-- "This training aims to build a shared understanding of data science and AI in the context of biomedical and related fields."
+- "This workshop is developed for mid-career and senior researchers in  biomedical and biosciences fields."
+- "This workshop aims to build a shared understanding of data science and AI in the context of biomedical and related fields."
 ---
 
 # Data Science for Biomedical Scientists
@@ -93,53 +93,47 @@ Each masterclass is supplemented with technical resources and learning opportuni
 >
 {: .testimonial}
 
-In this training material, we will introduce data science, AI and related concepts in detail.
-The training material "Managing and Supervising Computational Projects" is developed in parallel under the same project and discusses best practices for managing reproducible computational projects.
-Although those are helpful concepts, "Managing and Supervising Computational Projects" is not a prerequisite or requirement of this course and the two trainings can be used separately. 
-
-Both the materials discuss problems, solutions and examples from biomedical research and related fields to make our content relatable to our primary audience.
-However, the best practices are recommended and transferable across different disciplines.
+In this course, we are introducing data science, AI and related concepts. Another course developed under the [**Data Science for Biomedical Scientists**](https://github.com/alan-turing-institute/data-training-for-bioscience) project, [Managing and Supervising Computational Projects](https://github.com/carpentries-incubator/managing-computational-projects), discusses best practices, tools, and strategies of project management in reproducible computational projects. Although both courses were developed to complement each other they can also be booked separately. Both courses discuss challenges, solutions and examples of machine learning and AI applications within biomedical research and related fields. The recommendations are transferable across many other disciplines within Life Sciences.
 
 > ## Prerequisites and Assumptions
 >
-> In defining the scope of this project, we make the following assumptions about the learner groups, which can be considered prerequisites for this training:
-> - Our learners have a good understanding of designing or contributing to a scientific project throughout its lifecycle
-> - They have identified a computational project with specific questions that will help them reflect on the skills, practices and technical concepts discussed in this training
-> - This training doesn't cover the processes of designing a research proposal, managing grant/funding or evaluating ethical considerations for research. 
-However, we assume that learners have a computational project in mind for which funding and research ethics have been approved and comprehensive documentation capturing this information is available to share with the research team.
-> - This training does not touch on recruitment or team make-up, so we also assume that the research team of any size is (either partially or fully) established.
+> In defining the scope of this course, we made the following assumptions about the target audiences:
+> - You have a good understanding of designing or contributing to a scientific project throughout its lifecycle
+> - You have identified a computational project with specific questions that will help you to reflect on the skills, practices and technical concepts discussed in this course
+> - have a computational project in mind for which funding and research ethics have been approved and comprehensive documentation capturing this information is available to share with the research team.
+> - This course does not cover the processes of designing a research proposal, managing grant/funding or evaluating ethical considerations for research. 
 >
 {: .checklist}
 
+
 ## Mode of delivery
+Each course has been developed on separate repositories as standalone training materials and will be linked and cross-referenced for coherence purposes. This modularity will allow researchers to dip in and out of the training materials and take advantage of a flexible self-paced learning format.
 
-Each masterclass has been developed on separate repositories as standalone training materials but will be linked and cross-referenced for completeness. This modularity will allow researchers to dip in and out of the training materials and take advantage of a flexible self-paced learning format.
+In the future, these courses could be coupled with pre-recorded introduction and training videos (to be hosted on the Turing online learning platform and The Turing Way YouTube channel).
 
-In the future, these masterclasses could be coupled with pre-recorded introduction and training videos (to be hosted on the Turing online learning platform and The Turing Way YouTube channel).
-
-They can also be delivered by trainers and domain experts, who can mix and match lessons/episodes from across the two masterclasses and present them in an interactive workshop format.
+They can also be delivered by trainers and domain experts, who then mix and match lessons from across the two courses and present them in an interactive workshop format.
 
 > ## Next Steps after this Training
 >
-> After this masterclass we recommend our learners take these next steps:
-> - Go through the "Managing and supervising computational projects" masterclass (if not already completed)
-> - Explore the set of resources provided at the end of each lesson for deeper dive into various technical topics required to learn or guide the application of data and computational research best practices in real-world projects
-> - Establish connections with other training and training materials offered by The Alan Turing Institute, The Crick Institute, The Carpentries, The Turing Way and other projects or organisations involved in the maintenance and development of this training material
-> - Connect with other research communities and projects in open research, data science and AI that offer opportunities to develop and enhance technical skills
-> - Collaborate with domain experts such as librarians, research software engineers, community managers, statisticians or people with specialised skills in your organisation who can provide specific support for your project
+> After completing this course we recommend these next steps:
+> - Go through the "Managing and supervising computational Projects" course (unless already completed)
+> - Explore the set of resources provided at the end of each lesson for a deep-dive into the topics with real-world examples
+> - Establish connections with other courses and training materials offered by The Alan Turing Institute, The Crick Institute, The Carpentries, The Turing Way and other initiatives and organisations involved in the maintenance and development of this training material
+> - Connect with other research communities and projects in open research, data science and AI to further enhance theoretical and technical skills
+> - Collaborate with other scholarly experts such as librarians, research software engineers, community managers, statisticians and experts with specialised skills in your organisation who can provide specific support in your project.
 >
 {: .callout}
 
 ## Funding and Collaboration
 
-Data Science for Biomedical Scientists is funded by [The Alan Turing Institute](https://www.turing.ac.uk)'s [AI for Science and Government](https://www.turing.ac.uk/research/asg) (ASG) Research Programme. It is an extension of [The Crick-Turing Biomedical Data Science Awards](https://www.turing.ac.uk/research/research-projects/crick-turing-biomedical-data-science-awards) that revealed an urgent need for introductory resources to teach data science best practices to bioscience researchers. This project extension will leverage strategic engagement between Turing's data science community and Crick's biosciences communities.
+Data Science for Biomedical Scientists is funded by [The Alan Turing Institute](https://www.turing.ac.uk)'s [AI for Science and Government](https://www.turing.ac.uk/research/asg) (ASG) Research Programme. It is an extension of [The Crick-Turing Biomedical Data Science Awards](https://www.turing.ac.uk/research/research-projects/crick-turing-biomedical-data-science-awards) that indicated an urgent need to provide introductory resources for data science in bioscience research. This project extension will leverage strategic engagement between Turing's data science community and Crick's biosciences communities.
 
-Pulling together existing training materials, infrastructure support and domain expertise from [The Alan Turing Institute](https://www.turing.ac.uk), [The Turing Way](https://the-turing-way.netlify.app/), [The Carpentries](https://carpentries.org/), [Open Life Science](https://openlifesci.org/) and the [Turing ‘omics interest group](https://www.turing.ac.uk/research/interest-groups/omics-data-generation-and-analysis-group), we will design and deliver a resource that is accessible and comprehensible for biomedical and wet-lab biology researchers.
+Pulling together existing training materials, infrastructure support and domain expertise from [The Alan Turing Institute](https://www.turing.ac.uk), [The Turing Way](https://the-turing-way.netlify.app/), [The Carpentries](https://carpentries.org/), [Open Life Science](https://openlifesci.org/) and the [Turing ‘omics interest group](https://www.turing.ac.uk/research/interest-groups/omics-data-generation-and-analysis-group), we will design and deliver a resource that is accessible and comprehensible for any biomedical and wet-lab biology researchers.
 
-This project will build on two main focus areas of the Turing Institute's [AI for Science and Government](https://www.turing.ac.uk/research/asg) research programmes: good data science practice and effective communication to stakeholders. In building this project, we will integrate the [Tools, practices and systems](https://www.turing.ac.uk/work-turing/tools-practices-and-systems-open-leadership-team-call-volunteering) (TPS) Research Programme’s core values: build trustworthy systems; embed transparent reporting practices; promote inclusive interoperable design; maintain ethical integrity; and encourage respectful co-creation.
+This course builds on two main focus areas of the Turing Institute's [AI for Science and Government](https://www.turing.ac.uk/research/asg) research programmes: good data science practice; and effective communication to stakeholders. In building this project, we integrated the [Tools, practices and systems](https://www.turing.ac.uk/work-turing/tools-practices-and-systems-open-leadership-team-call-volunteering) (TPS) Research Programme’s core values: build trustworthy systems; embed transparent reporting practices; promote inclusive interoperable design; maintain ethical integrity and encourage respectful co-creation.
 
 ## License
 
-All materials are developed online openly under CC-BY 4.0 License using The Carpentries training format and The Carpentries Incubator lesson infrastructure.
+All materials are available openly under CC-BY 4.0 License using The Carpentries training format and The Carpentries Incubator lesson infrastructure.
 
 {% include links.md %}
