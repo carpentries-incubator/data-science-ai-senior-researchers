@@ -29,7 +29,9 @@ Many open-source tools have been produced and are already in use across the biom
 _Not being at the cutting edge of AI development doesn't mean we can't also benefit from the AI tools that can assist with research tasks._
 
 ## Case Study: Molecular Biology Databases
-_Looks ratehr outdated, from 2004: https://www.ncbi.nlm.nih.gov/Web/Search/entrezfs.html_
+Webiste: _Last edit from 2004: https://www.ncbi.nlm.nih.gov/Web/Search/entrezfs.html_
+redirect from https://www.ncbi.nlm.nih.gov/Entrez/ to https://www.ncbi.nlm.nih.gov/search/ 
+// https://www.tutorialspoint.com/biopython/biopython_entrez_database.htm
 
 <p align="center">
 <img src="https://i.ytimg.com/vi/BQ0i2MiAB30/maxresdefault.jpg" alt="drawing" width="500"/>
@@ -68,6 +70,7 @@ Qupath is a tool using machine learning to work with image analysis in the growi
 
 
 ## Case Study: MicrobeJ
+Website: https://www.microbej.com/
 
 ![](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnmicrobiol.2016.77/MediaObjects/41564_2016_Article_BFnmicrobiol201677_Fig1_HTML.jpg?as=webp)
 
@@ -77,6 +80,7 @@ Qupath is a tool using machine learning to work with image analysis in the growi
 
 
 ## Case Study: Cellpose
+Website: https://www.cellpose.org/
 
 ![](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41592-020-01018-x/MediaObjects/41592_2020_1018_Fig6_HTML.png)
 
@@ -85,6 +89,7 @@ Qupath is a tool using machine learning to work with image analysis in the growi
 > Stringer, C., Wang, T., Michaelos, M. et al. Cellpose: a generalist algorithm for cellular segmentation. Nat Methods 18, 100–106 (2021). https://doi.org/10.1038/s41592-020-01018-x
 
 ## Case Study: DeepLabCut
+Website: http://www.mackenziemathislab.org/deeplabcut // https://github.com/DeepLabCut/DeepLabCut // https://deeplabcut.github.io/DeepLabCut/docs/standardDeepLabCut_UserGuide.html
 
 ![](http://static1.squarespace.com/static/57f6d51c9f74566f55ecf271/t/608a8487d542d413d321d4b9/1619690631830/ezgif.com-gif-maker+%289%29.gif?format=1500w)
 
