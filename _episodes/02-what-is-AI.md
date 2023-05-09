@@ -21,7 +21,7 @@ On the one hand, AI and machine learning can greatly improve the workflows in da
  
 Artificial Intelligence can be described as a branch of computer programming that aims to builds machines (software or integrated with specific hardware) that demonstrate "intelligent behavior". However, describing Artificial Intelligence is often more about what we *wish* existed rather than describing what actually exists. It can instead be more informative to describe the problems we can solve with Artificial Intelligence and how it is achieved. This is not a deeply technical introduction, instead it is written to describe case studies and overview. 
 
-## I've also heard the term "Machine Learning"...
+## I've also heard the term "Machine Learning", but ...
 
 The terms Artificial Intelligence and Machine Learning sometimes get used interchangeably, however that isn't quite the case. 
 Where AI describes intelligent systems that we wish to design, machine learning refers to the mathematical concepts and algorithms that form the basic building blocks of AI. 
