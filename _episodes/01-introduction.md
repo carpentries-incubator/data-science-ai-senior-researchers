@@ -7,7 +7,7 @@ questions:
 - "Who are the target audience?"
 - "What will they learn at the end of this training?"
 objectives:
-- "Describe the motivation, purpose, target audience and expected outcome of this training"
+- "This workshop provides a general overview of and introduction to Data Science wit a focus on Artificial Intelligence (AI) and Machine Learning (ML) for biomedical researchers"
 keypoints:
 - "This material is developed for mid-career and senior researchers in  biomedical and biosciences fields."
 - "This training aims to build a shared understanding of data science and AI in the context of biomedical and related fields."
@@ -15,7 +15,7 @@ keypoints:
 
 # Data Science for Biomedical Scientists
 
-Biosciences and biomedical researchers regularly combine mathematics and computational methods to interpret experimental data. With new technologies supporting the generation of large-scale data as well as successful applications of data science, Machine Learning (ML) and Artificial Intelligence (AI) in biomedicine and related fields have recently shown huge potential to transform the way we conduct research. Recent groundbreaking research utilising AI technologies in biomedicine has led to an enormous interest among researchers in data science, ML and AI approach to extract useful insights from big data, make new discoveries and address biological questions. It is more important than ever to engage researchers in understanding best practices in data science, identifying how they apply to their work and making informed decisions around their use in biomedicine and related fields.
+Bioscientists and biomedical researchers often combine mathematics and computational methods to analyse and interpret experimental data. Machine Learning (ML) applied to data science and in combination with Artificial Intelligence (AI) has led to an increased interest among biomedical researchers and data scientists to extract information from big medical datasets to facilitate drug development and address longstanding biomedical questions. With this course, we aim to inform researchers about best practices in data science, identifying how they apply to their work and making informed decisions around their use in biomedicine and related fields.
 
 > ## Jargon Busting
 > Below we provide a simple definition of some terms that we use in this project in the context of scientific research:
@@ -63,7 +63,7 @@ At the end of this workshop, attendees will gain a better understanding of:
 * using AI for automation of biomedical research analytics
 * the processes of supervised and unsupervised machine learning
 * successful examples and applications of AI in biomedical research
-* common pitfalls and ethical concerns to consider to maintain scientific rigour and integrit. 
+* common pitfalls and ethical concerns to consider to maintain scientific rigour and integrity. 
 
 ## Modular and Flexible Learning
 
