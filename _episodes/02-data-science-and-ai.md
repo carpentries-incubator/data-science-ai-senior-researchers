@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Data Science, AI, and Machine Learning"
+title: "Data Science, AI, and Machine Learning"
 teaching: 30
 exercises: 3
 questions:
@@ -11,8 +11,6 @@ objectives:
 keypoints:
 - "Three types of AI: Simulations, Symbolic, Machine Learning"
 ---
-
-
 # An overview of Data Science 
 
 **Data Science** is an interdisciplinary field that involves using statistical and computational techniques to extract knowledge and insights from large and complex data sets by applying advanced data analytics, Artificial Intelligence (AI) and Machine Learning (ML). Its process is a series of workflow steps that include data collection, mining, and cleaning, exploratory data analysis, modeling, and evaluation. Combining principles and practices from mathematics, statistics, computer engineering, and other fields, Data Science has a wide range of applications in healthcare, finance, marketing, and social sciences, and is becoming increasingly important in biomedical research. 
@@ -24,11 +22,11 @@ Besides the benefits that Data Science applications and tools provide, we will a
 
 In this workshop, we describe the problems we can solve with Artificial Intelligence and how that is achieved. Without going into underlying technical details, we focus on a general overview and present selected case studies of biomedical relevance.
 
-_Recommended Data Science related courses and workshops developed by The Carpentries_
+<!--_Recommended Data Science related courses and workshops developed by The Carpentries_
 - …
 - …
 - …
-
+-->
 
 ## Introduction to Artificial Intelligence
 
@@ -49,12 +47,14 @@ The ethical implications of AI are bias, privacy, and accountability and require
 
 Examples of AI in 
 
-1) biomedical research  
+**2. biomedical research**
+
 - medical imaging analysis, 
 - drug discovery, 
 - predictive analytics, 
 
-2) general healthcare  
+**2. general healthcare**
+
 - personalized medicine, 
 - virtual nursing assistants,
 - disease diagnosis, 
@@ -63,8 +63,6 @@ Examples of AI in
 - patient monitoring, 
 - AI-powered chatbots and virtual assistants to provide patients with personalised care
  
-
-
 ### Types of AI 
 
 AI could be defined as anything done by a computer that would require intelligence if performed by a person. This is a useful but limited definition as it is difficult to properly define intelligence objectively. 

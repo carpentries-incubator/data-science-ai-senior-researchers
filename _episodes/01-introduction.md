@@ -3,14 +3,14 @@ title: "Welcome to this workshop"
 teaching: 10
 exercises: 0
 questions:
-- "What is the purpose of this workshop?"
-- "Who is the target audience?"
-- "What will they learn at the end of this workshop?"
+- "Purpose of this workshop"
+- "Establishing the expectation for this workshop"
 objectives:
-- "This workshop provides a general overview of and introduction to Data Science wit a focus on Artificial Intelligence (AI) and Machine Learning (ML) for biomedical researchers"
+- "Contextualising Data Science, Artificial Intelligence and Machine Learning for biomedical researchers"
+keypoints:
 keypoints:
 - "This workshop is developed for mid-career and senior researchers in  biomedical and biosciences fields."
-- "This workshop aims to build a shared understanding of data science and AI in the context of biomedicine and related fields.
+- "This workshop aims to build a shared understanding of data science and AI in the context of biomedicine and related fields."
 ---
 
 # Data Science for Biomedical Researchers
