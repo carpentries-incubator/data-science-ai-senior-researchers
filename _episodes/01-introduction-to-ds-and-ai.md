@@ -2,7 +2,7 @@
 title: "Introduction to Data Science, AI, and Machine Learning"
 teaching: 30
 exercises: 3
-lectures:
+questions:
 - "Overview of Data Science (process & life cycle)"
 - "Introduction to AI and ML (types & techniques)"
 - "AI applications to automate analytical processes in biomedical research"

@@ -6,7 +6,6 @@ questions:
 - "What is the purpose of this workshop?"
 - "Who is the target audience?"
 - "What will they learn at the end of this workshop?"
-
 objectives:
 - "This workshop provides a general overview of and introduction to Data Science wit a focus on Artificial Intelligence (AI) and Machine Learning (ML) for biomedical researchers"
 keypoints:
