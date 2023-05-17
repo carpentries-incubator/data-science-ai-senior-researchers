@@ -53,7 +53,7 @@ In particular, this workshop is addressing experimental biologists and biomedica
 1. Group leaders without prior experience with Data Science and ML/AI - interested in understanding the potential additionality and application in their areas of expertise.
 2. Postdoc and lab scientists - next-generation senior leaders, who are interested in additionality, but also the group more likely to benefit from tools to equip them with the requirements to enable the integration of computational science into biosciences.
 
-// CLARIFICATION NEEDED
+<!--// CLARIFICATION NEEDED-->
 
 
 ## Learning Outcomes
@@ -64,7 +64,6 @@ At the end of this workshop, attendees will gain a better understanding of:
 * the processes of supervised and unsupervised machine learning
 * successful examples and applications of AI in biomedical research
 * common pitfalls and ethical concerns to consider to maintain scientific rigour and integrit. 
-
 
 ## Modular and Flexible Learning
 
@@ -133,8 +132,8 @@ Pulling together existing training materials, infrastructure support and domain 
 
 This project will build on two main focus areas of the Turing Institute's [AI for Science and Government](https://www.turing.ac.uk/research/asg) research programmes: good data science practice; and effective communication to stakeholders. In building this project, we will integrate the [Tools, practices and systems](https://www.turing.ac.uk/work-turing/tools-practices-and-systems-open-leadership-team-call-volunteering) (TPS) Research Programme’s core values: build trustworthy systems; embed transparent reporting practices; promote inclusive interoperable design; maintain ethical integrity and encourage respectful co-creation.
 
-> ## License
-> 
-> All materials are developed online openly under CC-BY 4.0 License using The Carpentries training format and The Carpentries Incubator lesson infrastructure.
-> 
-> {% include links.md %}
+## License
+ 
+All materials are developed online openly under CC-BY 4.0 License using The Carpentries training format and The Carpentries Incubator lesson infrastructure.
+
+{% include links.md %}
