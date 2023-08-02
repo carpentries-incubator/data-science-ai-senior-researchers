@@ -2,14 +2,26 @@
 title: "Data Science, AI, and Machine Learning"
 teaching: 30
 exercises: 3
-questions:
+outline:
 - "Overview of Data Science (process & life cycle)"
 - "Introduction to AI and ML (types & techniques)"
-- "AI applications to automate analytical processes in biomedical research"
+- "Supervised, unsupervised, semi-supervised, reinforcement learning"
+- "Deep Learning"
+- "LLM"
+
+questions:
+- "What is Data Science?"
+- "What is Artificial Intelligence?"
+- "What is Machine Learning?"
+- "What types of Machine Learning exist and how can they be applied in biomedical research?"
+- "What biomedical applications exist for Deep Learning?"
+- "What biomedical applications exist for Large Language Models?"
+
 objectives:
-- "Gain overview and general understanding of Data Science, AI, and ML in the biomedical context"
-keypoints:
-- "Three types of AI: Simulations, Symbolic, Machine Learning"
+- "Gaining an overview and general understanding of Data Science, AI, and ML in the biomedical context"
+- "Being able to differentiate the different types of ML in a biomedical context with examples for Deep Learning and Large Language Models"
+
+
 ---
 # An overview of Data Science 
 
@@ -28,7 +40,7 @@ In this workshop, we describe the problems we can solve with Artificial Intellig
 - …
 -->
 
-## Introduction to Artificial Intelligence
+## An Introduction to Artificial Intelligence
 
 
 **Artificial Intelligence (AI)** comprises task performences by machines (digital computers or computer-controlled robots) that aim to mimic human intelligence for problem-solving, decision-making, as well as language understanding and translation. AI is often utilised for speech recognition, computer vision, image labeling, spam filtering, robotics, smart assistants, and natural language processing.
@@ -87,8 +99,6 @@ To create a simulation, you need to know exactly how the "world" works, also kno
 >- https://www.turing.ac.uk/research/research-projects/real-time-data-assimilation-digital-twins
 
 
-
-
 #### Symbolic (Good Old Fashioned) AI
 
 When we think of well known AI cases, we might think of Deep Blue, a chess playing AI from the 1990s. The first time AI beat a reigning world champion was in 1997, where Kasparov was defeated. To understand how AI like Deep Blue works, we can use an easier game to demonstrate how it works. 
@@ -102,12 +112,16 @@ In the game noughts and crosses (or tic-tac-toe), the objective is to alternate 
 
 Chess and noughts and crosses are micro-domain games, an extremely limited "world" that the computer works within. The position of the chess piece can be described precisely and completely. The rules of the movement and the final end goal is well defined and unambiguous. 
 
-**[out of context?]** trying to use this kind of AI to recognise handwriting doesn't work. Imagine trying to completely describe the way 7 is written, the rules are too rigid and brittle to distinguish 1s and 7s, and may miss all the 7s with a slash through them. It couldn't possibly hope to recognise a cat. 
+**[out of context?]** trying to use this kind of AI to recognise handwriting doesn't work. 
+Imagine trying to completely describe the way 7 is written, the rules are too rigid and brittle to distinguish 1s and 7s, and may miss all the 7s with a slash through them. It couldn't possibly hope to recognise a cat. 
 
 
 ## Introduction to Machine Learning 
 
-As a subset of Data Science, Machine Learning (ML) involves using algorithms and statistical models to extract patterns from data and make predictions based on those patterns without being explicitly programmed. In biomedical research, ML has been described to accelerate research in areas such as viral infection, cardiovascular disease, and breast cancer. Analysing large datasets and identify patterns that can help researchers better understand disease mechanisms and develop new treatments. Applications of ML algorithms include image and speech recognition, fraud detection, and natural language processing. 
+As a subset of Data Science, Machine Learning (ML) involves using algorithms and statistical models to extract patterns from data and make predictions based on those patterns without being explicitly programmed. 
+In biomedical research, ML has been described to accelerate research in areas such as viral infection, cardiovascular disease, and breast cancer. 
+Analysing large datasets and identifying patterns that can help researchers better understand disease mechanisms and develop new treatments. 
+Applications of ML algorithms include image and speech recognition, fraud detection, and natural language processing. 
 
 3 main types of ML
 1) Supervised Learning: training a model on labeled data, the correct output is known, to make predictions on new, unseen data. 
@@ -120,6 +134,40 @@ Examples: clustering and dimensionality reduction.
 Used in robotics and game-playing applications.
 
 Be aware of the limitations and potential biases of their models, as well as the ethical implications.
+
+
+Machine Learning (ML) makes use of data to improve computing performance on a given set of tasks, whereby ML algorithms are trained on sample data to make predictions or decisions.
+Common applications of ML algorithms include email filtering, speech recognition, and computer vision, while they are also increasingly used for task optimization and efficiency in agriculture and medicine.
+
+Subsets of ML can be grouped into 4 different types of machine learning: supervised, unsupervised, semi-super-vised and reinformcement learning. 
+
+
+## Supervised learning
+...
+
+## Unsupervised learning
+- Data mining: explorative data analysis
+
+Applications in Biomedicine: 
+- https://www.nature.com/articles/s41598-020-75715-0 // Unsupervised and supervised learning with neural network for human transcriptome analysis and cancer diagnosis
+- Polanski, J. Unsupervised Learning in Drug Design from Self-Organization to Deep Chemistry. Int. J. Mol. Sci. 2022, 23, 2797. https://doi.org/10.3390/ijms23052797 
+
+## Semi-supervised learning
+
+Developments within Deep Learning and Large Language Models have given rise to an extensive list of applications to automate and scale data performance and processing
+
+
+### A new era for Large Language Models
+Ref: https://en.wikipedia.org/wiki/Large_language_model
+
+With the release of Chat GPT-3 in early 2023, Large Language Models gained the interest and engagement of the general public and mainstream userbase.
+
+
+
+
+## Reinforcement learning
+
+
 
 
 ## AI Applications in Biomedicine
@@ -144,16 +192,32 @@ National Academies Press. doi: https://doi.org/10.17226/24906.
 - https://medicine.yale.edu/news-article/david-van-dijk-the-role-of-machine-learning-in-biomedical-discovery/
 - …
 
+keypoints:
+- "There are three main types of AI: Simulations, Symbolic AI, Machine Learning"
+- "Computers are very unlikely to ever replace human cognizance and intellect."
+- "Simulation AI uses equations to run a model forwards from a given state."
+- "Symbolic AI was used to beat the grand chess master in the 90s and works by calculating many eventualities in order to find the best solution."
+- "The most recent type and one that has made extensive progress in recent years is Machine Learning."
+
 
 
 # Exercises:
 
-- Reflect on (and discuss with your colleagues) the potential benefits, limitations and biases of AI and ML if applied to your current research projects.
+I think the first question needs to be multiple-choice question -- we don't expect people to write or explain what the know.
+
+
+As a facilitator, you can choose 2-3 specific exercises as you see fit to your course concept. 
+
+
+- How comfortable are you with AI/ML practices in relation to your research field: (A) Not comfortable, (B) somewhat comfortable, (C) comfortable, (D) very comfortable.
+- Which of the above types of ML can you apply in your research projects? 
+- Share and discuss in the group possible applications of Deep Learning and/or LLMs in your research field.
+
+- Reflect on (and discuss with your colleagues) the potential benefits, limitations, and biases of AI and ML if applied to your current research projects.
 - What are examples of successful and promising AI applications in your research field?
-- What are the potential risks and negative outcomes if your team would overly rely on the results generated by AI and ML?
+- What are the potential risks and negative outcomes if your team would overly rely on the results generated by AI/ML?
 
 
----
 
 ---
 previous version here below:
@@ -162,13 +226,13 @@ previous version here below:
 
 ### Machine Learning
 
-Instead, with machine learning the humans do not bother to try and find and apply rules. Instead, the computer finds its own rules. You start with a large dataset of known examples of the task we are trying to do. So in this case, 60,000 examples of handwritten digits, each one the same size. With this data set, it is labelled by a human and so every digit is "known". This becomes the training data set for the machine. When given a new, unknown example, the machine can look through the known examples to find the groups that the new digit most likely fits within. 
+Instead, with machine learning humans do not bother to try and find and apply rules. Instead, the computer finds its own rules. You start with a large dataset of known examples of the task we are trying to do. So in this case, 60,000 examples of handwritten digits, each one the same size. With this data set, it is labeled by a human and so every digit is "known". This becomes the training data set for the machine. When given a new, unknown example, the machine can look through the known examples to find the groups that the new digit most likely fits within. 
 
 There are more complexities than this brief description, but machine learning fundamentally works this way. For all sorts of tasks, "big data" is becoming critical for machine learning. 
 
-The machine does not "understand" the task, or know what handwriting is, the criteria for the solution is to match what the human labeller would classify the handwritten digit. 
+The machine does not "understand" the task, or know what handwriting is, the criteria for the solution is to match what the human labeler would classify the handwritten digit. 
 
-Machine learning is already changing the way the world works. We can design novel architecture and quickly and cheaply ensure it will be structurally sound; your iPhone will find all photos of your kids with only a few examples; we can optimal driving directions within seconds, taking into account the current and predicted road conditions. It really is amazing, and only possible through breakthrough and year-on-year advances in principles, algorithms, and computer hardware.
+Machine learning is already changing the way the world works. We can design novel architecture and quickly and cheaply ensure it will be structurally sound; your iPhone will find all photos of your kids with only a few examples; we can optimal driving directions within seconds, taking into account the current and predicted road conditions. It really is amazing, and only possible through breakthroughs and year-on-year advances in principles, algorithms, and computer hardware.
 
 # Summary
 
@@ -178,6 +242,6 @@ Machine learning is already changing the way the world works. We can design nove
 - The next kind is Symbolic AI, which was used to beat the grand chess master in the 90s and works by calculating many eventualities in order to find the best solution. 
 - The most recent type and one that has made huge leaps in recent years is Machine Learning.  
 
-In the next episodes we will consider what tasks AI can do and its role in scientific research.
+In the next episodes, we will consider what tasks AI can do and its role in scientific research.
 
 {% include links.md %}
