@@ -2,21 +2,21 @@
 title: "AI for Automation"
 teaching: tbd
 exercises: 2
-
 outline:
 - "AI applications to automate analytical processes"
 - "Case studies/ Examples: Entrez, QUPATH, MicrobeJ, Cellpose, DeepLabCut"
-
 questions:
 - "How is AI used for automating tasks in biomedical experimental setups?
 - "What are examples of biomedical AI-driven software packages and what can they be used for?"
-
 objectives:
 - "Learning about biomedical examples of AI automation"
 - "Developing case studies for your own research"
+keypoints:
+- "Despite not being at the cutting edge of AI development we can still benefit from elevated efficiency and accuracy of research data processing."
+- "Examples of AI applications for automation include database search, image analysis, motion tracking, a.o."
+- "While not every researcher works with generating AI algorithms and models, there are plenty of tools with numerous applications in research that use machine learning. Automating tasks results in larger data sets and less manual work, and it is worth joining the online communities that work on the tools showcased here. "
 
 ---
-
 In the previous episode, we discussed the history of AI and the three broad categories -- simulation, symbolic AI, and machine learning. When it comes to applications of machine learning and AI in biomedical and life sciences, we can divide those by application into two main categiories: automation and insight. 
 
 # Using AI in Research: Automation
@@ -106,12 +106,6 @@ Website: http://www.mackenziemathislab.org/deeplabcut // https://github.com/Deep
 
 
 
-# Keypoints
-- "Despite not being at the cutting edge of AI development we can still benefit from elevated efficiency and accuracy of research data processing."
-- "Examples of AI applications for automation include database search, image analysis, motion tracking, a.o."
-
-
-While not every researcher works with generating AI algorithms and models, there are plenty of tools with numerous applications in research that use machine learning. Automating tasks results in larger data sets and less manual work, and it is worth joining the online communities that work on the tools showcased here. 
 
 {% include links.md %}
 
