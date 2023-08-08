@@ -1,15 +1,21 @@
 ---
 title: "Practical Considerations: Reporting Results"
-teaching: 0
-exercises: 0
+teaching: 30
+exercises: 20
 questions:
-- "What are best practices for reporting results from machine learning pipelines?"
+- "How do research results differ with regards to Supervised versus Unsupervised Learning?"
+- "What are best practices for responsible reporting results from ML pipelines?"
 objectives:
-- "Understand typical outputs from supervised and unsupervised machine learning algorithms"
-- "Learn how to present your results responsibly" 
+- "Understanding typical outputs from supervised and unsupervised ML algorithms"
+- "Knowing how to present ML-derived results responsibly"
 keypoints:
-- "There are common frameworks that you can use to present your work and ensure they are consistent within ML research"
-- "Machine Learning intends to deploy a model in a a real-world setting and as such you should report it's predictive power and limitations accurately."
+- "Just like any other statistical analysis, ML results comprise of presenting certain metrics to assess the utility of a model."
+- "While Supervised Learning focusses on optimizing metrics such as accuracy, sensitivity and specificity, Unsupervised Learning is used to find hidden groups."
+- "Supervised learning optimizes against a ground truth and so we can use metrics such as accuracy and sensitivity where the goal is to achieve 100% in such metric."
+- "Unsupervised learning is more nuanced because we don’t have a ground truth - while we optimize against the total sum of squared error (and the many other variations on this theme), we often have to rely on exploratory analyses in conjunction with our use case to decide what an optimum number of clusters would be."
+- "Common frameworks can be used to present your work and ensure they are consistent within ML-facilitated research."
+- "ML intends to deploy a model in a real-world setting and as such you should report its predictive power and limitations accurately."
+
 ---
 
 ### Reporting results from machine learning pipelines
@@ -165,3 +171,6 @@ It's at this point that the results of unsupervised analysis can be carried out 
 Just like any other statistical analysis, ML results comprise of presenting certain metrics to assess the utility of a model. Supervised learning optimizes against a ground truth and so we can use metrics such as accuracy and sensitivity where the goal is to achieve 100% in such metric. Unsupervised learning is more nuanced because we don't have aground truth - while we optimize against the total sum of squared error (and the many other variations on this theme), we often have to rely on exploratory analyses in conjunction with our use case to decide what an optimum number of clusters are.
 
 
+## Exercise
+- Discuss with your colleagues which of the Supervised and Unsupervised Analyses might be applied to answer a research question in your field.
+- What are the respective limitations and possible misinterpretations?"
