@@ -12,6 +12,10 @@ objectives:
 - "Understanding the scope and coverage of the topics within this workshop"
 - "Getting access to complementary and additional resources"
 - "Being aware of next possible steps to take after this workshop"
+keypoints
+- "This workshop is developed for mid-career and senior researchers in  biomedical and biosciences fields."
+- "This workshop aims to build a shared understanding of data science and AI in the context of biomedicine and related fields."
+- "Without going into underlying technical details, the contents provide a general overview and present selected case studies of biomedical relevance."
 
 
 ---
@@ -150,10 +154,6 @@ Pulling together existing training materials, infrastructure support and domain 
 
 This project will build on two main focus areas of the Turing Institute's [AI for Science and Government](https://www.turing.ac.uk/research/asg) research programmes: good data science practice; and effective communication to stakeholders. In building this project, we will integrate the [Tools, practices and systems](https://www.turing.ac.uk/work-turing/tools-practices-and-systems-open-leadership-team-call-volunteering) (TPS) Research Programme’s core values: build trustworthy systems; embed transparent reporting practices; promote inclusive interoperable design; maintain ethical integrity and encourage respectful co-creation.
 
-## Keypoints
-- This workshop is developed for mid-career and senior researchers in  biomedical and biosciences fields."
-- This workshop aims to build a shared understanding of data science and AI in the context of biomedicine and related fields.
-- Without going into underlying technical details, the contents provide a general overview and present selected case studies of biomedical relevance.
  
 ## Exercise/Discussion/Reflection
 - What is your primary motivation to learn about the potential of data science and AI in your research field? 
