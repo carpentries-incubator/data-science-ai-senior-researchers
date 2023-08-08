@@ -1,16 +1,26 @@
 ---
 title: "Problems with AI"
-teaching: 0
+teaching: tbd
 exercises: 0
 questions:
-- "What are the common pitfalls with using machine learning?"
+- "What are the common pitfalls of using machine learning?"
+- "What are common limitations and pitfalls in ML applications?"
+- "What are conscious and unconscious biases that might influence ML algorithms?"
+- "How can data privacy and data security be ensured?"
+- "Who is responsible and accountable for any ethical issues implied by ML utilisation?"
 objectives:
 - "Recognise the shortcomings and common problems with machine learning"
-keypoints:
-- "Machine learning should be used with scepticism to prevent biased results"
+- "Recognising the shortcomings and common challenges with ML algorithms"
+- "Knowing how to address and report common AI shortcomings"
+- "Being knowledgeable about responsibilities and accountabilities with regard to AI applications at your institute"
+- "Drafting a guideline to cover relevant ethical aspects in the context of your research field"
+
+Who is responsible and accountable for any ethical issues implied by ML-utilisation?
 ---
 
 # Problems with AI
+Limitations and ethical considerations of AI in biomedical research
+
 
 ## When the Machine Learns Something Unexpected
 
@@ -87,3 +97,19 @@ Segmenting the data and repeating the training-validation process, for instance 
 </p>
 
 {% include links.md %}
+
+
+## Further Reading
+[UKRIO: AI in research – resources](https://ukrio.org/ukrio-resources/ai-in-research/) 
+
+## Keypoints:
+- "Machine learning should be used with skepticism to prevent biased results"
+- "We are vulnerable to unfounded claims from ML, whether for describing new results or even applications to medical care."
+- "ML should be used with skepticism to prevent biased results."
+- "A combination of data cleaning techniques is needed to effectively minimise limitations and ensure generalisation power of any AI model."
+- "Beware of any biases and privacy/security concerns by enacting full transparency and accountability in the documentation and reporting of AI applications."
+
+## Exercises
+- Think of examples in your research field, where AI applications might be problematic and lead to possible misinterpretation of the results
+- Look through your institutional resources that provide ethical guidelines and define responsibilities 
+- Who might be authorities at your research institute that can be consulted and informed about ethical concerns with regard to AI application?
