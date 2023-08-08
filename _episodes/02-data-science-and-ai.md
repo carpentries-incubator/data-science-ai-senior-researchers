@@ -2,14 +2,12 @@
 title: "Data Science, AI, and Machine Learning"
 teaching: tbd
 exercises: 3
-
 outline:
 - "Overview of Data Science (process & life cycle)"
 - "Introduction to AI and ML (types & techniques)"
 - "Supervised, unsupervised, semi-supervised, reinforcement learning"
 - "Deep Learning"
 - "LLM"
-
 questions:
 - "What is Data Science?"
 - "What is Artificial Intelligence?"
@@ -17,11 +15,17 @@ questions:
 - "What types of Machine Learning exist and how can they be applied in biomedical research?"
 - "What biomedical applications exist for Deep Learning?"
 - "What biomedical applications exist for Large Language Models?"
-
 objectives:
 - "Gaining an overview and general understanding of Data Science, AI, and ML in the biomedical context"
 - "Being able to differentiate the different types of ML in a biomedical context with examples for Deep Learning and Large Language Models"
-
+keypoints:
+- "There are three main types of AI: Simulations, Symbolic AI, Machine Learning"
+- "Computers are very unlikely to ever replace human cognizance and intellect."
+- "Simulation AI uses equations to run a model forwards from a given state."
+- "Symbolic AI was used to beat the grand chess master in the 90s and works by calculating many eventualities in order to find the best solution."
+- "The most recent type and one that has made extensive progress in recent years is Machine Learning."
+- "In the next episodes, we will consider what tasks AI can do and its role in scientific research."
+- "The ethical implications of AI are bias, privacy, and accountability and require continuous monitoring and correction addressed specifically to the applied context. See [Episode 05](link to ep05) for Limitations and potential biases of Machine Learning models, as well as their ethical implications."
 
 ---
 # An overview of Data Science 
@@ -183,20 +187,6 @@ National Academies Press. doi: https://doi.org/10.17226/24906.
 - https://medicine.yale.edu/news-article/david-van-dijk-the-role-of-machine-learning-in-biomedical-discovery/
 - https://www.nature.com/articles/s41598-020-75715-0 // Unsupervised and supervised learning with neural network for human transcriptome analysis and cancer diagnosis
 - Polanski, J. Unsupervised Learning in Drug Design from Self-Organization to Deep Chemistry. Int. J. Mol. Sci. 2022, 23, 2797. https://doi.org/10.3390/ijms23052797
-
-
-
-# Keypoints
-- "There are three main types of AI: Simulations, Symbolic AI, Machine Learning"
-- "Computers are very unlikely to ever replace human cognizance and intellect."
-- "Simulation AI uses equations to run a model forwards from a given state."
-- "Symbolic AI was used to beat the grand chess master in the 90s and works by calculating many eventualities in order to find the best solution."
-- "The most recent type and one that has made extensive progress in recent years is Machine Learning."
-
-
-In the next episodes, we will consider what tasks AI can do and its role in scientific research.
-
-The ethical implications of AI are bias, privacy, and accountability and require continuous monitoring and correction addressed specifically to the applied context. See [Episode 05](link to ep05) for Limitations and potential biases of Machine Learning models, as well as their ethical implications.
 
 
 
