@@ -1,17 +1,28 @@
 ---
 title: "Welcome to this workshop"
-teaching: 10
+teaching: 10 min
 exercises: 0
 questions:
-- "Purpose of this workshop"
-- "Establishing the expectation for this workshop"
+- "What is the purpose of this training?"
+- "What are the learning goals and objectives?"
+- "What will this workshop not cover?"
+- "What next steps should be taken after this course?"
 objectives:
 - "Contextualising Data Science, Artificial Intelligence and Machine Learning for biomedical researchers"
-keypoints:
-keypoints:
-- "This workshop is developed for mid-career and senior researchers in  biomedical and biosciences fields."
-- "This workshop aims to build a shared understanding of data science and AI in the context of biomedicine and related fields."
+- "Understanding the scope and coverage of the topics within this workshop"
+- "Getting access to complementary and additional resources"
+- "Being aware of next possible steps to take after this workshop"
+
+
 ---
+
+# Outline
+- Setting the scope and purpose of this workshop
+- Learning goals and objectives
+- Prerequisites
+- Schedule
+- Next steps
+- Extras (list of extra materials, e.g. Glossary)
 
 # Data Science for Biomedical Researchers
 
@@ -138,6 +149,15 @@ Data Science for Biomedical Scientists is funded by [The Alan Turing Institute](
 Pulling together existing training materials, infrastructure support and domain expertise from [The Alan Turing Institute](https://www.turing.ac.uk), [The Turing Way](https://the-turing-way.netlify.app/), [The Carpentries](https://carpentries.org/), [Open Life Science](https://openlifesci.org/) and the [Turing ‘omics interest group](https://www.turing.ac.uk/research/interest-groups/omics-data-generation-and-analysis-group), we will design and deliver a resource that is accessible and comprehensible for the biomedical and wet-lab biology researchers.
 
 This project will build on two main focus areas of the Turing Institute's [AI for Science and Government](https://www.turing.ac.uk/research/asg) research programmes: good data science practice; and effective communication to stakeholders. In building this project, we will integrate the [Tools, practices and systems](https://www.turing.ac.uk/work-turing/tools-practices-and-systems-open-leadership-team-call-volunteering) (TPS) Research Programme’s core values: build trustworthy systems; embed transparent reporting practices; promote inclusive interoperable design; maintain ethical integrity and encourage respectful co-creation.
+
+## Keypoints
+- This workshop is developed for mid-career and senior researchers in  biomedical and biosciences fields."
+- This workshop aims to build a shared understanding of data science and AI in the context of biomedicine and related fields.
+- Without going into underlying technical details, the contents provide a general overview and present selected case studies of biomedical relevance.
+ 
+## Exercise/Discussion/Reflection
+- What is your primary motivation to learn about the potential of data science and AI in your research field? 
+- What do you hope to learn by the end of this course?
 
 ## License
 
