@@ -1,6 +1,6 @@
 ---
 title: "Welcome to this workshop"
-teaching: 10 min
+teaching: 10
 exercises: 0
 questions:
 - "What is the purpose of this training?"
