@@ -3,11 +3,16 @@ title: "AI for Data Insights"
 teaching: 0
 exercises: 0
 questions:
-- "How is AI used with scientific research to gain insight into data?"
+- "How is AI used for data insights in biomedical experimental setups?"
+- "What types of data insights can be generated?"
 objectives:
-- "Learn about examples of unsupervised and supervised machine learning used on data"
+- "Learning about examples of unsupervised and supervised ML applications in biomedical research"
+- "Adapting selected types of AI applications for data insights to inform your own research"
 keypoints:
-- "Different AI methods can classify, cluster, and find connections in big data sets"
+- "Very large, multiconnected data sets can be too complex for humans to manually find insight; hence AI can facilitate a scaled approach to data processing in various ways."
+- "While some methods are easier to understand and query than others, AI applications can enhance human analysis."
+- Examples of A-facilitated methodologies for data insights include classification, clustering, and identifying connections in big data sets"
+
 ---
 
 # Using AI in Research: Insight
@@ -140,5 +145,9 @@ It's not usually this simple to "take a look" at the inner workings of a neural 
 ## Conclusions
 
 Very large, multiconnected data sets can be too complex for humans to manually find insight, and so AI can step in and assist in more and more ways. Some methods are easier to understand and query than others, but using AI to assist human analysis is becoming a helpful tool in research.  
+
+## Exercises
+- What kind of data are you producing in your experimental setups? 
+- Which of the presented AI applications could further inform your research results interpretation?
 
 {% include links.md %}
