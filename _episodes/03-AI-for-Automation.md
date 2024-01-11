@@ -1,27 +1,28 @@
 ---
 title: "AI for Automation"
-teaching: 15
+teaching: 10
 exercises: 2
 questions:
-- "How is AI used for automating tasks in biomedical experimental setups?
+- "How is AI used for automating tasks in biomedical experimental setups?"
 - "What are examples of biomedical AI-driven software packages and what can they be used for?"
 objectives:
 - "Learning about biomedical examples of AI automation"
-- "Developing case studies for your own research"
+- "Developing case studies for your research"
 keypoints:
 - "Despite not being at the cutting edge of AI development we can still benefit from elevated efficiency and accuracy of research data processing."
-- "Examples of AI applications for automation include database search, image analysis, motion tracking, a.o."
+- "Examples of AI applications for automation include database search, image analysis and motion tracking"
 - "While not every researcher works with generating AI algorithms and models, there are plenty of tools with numerous applications in research that use machine learning. Automating tasks results in larger data sets and less manual work, and it is worth joining the online communities that work on the tools showcased here. "
-
 ---
 
 ## Outline:
-- "AI applications to automate analytical processes"
-- "Case studies/ Examples: Entrez, QUPATH, MicrobeJ, Cellpose, DeepLabCut"
 
 In the previous episode, we discussed the history of AI and the three broad categories -- simulation, symbolic AI, and machine learning. When it comes to applications of machine learning and AI in biomedical and life sciences, we can divide those by application into two main categories: automation and insight. 
 
-# Using AI in Research: Automation
+In this episode, we will look at the following:
+- AI applications to automate analytical processes
+- Case studies/ Examples: Entrez, QUPATH, MicrobeJ, Cellpose, DeepLabCut
+
+# Using Automation in Research: 
 
 For automation, AI is used to replace tasks that would take a researcher a long time to do manually, in order to speed up workflow outputs. This can be invaluable during data processing, freeing up a researcher's time for other tasks and possibly removing human error. 
 
