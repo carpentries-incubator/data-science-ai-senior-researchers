@@ -1,16 +1,19 @@
 ---
 title: "Practical Considerations for Researchers"
-teaching: 0
-exercises: 0
+teaching: 30
+exercises: 20 
 questions:
-- "What considerations do I need to be aware of when conducting research with AI"
+- "What are the necessary steps before research data can be processed through ML pipelines?"
+- "What types of data cleaning can be applied to prepare raw data for ML?"
 objectives:
-- "Learn about the importance of understanding your data through Exploratory Data Analysis (EDA)"
-- "Learn about the value of data cleaning and preparation before running machine learning pipelines"
-- "Learn about responsibly reporting your results" 
+- "Understanding your data through Exploratory Data Analysis (EDA)"
+- "Gaining experience in data cleaning and preparation before running machine learning pipelines"
+- "Learning how to responsibly report AI-generated results" 
 keypoints:
-- "95% of Machine Learning is data preparation"
-- "It is easy to misrepresent machine learning results, and learning techniques such as building confusion matrices, ROC curves and common metrics will help you interpret most ML results"
+- "90% of Machine Learning is data preparation."
+- "It is easy to misrepresent machine learning results."
+- "Learning techniques such as building confusion matrices, ROC curves, and common metrics will help you interpret most ML results"
+
 ---
 
 # Practical considerations of conducting research with machine learning algorithms
@@ -84,6 +87,11 @@ featurePlot(x=data[1:7,], y=disease_status, plot="density")
 A simple density plot like the one above can be very effective at quickly spotting discrepancies, including values that are extreme such as 0 or a blood pressure of 999. It should be stressed though that these types of errors are quite easy to detect and are usually found during a first pass of the data. Some of the previous sources of error we have discussed can be far more difficult to spot - the example of incorrect input of an NHS number is particularly nasty given that the data doesn't look extreme unless you are looking for people that have died and then seemingly come back to life. The only way to discover issues with your data is to spend time querying it and trying to anticipate what might arise. Over time you will want to develop unit tests that automatically test for such errors in your data, and this is where a lot of the time is spent in the data preparation phase.
 
 ### Dealing with missing data
+...
 
+
+## Exercises
+- What are the kinds of raw data in your research and how do they need to be prepared for ML Applications?
+- Which steps in the presented data preparation workflow can you apply to your research?
 
 
