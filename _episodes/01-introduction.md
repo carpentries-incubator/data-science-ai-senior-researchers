@@ -8,15 +8,14 @@ questions:
 - "What will this workshop not cover?"
 - "What next steps should be taken after this course?"
 objectives:
-- "Contextualising Data Science, Artificial Intelligence and Machine Learning for biomedical researchers"
+- "Contextualising Data Science, AI and ML for Biomedical Researchers"
 - "Understanding the scope and coverage of the topics within this workshop"
 - "Getting access to complementary and additional resources"
-- "Being aware of next possible steps to take after this workshop"
-keypoints
+- "Being aware of the next possible steps to take after this workshop"
+keypoints:
 - "This workshop is developed for mid-career and senior researchers in  biomedical and biosciences fields."
 - "This workshop aims to build a shared understanding of data science and AI in the context of biomedicine and related fields."
 - "Without going into underlying technical details, the contents provide a general overview and present selected case studies of biomedical relevance."
-
 
 ---
 
@@ -32,7 +31,7 @@ keypoints
 
 Biosciences and biomedical researchers regularly combine mathematics and computational methods to interpret experimental data. With new technologies supporting the generation of large-scale data as well as successful applications of data science, the use of Artificial Intelligence (AI) in biomedicine and related fields has recently shown huge potential to transform the way we conduct research. Recent groundbreaking research utilising AI technologies in biomedicine has led to an enormous interest among researchers in data science as well as AI approaches to extracting useful insights from big data, making new discoveries and addressing biological questions. It is more important than ever to engage researchers in understanding best practices in data science, identifying how they apply to their work and making informed decisions around their use in biomedicine and related fields.
 
-<!--// contextualize the use of AI and it's relation to ML. AI is a very high level term that gets used less as you read papers on methodologies etc where ML and sub-types of ML are more common. // -->
+<!--// contextualize the use of AI and its relation to ML. AI is a very high-level term that gets used less as you read papers on methodologies etc where ML and sub-types of ML are more common. // -->
 
 > ## Glossary
 > Short definitions of selected terms that are used in the context of this workshop:
@@ -66,7 +65,7 @@ The goal is to maintain the highest standards of research practice and integrity
 In this training material for **Introduction to Data Science and AI for senior researchers**, we introduce data science and Artificial Intelligence (AI). Providing contexts and examples from biomedical research, this material will discuss AI for automation, the process of unsupervised and supervised machine learning, their practical applications and common pitfalls that researchers should be aware of in order to maintain scientific rigour and research ethics. 
 
 > Targeted measures and opportunities can help build a better understanding of best practices from data science and AI that can be effectively applied in research and supported by senior leaders.
-> Senior leaders, in this context, can be academics or non-academics working in advisors, experts or supervisors roles in research projects who want to lead rigorous and impactful research through computational reproducibility, reusability and collaborative practices.
+> Senior leaders, in this context, can be academics or non-academics working in advisors, experts or supervisor roles in research projects who want to lead rigorous and impactful research through computational reproducibility, reusability and collaborative practices.
 {: .objectives}
 
 ## Target audience
@@ -128,7 +127,7 @@ However, the best practices are recommended and transferable across different di
 ## Mode of delivery
 Each course has been developed on separate repositories as standalone training materials and will be linked and cross-referenced for coherence purposes. This modularity will allow researchers to dip in and out of the training materials and take advantage of a flexible self-paced learning format.
 
-In the future, these courses could be coupled with pre-recorded introduction and training videos (to be hosted on the Turing online learning platform and The Turing Way YouTube channel).
+In the future, these courses could be coupled with pre-recorded introductions and training videos (to be hosted on the Turing online learning platform and The Turing Way YouTube channel).
 
 They can also be delivered by trainers and domain experts, who then mix and match lessons from across the two courses and present them in an interactive workshop format.
 
@@ -136,7 +135,7 @@ They can also be delivered by trainers and domain experts, who then mix and matc
 >
 > After completing this course we recommend these next steps:
 > - Go through the "Managing and supervising computational Projects" course (unless already completed)
-> - Explore the set of resources provided at the end of each lesson for a deep-dive into the topics with real-world examples
+> - Explore the set of resources provided at the end of each lesson for a deep dive into the topics with real-world examples
 > - Establish connections with other courses and training materials offered by The Alan Turing Institute, The Crick Institute, The Carpentries, The Turing Way and other initiatives and organisations involved in the maintenance and development of this training material
 > - Connect with other research communities and projects in open research, data science and AI to further enhance theoretical and technical skills
 > - Collaborate with other scholarly experts such as librarians, research software engineers, community managers, statisticians and experts with specialised skills in your organisation who can provide specific support in your project.
@@ -146,6 +145,7 @@ They can also be delivered by trainers and domain experts, who then mix and matc
 
 
 In this course, we are introducing data science, AI and related concepts. Another workshop materials developed under the [**Data Science for Biomedical Scientists**](https://github.com/alan-turing-institute/data-training-for-bioscience) project, [Managing and Supervising Computational Projects](https://github.com/carpentries-incubator/managing-computational-projects), discusses best practices, tools, and strategies of project management in reproducible computational projects. Although both courses were developed to complement each other they can also be booked separately. Both courses discuss challenges, solutions and examples of machine learning and AI applications within biomedical research and related fields. The recommendations are transferable across many other disciplines within Life Sciences.
+
 ## Funding and Collaboration
 
 Data Science for Biomedical Scientists is funded by [The Alan Turing Institute](https://www.turing.ac.uk)'s [AI for Science and Government](https://www.turing.ac.uk/research/asg) (ASG) Research Programme. It is an extension of [The Crick-Turing Biomedical Data Science Awards](https://www.turing.ac.uk/research/research-projects/crick-turing-biomedical-data-science-awards) that strongly indicated an urgent need to provide introductory resources for data science in bioscience researchers. This project extension will leverage strategic engagement between Turing's data science community and Crick's biosciences communities.
