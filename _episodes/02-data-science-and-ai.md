@@ -3,18 +3,14 @@ title: "Data Science, AI, and Machine Learning"
 teaching: 30
 exercises: 3
 outline:
-- "Overview of Data Science (process & life cycle)"
-- "Introduction to AI and ML (types & techniques)"
+- "Overview of Data Science process & life cycle"
+- "Introduction to AI and ML types & techniques"
 - "Supervised, unsupervised, semi-supervised, reinforcement learning"
-- "Deep Learning"
-- "LLM"
+- "Deep Learning and LLM"
 questions:
-- "What is Data Science?"
-- "What is Artificial Intelligence?"
-- "What is Machine Learning?"
-- "What types of Machine Learning exist and how can they be applied in biomedical research?"
-- "What biomedical applications exist for Deep Learning?"
-- "What biomedical applications exist for Large Language Models?"
+- "What is Data Science and Artificial Intelligence?"
+- "What is Machine Learning and how do they apply in biomedical research?"
+- "What are some relevant examples of Deep Learning and Large Language Models?"
 objectives:
 - "Gaining an overview and general understanding of Data Science, AI, and ML in the biomedical context"
 - "Being able to differentiate the different types of ML in a biomedical context with examples for Deep Learning and Large Language Models"
@@ -31,7 +27,7 @@ keypoints:
 # An overview of Data Science 
 
 **Data Science** is an interdisciplinary field that involves using statistical and computational techniques to extract knowledge and insights from large and complex data sets by applying advanced data analytics, Artificial Intelligence (AI), and Machine Learning (ML). 
-Its process is a series of workflow steps that include data collection, mining, cleaning, exploratory data analysis, modeling, and evaluation. 
+Its process is a series of workflow steps that include data collection, mining, cleaning, exploratory data analysis, modelling, and evaluation. 
 Combining principles and practices from mathematics, statistics, computer engineering, and other fields, Data Science has a wide range of applications in healthcare, finance, marketing, and social sciences, and is becoming increasingly important in biomedical research. 
 
 AI is increasingly used in biomedical research, with astonishing claims about the efficiency of AI and ML, and has lately caught extensive interest and concern of policymakers and the general public. 
@@ -55,14 +51,13 @@ Without going into underlying technical details, we focus on a general overview 
 
 Artificial Intelligence (AI) could be defined as anything done by a computer that would require intelligence if performed by a person. This is a useful but limited definition as it is difficult to properly define intelligence objectively. 
 Instead, AI comprises task performances by machines (digital computers or computer-controlled robots) that aim to mimic human intelligence for problem-solving, decision-making, as well as language understanding and translation. 
-AI is often utilised for speech recognition, computer vision, image labeling, spam filtering, robotics, smart assistants, and natural language processing.
+AI is often utilised for speech recognition, computer vision, image labelling, spam filtering, robotics, smart assistants, and natural language processing.
 Its benefits include reduced statistical errors, reduced costs, and an increase in overall performance efficiency
 
 The first kinds of AI were **Simulations**, which use equations to run a model forward from a given state. 
 The next kind is **Symbolic AI**, which was used to beat the grand chess master in the 90s and works by calculating many eventualities in order to find the best solution. 
 The most recent type and one that has made huge leaps in recent years is **Machine Learning**.  
 Regardless of the type of AI, we are far from computers 'understanding' the world or problems. 
-
 
 
 ## Types of AI 
@@ -94,18 +89,16 @@ When we think of well-known AI cases, we might think of Deep Blue, a chess-playi
 - https://www.britannica.com/topic/Deep-Blue
 - https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)
 
-In the game 'noughts and Crosses' (also known as 'tic-tac-toe'), the objective is to alternate between two players, each of whom wants to get three of their counters in a straight line. Using computational power, the AI can calculate all the probabilities of each possible move, and use this to determine the best move to make. 
+In the game 'Noughts and Crosses' (also known as 'tic-tac-toe'), the objective is to alternate between two players, each of whom wants to get three of their counters in a straight line. Using computational power, the AI can calculate all the probabilities of each possible move, and use this to determine the best move to make. 
 - https://softwareengineering.stackexchange.com/questions/336015/building-a-simple-ai-for-noughts-crosses-game
 - https://codereview.stackexchange.com/questions/138943/naughts-and-crosses-human-vs-computer-in-python
 - https://www.101computing.net/a-python-game-of-noughts-and-crosses/
 
-Chess and noughts and crosses are micro-domain games, an extremely limited "world" that the computer works within. The position of the chess piece can be described precisely and completely. The rules of the movement and the final end goal is well defined and unambiguous. 
+Chess and noughts and crosses are micro-domain games, an extremely limited "world" that the computer works within. The position of the chess piece can be described precisely and completely. The rules of the movement and the end goal is well defined and unambiguous. 
 
 Trying to use this kind of AI to recognise handwriting doesn't work. 
 Imagine trying to completely describe the way 7 is written, the rules are too rigid and brittle to distinguish 1s and 7s, and may miss all the 7s with a slash through them. The machine does not "understand" the task, or know what handwriting is, the criteria for the solution is to match what the human labeler would classify the handwritten digit.
 It couldn't possibly hope to recognise a cat. 
-
-
 
 
 # Introduction to Machine Learning 
@@ -113,7 +106,7 @@ It couldn't possibly hope to recognise a cat.
 With machine learning humans do not need to bother anymore to try and find and apply rules. Instead, the computer finds its own rules. 
 You start with a large dataset of known examples of the task we are trying to do. 
 In this case, 60,000 examples of handwritten digits, each one the same size. 
-With this data set, it is labeled by a human and so every digit is "known". 
+With this data set, it is labelled by a human and so every digit is "known". 
 This becomes the training data set for the machine.
 When given a new, unknown example, the machine can look through the known examples to find the groups that the new digit most likely fits within. 
 There are more complexities than this brief description, but machine learning fundamentally works this way. 
@@ -121,18 +114,18 @@ For all sorts of tasks, "big data" is becoming critical for machine learning.
 
 Machine learning is already changing the way the world works. 
 We can design novel architecture and quickly and cheaply ensure it will be structurally sound; your iPhone will find all photos of your kids with only a few examples; we can optimal driving directions within seconds, taking into account the current and predicted road conditions. 
-It really is amazing, and only possible through breakthroughs and year-on-year advances in principles, algorithms, and computer hardware.
+It is amazing, and only possible through breakthroughs and year-on-year advances in principles, algorithms, and computer hardware.
 
 As a subset of Data Science, Machine Learning (ML) involves using algorithms and statistical models to extract patterns from data and make predictions based on those patterns without being explicitly programmed. 
 Machine Learning makes use of data to improve computing performance on a given set of tasks, whereby ML algorithms are trained on sample data to make predictions or decisions.
 Common applications of Machine Learning algorithms include email filtering, speech recognition, and computer vision, while they are also increasingly used for task optimization and efficiency in agriculture and medicine.
 In biomedical research, Machine Learning has been described to accelerate research in areas such as viral infection, cardiovascular disease, and breast cancer. 
-Analysing large datasets and identifying patterns that can help researchers better understand disease mechanisms and develop new treatments. 
+Analysing large datasets and identifying patterns can help researchers better understand disease mechanisms and develop new treatments. 
 Applications of ML algorithms include image and speech recognition, fraud detection, and natural language processing. 
 
 Subsets of ML can be grouped into 4 different types of machine learning: 
 
-1) **Supervised Learning:** Training a model on labeled data, the correct output is known, to make predictions on new, unseen data. 
+1) **Supervised Learning:** Training a model on labelled data, where the correct output is known, to make predictions on new, unseen data. 
 Examples: classification and regression tasks.
 
 2) **Unsupervised Learning:** Training a model on unlabeled data, the correct output is unknown, to find patterns or structure in the data. 
@@ -142,8 +135,6 @@ Examples: clustering and dimensionality reduction; Data mining and explorative d
 
 4) **Reinforcement Learning:** Training a model to make decisions in an environment by rewarding or punishing the model based on its actions. 
 Used in robotics and game-playing applications. With the release of Chat GPT-3 in early 2023, Large Language Models gained the interest and engagement of the general public and mainstream user base.
-
-
 
 > **Chatbots do not 'understand'**
 > 
@@ -155,21 +146,17 @@ Used in robotics and game-playing applications. With the release of Chat GPT-3 i
 >
 > “I had not realized ... that extremely short exposures to a relatively simple computer program could induce powerful delusional thinking in quite normal people.”
 >
-> Author of Eliza, the first chatbot **(NEEDS REFERENCE)**
+> Author of Eliza, the first chatbot*
 
+**Some Examples of AI in:**
 
-
-
-
-Examples of AI in 
-
-**2. biomedical research**
+*Biomedical research*
 
 - medical imaging analysis, 
 - drug discovery, 
 - predictive analytics, 
 
-**2. general healthcare**
+*General healthcare*
 
 - personalized medicine, 
 - virtual nursing assistants,
@@ -178,7 +165,6 @@ Examples of AI in
 - clinical decision-making
 - patient monitoring, 
 - AI-powered chatbots and virtual assistants to provide patients with personalised care
- 
 
 
 # References
@@ -187,8 +173,6 @@ National Academies Press. doi: https://doi.org/10.17226/24906.
 - https://medicine.yale.edu/news-article/david-van-dijk-the-role-of-machine-learning-in-biomedical-discovery/
 - https://www.nature.com/articles/s41598-020-75715-0 // Unsupervised and supervised learning with neural network for human transcriptome analysis and cancer diagnosis
 - Polanski, J. Unsupervised Learning in Drug Design from Self-Organization to Deep Chemistry. Int. J. Mol. Sci. 2022, 23, 2797. https://doi.org/10.3390/ijms23052797
-
-
 
 # Exercises:
 
