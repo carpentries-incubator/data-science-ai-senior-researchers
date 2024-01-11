@@ -1,6 +1,6 @@
 ---
 title: "Data Science, AI, and Machine Learning"
-teaching: tbd
+teaching: 30
 exercises: 3
 outline:
 - "Overview of Data Science (process & life cycle)"
