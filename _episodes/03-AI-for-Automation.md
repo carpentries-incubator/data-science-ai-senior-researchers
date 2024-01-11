@@ -1,18 +1,23 @@
 ---
 title: "AI for Automation"
-teaching: 0
-exercises: 0
+teaching: tbd
+exercises: 2
+outline:
+- "AI applications to automate analytical processes"
+- "Case studies/ Examples: Entrez, QUPATH, MicrobeJ, Cellpose, DeepLabCut"
 questions:
-- "How is AI used for automating tasks?"
+- "How is AI used for automating tasks in biomedical experimental setups?
+- "What are examples of biomedical AI-driven software packages and what can they be used for?"
 objectives:
-- "learn about examples of AI automation within biomedical research"
+- "Learning about biomedical examples of AI automation"
+- "Developing case studies for your own research"
 keypoints:
-- "Many tools exist that use AI to assist biomedical research data tasks"
+- "Despite not being at the cutting edge of AI development we can still benefit from elevated efficiency and accuracy of research data processing."
+- "Examples of AI applications for automation include database search, image analysis, motion tracking, a.o."
+- "While not every researcher works with generating AI algorithms and models, there are plenty of tools with numerous applications in research that use machine learning. Automating tasks results in larger data sets and less manual work, and it is worth joining the online communities that work on the tools showcased here. "
+
 ---
-
-# Introduction
-
-In the previous episode we discussed the history of AI and the three broad categories -- simulation, symbolic AI, and machine learning. When it comes to applications of machine learning and AI in biomedical and life sciences, we can divide those by application into two main categiories: automation and insight. 
+In the previous episode, we discussed the history of AI and the three broad categories -- simulation, symbolic AI, and machine learning. When it comes to applications of machine learning and AI in biomedical and life sciences, we can divide those by application into two main categiories: automation and insight. 
 
 # Using AI in Research: Automation
 
@@ -20,7 +25,7 @@ For automation, AI is used to replace tasks that would take a researcher a long 
 
 ## Automating Tasks
 
-Automation is ubiquitous to our every day experiences in working with computers–from simply typing words to creating figures, or spellcheck and autocorrect while messaging. Using AI can optimise tasks that are necessary for research or experimentation. 
+Automation is ubiquitous to our everyday experiences in working with computers–from simply typing words to creating figures, or spellcheck and autocorrect while messaging. Using AI can optimise tasks that are necessary for research or experimentation. 
 
 For example, the field of computer vision is about automating the task of counting and/or distinguishing visual elements in images or photographs. Computer vision methods are being applied in biomedical image data, for counting cells on a slide or tracking a mouse's locomotion on video. 
 
@@ -28,8 +33,8 @@ Many open-source tools have been produced and are already in use across the biom
 
 _Not being at the cutting edge of AI development doesn't mean we can't also benefit from the AI tools that can assist with research tasks._
 
-## Case Study: Molecular Biology Databases
-Webiste: _Last edit from 2004: https://www.ncbi.nlm.nih.gov/Web/Search/entrezfs.html_
+## Case Study: The Molecular Biology Database *Entrez*
+Website: _Last edit from 2004: https://www.ncbi.nlm.nih.gov/Web/Search/entrezfs.html_
 redirect from https://www.ncbi.nlm.nih.gov/Entrez/ to https://www.ncbi.nlm.nih.gov/search/ 
 // https://www.tutorialspoint.com/biopython/biopython_entrez_database.htm
 
@@ -99,8 +104,12 @@ Website: http://www.mackenziemathislab.org/deeplabcut // https://github.com/Deep
 >
 > Nath, T., Mathis, A., Chen, A.C. et al. Using DeepLabCut for 3D markerless pose estimation across species and behaviors. Nat Protoc 14, 2152–2176 (2019). https://doi.org/10.1038/s41596-019-0176-0
 
-## Conclusions
 
-While not every researcher works with generating AI algorithms and models, there are plenty of tools with numerous applications in research that use machine learning. Automating tasks result in larger data sets and less manual work, and it is worth joining the online communities that work on the tools showcased here. 
+
 
 {% include links.md %}
+
+
+# Exercises
+- What tasks can be automated (and how) in your research workflow?
+- Which of the presented use cases could be applied in your own experimental setup? If not, why?
