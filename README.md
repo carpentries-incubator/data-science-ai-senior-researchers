@@ -12,9 +12,9 @@ Materials developed through this project will enable (1) a foundational understa
 
 For details about the project and track management related information, please the [Project Management Repository](https://github.com/alan-turing-institute/data-training-for-bioscience/).
 
-## Developers and Maintainer(s)
+## Developers and Maintainer
 
-Current developers and maintainers of this lessons are:
+Current developers and maintainers of this lesson are:
 
 * Malvika Sharan
 * Arron Lacey
