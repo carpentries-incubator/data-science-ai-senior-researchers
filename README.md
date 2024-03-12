@@ -10,18 +10,23 @@ Materials developed through this project will enable (1) a foundational understa
 
 *This is one of the two masterclasses being developed under Data Science for Biomedical Scientists: the Turing/Crick partnership project. For the second masterclass, please visit: https://github.com/carpentries-incubator/managing-computational-projects.*
 
-For details about the project and track management related information, please the [Project Management Repository](https://github.com/alan-turing-institute/data-training-for-bioscience/).
+For details about the project and track management-related information, please the [Project Management Repository](https://github.com/alan-turing-institute/data-training-for-bioscience/).
 
 ## Developers and Maintainer(s)
 
-Current developers and maintainers of this lessons are:
+Current developers and maintainers of these lessons are:
 
 * Malvika Sharan
-* Arron Lacey
 
-Past developers and mainatainers are:
+Past developers and maintainers are:
 * Lydia France
+* Arron Lacey
 * Federico Nanni
+
+## External Reviewers**
+
+* Jo Havemann, Access 2 Perspective
+* Julien Colomb, Humboldt-Universität zu Berlin
 
 ------
 
