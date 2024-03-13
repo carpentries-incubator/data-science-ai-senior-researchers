@@ -80,15 +80,22 @@ Between dealing with complex data and the errors that they might contain you wil
 ```r
 featurePlot(x=data[1:7,], y=disease_status, plot="density")
 ```
-![](../fig/EDAplot.png) |
-|:--:| 
-|Can you spot the bimodal peaks in the "chol" and "trestbps" features? These zero values likely indicate these data weren't collected or not entered and leaving the values as zero can greatly skew the results of any analysis, including training an ML algorithm |
+![](../fig/EDAplot.png)
+
+Can you spot the bimodal peaks in the "chol" and "trestbps" features? These zero values likely indicate these data weren't collected or not entered and leaving the values as zero can greatly skew the results of any analysis, including training an ML algorithm
 
 A simple density plot like the one above can be very effective at quickly spotting discrepancies, including values that are extreme such as 0 or a blood pressure of 999. It should be stressed though that these types of errors are quite easy to detect and are usually found during a first pass of the data. Some of the previous sources of error we have discussed can be far more difficult to spot - the example of incorrect input of an NHS number is particularly nasty given that the data doesn't look extreme unless you are looking for people that have died and then seemingly come back to life. The only way to discover issues with your data is to spend time querying it and trying to anticipate what might arise. Over time you will want to develop unit tests that automatically test for such errors in your data, and this is where a lot of the time is spent in the data preparation phase.
 
 ### Dealing with missing data
-...
 
+Missing data is a common challenge in data analysis that arises when information is absent for certain observations or variables.
+This missingness can occur anytime during the project or data lifecycle, such as during data collection, manual data entry or poorly designed data collection/reuse plans.
+Tools like data visualization, summary statistics and Python/R scripts to detect/identify gaps in data can help spot and visualise missing values.
+Any missing information from the data set used in the project should be reported through appropriate documentation.
+
+We won't be diving into this topic, but encourage our learners to check out the following learning resources to understand different kinds of data missingness and how to best handle them in their projects:
+- Heymans, Martijn W. and Jos W. R. Twisk. "Handling missing data in clinical research." J. Clin. Epidemiol., vol. 151, 1 Nov. 2022, pp. 185-8, doi:[10.1016/j.jclinepi.2022.08.016](https://www.sciencedirect.com/science/article/pii/S0895435622002189).
+- [Effective Strategies for Handling Missing Values in Data Analysis, Nasima Tamboli, Analytics Vidhya](https://www.analyticsvidhya.com/blog/2021/10/handling-missing-value/)
 
 ## Exercises
 - What are the kinds of raw data in your research and how do they need to be prepared for ML Applications?
