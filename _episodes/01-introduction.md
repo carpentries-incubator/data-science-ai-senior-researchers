@@ -139,7 +139,6 @@ They can also be delivered by trainers and domain experts, who then mix and matc
 > - Establish connections with other courses and training materials offered by The Alan Turing Institute, The Crick Institute, The Carpentries, The Turing Way and other initiatives and organisations involved in the maintenance and development of this training material
 > - Connect with other research communities and projects in open research, data science and AI to further enhance theoretical and technical skills
 > - Collaborate with other scholarly experts such as librarians, research software engineers, community managers, statisticians and experts with specialised skills in your organisation who can provide specific support in your project.
->>>>>>> 5485a44
 >
 {: .callout}
 
@@ -152,7 +151,7 @@ Data Science for Biomedical Scientists is funded by [The Alan Turing Institute](
 
 Pulling together existing training materials, infrastructure support and domain expertise from [The Alan Turing Institute](https://www.turing.ac.uk), [The Turing Way](https://the-turing-way.netlify.app/), [The Carpentries](https://carpentries.org/), [Open Life Science](https://openlifesci.org/) and the [Turing ‘omics interest group](https://www.turing.ac.uk/research/interest-groups/omics-data-generation-and-analysis-group), we will design and deliver a resource that is accessible and comprehensible for the biomedical and wet-lab biology researchers.
 
-This project will build on two main focus areas of the Turing Institute's [AI for Science and Government](https://www.turing.ac.uk/research/asg) research programmes: good data science practice; and effective communication to stakeholders. In building this project, we will integrate the [Tools, practices and systems](https://www.turing.ac.uk/work-turing/tools-practices-and-systems-open-leadership-team-call-volunteering) (TPS) Research Programme’s core values: build trustworthy systems; embed transparent reporting practices; promote inclusive interoperable design; maintain ethical integrity and encourage respectful co-creation.
+This project will build on two main focus areas of the Turing Institute's [AI for Science and Government](https://www.turing.ac.uk/research/asg) research programmes: good data science practice; and effective communication with stakeholders. In building this project, we will integrate the [Tools, practices and systems](https://www.turing.ac.uk/work-turing/tools-practices-and-systems-open-leadership-team-call-volunteering) (TPS) Research Programme’s core values: build trustworthy systems; embed transparent reporting practices; promote inclusive interoperable design; maintain ethical integrity and encourage respectful co-creation.
 
  
 ## Exercise/Discussion/Reflection
